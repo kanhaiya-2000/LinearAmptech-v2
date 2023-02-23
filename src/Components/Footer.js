@@ -121,7 +121,7 @@ const Footer = () => {
             <a href="#">
               <img
                 class="w-auto h-7 sm:h-12"
-                src={require("../Assets/logo.png")}
+                src={require("../assets/logo.png")}
                 alt=""
               />
             </a>
