@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +14,7 @@ const Header = () => {
             <NavLink to="/">
               <img
                 className="w-auto h-10 sm:h-16 sm:w-auto"
-                src={Logo}
+                src={require("../Assets/logo.png")}
                 alt="linear-amptec-logo"
               />
             </NavLink>

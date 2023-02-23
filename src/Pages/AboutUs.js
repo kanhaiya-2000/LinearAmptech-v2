@@ -1,8 +1,8 @@
 import React from "react";
 import { Footer, Header } from "../Components";
-import karun from "../assets/karun.png";
-import vivek from "../assets/vivek.jpeg";
-import minakshi from "../assets/minakshi.jpg";
+// import karun from "../assets/karun.png";
+// import vivek from "../assets/vivek.jpeg";
+// import minakshi from "../assets/minakshi.jpg";
 
 const AboutUs = () => {
   return (
@@ -317,7 +317,7 @@ const AboutUs = () => {
                 <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                    src={minakshi}
+                    src={require("../Assets/minakshi.jpg")}
                     alt=""
                   />
 
@@ -380,7 +380,7 @@ const AboutUs = () => {
                 <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                    src={karun}
+                    src={require("../Assets/karun.png")}
                     alt=""
                   />
 
@@ -443,7 +443,7 @@ const AboutUs = () => {
                 <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                    src={vivek}
+                    src={require("../Assets/vivek.jpeg")}
                     alt=""
                   />
 

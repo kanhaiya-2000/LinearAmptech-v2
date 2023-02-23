@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -120,7 +119,11 @@ const Footer = () => {
 
           <div class="flex flex-col items-center justify-between sm:flex-row">
             <a href="#">
-              <img class="w-auto h-7 sm:h-12" src={Logo} alt="" />
+              <img
+                class="w-auto h-7 sm:h-12"
+                src={require("../Assets/logo.png")}
+                alt=""
+              />
             </a>
 
             <p class="mt-4 text-sm text-gray-100 sm:mt-0 dark:text-gray-300">
