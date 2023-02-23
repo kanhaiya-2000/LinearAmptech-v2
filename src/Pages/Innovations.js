@@ -56,7 +56,7 @@ const Innovations = () => {
               </div>
             </section>
           </div>
-          <div className="pr-48 pl-48">
+          <div className="lg:pr-48 lg:pl-48">
             <section class="bg-white dark:bg-gray-900">
               <div class="container px-6 py-12 mx-auto">
                 <motion.div
@@ -371,7 +371,7 @@ const Innovations = () => {
             </section>
           </div>
           {/* solutions */}
-          <div className="pr-48 pl-48">
+          <div className="lg:pr-48 lg:pl-48">
             <section class="bg-white dark:bg-gray-900">
               <div class="container px-6 py-10 mx-auto">
                 <motion.div
@@ -705,12 +705,12 @@ const Innovations = () => {
         </header>
       </div>
       {/* new image box */}
-      <div className="mr-44 ml-44">
+      <div className="lg:pr-48 lg:pl-48">
         <section class="bg-white dark:bg-gray-900">
           <div class="h-[32rem] bg-gray-100 dark:bg-gray-800">
             <div class="container px-6 py-10 mx-auto">
               <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
-                The Executive Team
+                Asset tracking by VHR remote sensing data
               </h1>
 
               <div class="flex justify-center mx-auto mt-6">
@@ -718,36 +718,30 @@ const Innovations = () => {
                 <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
                 <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
               </div>
-
-              <p class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                incidunt ex placeat modi magni quia error alias, adipisci rem
-                similique, at omnis eligendi optio eos harum.
-              </p>
             </div>
           </div>
 
           <div class="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-              <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+              <div class="flex flex-col items-center p-2 border sm:p-2 rounded-md dark:border-gray-700">
                 <img
-                  class="object-cover w-full rounded-xl aspect-square"
+                  class="object-cover w-full rounded-sm aspect-square"
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
               </div>
 
-              <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+              <div class="flex flex-col items-center p-2 border sm:p-2 rounded-md dark:border-gray-700">
                 <img
-                  class="object-cover w-full rounded-xl aspect-square"
+                  class="object-cover w-full rounded-sm aspect-square"
                   src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                   alt=""
                 />
               </div>
 
-              <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+              <div class="flex flex-col items-center p-2 border sm:p-2 rounded-md dark:border-gray-700">
                 <img
-                  class="object-cover w-full rounded-xl aspect-square"
+                  class="object-cover w-full rounded-sm aspect-square"
                   src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
@@ -757,7 +751,7 @@ const Innovations = () => {
         </section>
       </div>
       {/* new two big images */}
-      <div className="mr-44 ml-44">
+      <div className="lg:pr-48 lg:pl-48">
         <section class="bg-white dark:bg-gray-900">
           <div class="container px-6 pb-12 mx-auto">
             <div class="grid grid-cols-1 gap-6 mt-2 lg:grid-cols-2">
@@ -769,7 +763,7 @@ const Innovations = () => {
                 />
 
                 <div class="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-md shadow dark:bg-gray-900 ">
-                  <p class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                  <p class="font-semibold text-gray-800  dark:text-white md:text-xl">
                     Kubeflow running on kubernetes cluster
                   </p>
                 </div>
@@ -783,10 +777,7 @@ const Innovations = () => {
                 />
 
                 <div class="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-md shadow dark:bg-gray-900">
-                  <p
-                    href="#"
-                    class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl"
-                  >
+                  <p class="font-semibold text-gray-800  dark:text-white md:text-xl">
                     Hypervisor running on our server
                   </p>
                 </div>
@@ -796,7 +787,7 @@ const Innovations = () => {
         </section>
       </div>
       {/* BLUE BOX */}
-      <div className="pr-48 pl-48">
+      <div className="lg:pr-48 lg:pl-48">
         <section class="bg-white dark:bg-gray-900">
           <div class="relative flex">
             <div class="min-h-screen lg:w-1/3"></div>
@@ -855,7 +846,7 @@ const Innovations = () => {
         </section>
       </div>
       {/* other featues */}
-      <div className="pr-48 pl-48">
+      <div className="lg:pr-48 lg:pl-48">
         <section class="bg-white dark:bg-gray-900">
           <div class="container px-6 py-10 mx-auto">
             <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
