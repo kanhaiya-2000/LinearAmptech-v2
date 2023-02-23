@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import { motion } from "framer-motion";
 
 const Innovations = () => {
   return (
@@ -17,7 +18,18 @@ const Innovations = () => {
             <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
               <div className="text-center">
                 <h1 className="text-4xl font-semibold text-white lg:text-4xl">
-                  <span className="lg:text-8xl">INNOVATIONS</span> <br />
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 260,
+                      damping: 20,
+                    }}
+                    whileInView={{ scale: 1 }}
+                    viewport={{ once: false }}
+                  >
+                    <span className="lg:text-8xl">INNOVATIONS</span>{" "}
+                  </motion.div>
                   Innovation that drives progress
                 </h1>
 
@@ -47,9 +59,20 @@ const Innovations = () => {
           <div>
             <section class="bg-white dark:bg-gray-900">
               <div class="container px-6 py-12 mx-auto">
-                <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white ">
-                  Problems
-                </h1>
+                <motion.div
+                  initial={{ x: -100, opacity: 0.9 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 50,
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: false }}
+                >
+                  <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white ">
+                    Problems
+                  </h1>
+                </motion.div>
                 <div class="mt-2 mb-10">
                   <span class="inline-block w-40 h-1 bg-red-500 rounded-full"></span>
                   <span class="inline-block w-3 h-1 ml-1 bg-red-500 rounded-full"></span>
@@ -71,26 +94,81 @@ const Innovations = () => {
                         fill="#4299E1"
                       />
                     </svg>
-
-                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
-                      Innovation that drives progress
-                    </h1>
-
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">
-                      The present maintenance process has following limitations
-                    </p>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.9 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 50,
+                      }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                    >
+                      <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                        Innovation that drives progress
+                      </h1>
+                    </motion.div>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.9 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 50,
+                      }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                    >
+                      <p class="mt-2 text-gray-500 dark:text-gray-400">
+                        The present maintenance process has following
+                        limitations
+                      </p>
+                    </motion.div>
                     <div>
                       <ul className="list-square ml-4">
-                        <li className="mt-4 ">
-                          Skilled operator are required for analyzing thousands
-                          of complex components
-                        </li>
-                        <li className=" mt-4">
-                          Phone to mistakes due to human error
-                        </li>
-                        <li className="mt-4">
-                          Sensor data can be utilized for predective maintenance
-                        </li>
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className="mt-4 ">
+                            Skilled operator are required for analyzing
+                            thousands of complex components
+                          </li>
+                        </motion.div>
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className=" mt-4">
+                            Phone to mistakes due to human error
+                          </li>
+                        </motion.div>{" "}
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className="mt-4">
+                            Sensor data can be utilized for predective
+                            maintenance
+                          </li>
+                        </motion.div>
                       </ul>
                     </div>
                   </div>
@@ -110,21 +188,74 @@ const Innovations = () => {
                         fill="#4299E1"
                       />
                     </svg>
-
-                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
-                      Increasing number of devices and sensors data
-                    </h1>
-
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">
-                      The sheer volume of data being generated can be
-                    </p>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.9 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 50,
+                      }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                    >
+                      <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                        Increasing number of devices and sensors data
+                      </h1>
+                    </motion.div>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.9 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 50,
+                      }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                    >
+                      <p class="mt-2 text-gray-500 dark:text-gray-400">
+                        The sheer volume of data being generated can be
+                      </p>
+                    </motion.div>
                     <div>
                       <ul className="list-square ml-4">
-                        <li className="mt-4 ">Overwhelming</li>
-                        <li className=" mt-4">
-                          Difficult to extract data for meaningful insights
-                        </li>
-                        <li className="mt-4">Data is not leveraged</li>
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className="mt-4 ">Overwhelming</li>
+                        </motion.div>
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className=" mt-4">
+                            Difficult to extract data for meaningful insights
+                          </li>
+                        </motion.div>
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className="mt-4">Data is not leveraged</li>
+                        </motion.div>
                       </ul>
                     </div>
                   </div>
@@ -160,21 +291,78 @@ const Innovations = () => {
                       </defs>
                     </svg>
 
-                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
-                      Untimely maintenance can lead to machine failure
-                    </h1>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.9 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 50,
+                      }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                    >
+                      <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                        Untimely maintenance can lead to machine failure
+                      </h1>
+                    </motion.div>
 
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">
-                      At present maintenance is done periodically or after the
-                      device has been damaged, which leads to unwanted
-                    </p>
+                    <motion.div
+                      initial={{ x: -100, opacity: 0.9 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 50,
+                      }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false }}
+                    >
+                      <p class="mt-2 text-gray-500 dark:text-gray-400">
+                        At present maintenance is done periodically or after the
+                        device has been damaged, which leads to unwanted
+                      </p>
+                    </motion.div>
                     <div>
                       <ul className="list-square ml-4">
-                        <li className="mt-4 ">Downtime additional costs</li>
-                        <li className=" mt-4">
-                          Negatively affects productivity
-                        </li>
-                        <li className="mt-4"> Operational efficiency</li>
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className="mt-4 ">Downtime additional costs</li>
+                        </motion.div>
+
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className=" mt-4">
+                            Negatively affects productivity
+                          </li>
+                        </motion.div>
+
+                        <motion.div
+                          initial={{ x: -100, opacity: 0.9 }}
+                          transition={{
+                            type: "spring",
+                            stiffness: 400,
+                            damping: 50,
+                          }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: false }}
+                        >
+                          <li className="mt-4"> Operational efficiency</li>
+                        </motion.div>
                       </ul>
                     </div>
                   </div>
@@ -186,9 +374,20 @@ const Innovations = () => {
           <div>
             <section class="bg-white dark:bg-gray-900">
               <div class="container px-6 py-10 mx-auto">
-                <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white">
-                  <br /> Solutions
-                </h1>
+                <motion.div
+                  initial={{ x: -100, opacity: 0.9 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 50,
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: false }}
+                >
+                  <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white">
+                    <br /> Solutions
+                  </h1>
+                </motion.div>
 
                 <div class="mt-2">
                   <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
@@ -215,15 +414,35 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-
-                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                        Machine Learning
-                      </h1>
-
-                      <p class="text-gray-500 dark:text-gray-300">
-                        It is a generalized ML platform to provide personalized
-                        solution for defence and industries.
-                      </p>
+                      <motion.div
+                        initial={{ x: -100, opacity: 1 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                          Machine Learning
+                        </h1>
+                      </motion.div>
+                      <motion.div
+                        initial={{ x: -100, opacity: 1 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <p class="text-gray-500 dark:text-gray-300">
+                          It is a generalized ML platform to provide
+                          personalized solution for defence and industries.
+                        </p>
+                      </motion.div>
                     </div>
 
                     <div class="space-y-2">
@@ -249,16 +468,36 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-
-                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                        Real Time Data
-                      </h1>
-
-                      <p class="text-gray-500 dark:text-gray-300">
-                        Use of real-time data predictive analytics to identify
-                        and track potential problems before they occur in our
-                        assets.
-                      </p>
+                      <motion.div
+                        initial={{ x: -100, opacity: 1 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                          Real Time Data
+                        </h1>
+                      </motion.div>
+                      <motion.div
+                        initial={{ x: -100, opacity: 1 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <p class="text-gray-500 dark:text-gray-300">
+                          Use of real-time data predictive analytics to identify
+                          and track potential problems before they occur in our
+                          assets.
+                        </p>
+                      </motion.div>
                     </div>
 
                     <div class="space-y-2">
@@ -278,15 +517,35 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-
-                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                        Acuuracy
-                      </h1>
-
-                      <p class="text-gray-500 dark:text-gray-300">
-                        To develop a digital twin of an industrial asset that
-                        accurately represents its behavior and performance.
-                      </p>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                          Acuuracy
+                        </h1>
+                      </motion.div>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <p class="text-gray-500 dark:text-gray-300">
+                          To develop a digital twin of an industrial asset that
+                          accurately represents its behavior and performance.
+                        </p>
+                      </motion.div>
                     </div>
 
                     <div class="space-y-2">
@@ -306,14 +565,34 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-
-                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                        Usefullness
-                      </h1>
-
-                      <p class="text-gray-500 dark:text-gray-300">
-                        To predict remaining useful life (RUL) of Machines.
-                      </p>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                          Usefullness
+                        </h1>
+                      </motion.div>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <p class="text-gray-500 dark:text-gray-300">
+                          To predict remaining useful life (RUL) of Machines.
+                        </p>
+                      </motion.div>
                     </div>
                     <div class="space-y-2">
                       <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
@@ -332,16 +611,36 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-
-                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                        Deep Learning
-                      </h1>
-
-                      <p class="text-gray-500 dark:text-gray-300">
-                        Provide research platform where teams can collaborate
-                        develop deep learning models and take data driven
-                        actions.
-                      </p>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                          Deep Learning
+                        </h1>
+                      </motion.div>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <p class="text-gray-500 dark:text-gray-300">
+                          Provide research platform where teams can collaborate
+                          develop deep learning models and take data driven
+                          actions.
+                        </p>
+                      </motion.div>
                     </div>
                     <div class="space-y-2">
                       <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
@@ -360,15 +659,35 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-
-                      <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                        Prmise Solution
-                      </h1>
-
-                      <p class="text-gray-500 dark:text-gray-300">
-                        Provide on premise solution which gives full control of
-                        their critical data with security
-                      </p>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                          Prmise Solution
+                        </h1>
+                      </motion.div>
+                      <motion.div
+                        initial={{ x: -100, opacity: 0.9 }}
+                        transition={{
+                          type: "spring",
+                          stiffness: 400,
+                          damping: 50,
+                        }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: false }}
+                      >
+                        <p class="text-gray-500 dark:text-gray-300">
+                          Provide on premise solution which gives full control
+                          of their critical data with security
+                        </p>
+                      </motion.div>
                     </div>
                   </div>
 
