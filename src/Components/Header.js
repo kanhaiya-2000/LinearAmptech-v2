@@ -3,9 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDropDownOpen, setIsDropDownOpen] = useState(false);
+
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div>
       <nav className="relative bg-white shadow dark:bg-gray-800  ">
@@ -68,26 +71,47 @@ const Header = () => {
                 : "opacity-0 -translate-x-full"
             }`}
           >
-            <div className="flex flex-col md:flex-row md:mx-6">
+            <div className="flex flex-col md:flex-row md:mx-6 font-semibold gap-4">
               <NavLink
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
+                className="my-2 text-gray-700  transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
                 to="/innovations"
               >
                 Innovations
               </NavLink>
-              <NavLink
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-                to="/products"
+
+              <div
+                onMouseEnter={() => setIsDropDownOpen(true)}
+                onMouseLeave={() => setIsDropDownOpen(false)}
+                className="my-2 text-gray-700 transition-colors duration-300 transform md:mx-4 md:my-0"
+                // to="/products"
               >
                 Products
-              </NavLink>
+                {isDropDownOpen && (
+                  <div className="absolute w-[300px]  bg-white list-none">
+                    <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
+                      <NavLink to="/products/rf-power-amplifiers">
+                        RF Power Amplifiers
+                      </NavLink>
+                    </li>
+                    <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
+                      <NavLink to="/products/software-defined-radio">
+                        Software Defined Radio
+                      </NavLink>
+                    </li>
+                    <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
+                      <NavLink to="/products/rf-linear-nonlinear-characterization">
+                        RF linear and nonlinear characterization
+                      </NavLink>
+                    </li>
+                    <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
+                      <NavLink to="/products/rf-power-amplifiers">
+                        Power amplifier linearization
+                      </NavLink>
+                    </li>
+                  </div>
+                )}
+              </div>
 
-              <NavLink
-                className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-                to="/partner-and-client"
-              >
-                Partner & Client
-              </NavLink>
               <NavLink
                 className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
                 to="/news-and-events"
@@ -98,7 +122,7 @@ const Header = () => {
                 className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
                 to="/emplyee-corner"
               >
-                Employee Corner
+                Team
               </NavLink>
               <NavLink
                 className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
