@@ -1,8 +1,5 @@
 import React from "react";
 import { Footer, Header } from "../Components";
-// import karun from "../assets/karun.png";
-// import vivek from "../assets/vivek.jpeg";
-// import minakshi from "../assets/minakshi.jpg";
 
 const AboutUs = () => {
   return (
