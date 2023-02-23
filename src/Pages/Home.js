@@ -14,7 +14,7 @@ const Home = () => {
         <p className="text-[2rem] font-mnormal mb-4">
           Creating Difference With Technology
         </p>
-        <button className="bg-white text-primary-color py-2 px-4">
+        <button className="bg-white text-primary-color text-[1.1rem] py-3 px-5">
           Read more
         </button>
       </div>
@@ -30,7 +30,16 @@ const Home = () => {
             </h2>
             <div className="img h-[400px] w-[550px] bg-gray-300"></div>
           </div>
-          <div className="h-[170px] w-[300px] bg-[#0346B5] relative -translate-x-40 translate-y-20"></div>
+          <div className="h-[170px] w-[300px] flex justify-between items-center px-12 bg-[#0346B5] relative -translate-x-40 translate-y-20">
+            <div className="count text-white flex flex-col justify-center items-center gap-1">
+              <p className="">Count</p>
+              <p className="text-[2.5rem] font-bold">2k+</p>
+            </div>
+            <div className="count text-white flex flex-col justify-center items-center gap-1">
+              <p className="">Count</p>
+              <p className="text-[2.5rem] font-bold">2k+</p>
+            </div>
+          </div>
         </div>
         <div className="relative -translate-x-28">
           <p className=" text-[1.1rem] font-medium leading-loose mb-2 ">
