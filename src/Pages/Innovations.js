@@ -19,13 +19,13 @@ const Innovations = () => {
               <div className="text-center">
                 <h1 className="text-4xl font-semibold text-white lg:text-4xl">
                   <motion.div
-                    initial={{ scale: 0 }}
+                    initial={{ opacity: 0 }}
                     transition={{
                       type: "spring",
                       stiffness: 260,
                       damping: 20,
                     }}
-                    whileInView={{ scale: 1 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: false }}
                   >
                     <span className="lg:text-8xl">INNOVATIONS</span>{" "}
@@ -56,11 +56,11 @@ const Innovations = () => {
               </div>
             </section>
           </div>
-          <div>
+          <div className="pr-48 pl-48">
             <section class="bg-white dark:bg-gray-900">
               <div class="container px-6 py-12 mx-auto">
                 <motion.div
-                  initial={{ x: -100, opacity: 0.9 }}
+                  initial={{ x: -10, opacity: 0 }}
                   transition={{
                     type: "spring",
                     stiffness: 400,
@@ -79,7 +79,7 @@ const Innovations = () => {
                   <span class="inline-block w-1 h-1 ml-1 bg-red-500 rounded-full"></span>
                 </div>
                 <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                  <div className="text-left">
+                  <div className="text-left shadow-lg rounded-md p-8">
                     <svg class="w-8 h-8" viewBox="0 0 30 30" fill="none">
                       <path
                         d="M29.6931 14.2283L22.7556 6.87823C22.3292 6.426 21.6175 6.40538 21.1652 6.83212C20.7137 7.25851 20.6927 7.9706 21.1195 8.42248L27.3284 15L21.1195 21.5783C20.6927 22.0302 20.7137 22.7419 21.1652 23.1687C21.3827 23.3738 21.6606 23.4754 21.9374 23.4754C22.2363 23.4754 22.5348 23.3569 22.7557 23.1233L29.6932 15.7729C30.1022 15.339 30.1023 14.6618 29.6931 14.2283Z"
@@ -95,7 +95,7 @@ const Innovations = () => {
                       />
                     </svg>
                     <motion.div
-                      initial={{ x: -100, opacity: 0.9 }}
+                      initial={{ x: -10, opacity: 0 }}
                       transition={{
                         type: "spring",
                         stiffness: 400,
@@ -109,7 +109,7 @@ const Innovations = () => {
                       </h1>
                     </motion.div>
                     <motion.div
-                      initial={{ x: -100, opacity: 0.9 }}
+                      initial={{ x: -10, opacity: 0 }}
                       transition={{
                         type: "spring",
                         stiffness: 400,
@@ -126,7 +126,7 @@ const Innovations = () => {
                     <div>
                       <ul className="list-square ml-4">
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -141,7 +141,7 @@ const Innovations = () => {
                           </li>
                         </motion.div>
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -155,7 +155,7 @@ const Innovations = () => {
                           </li>
                         </motion.div>{" "}
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -173,7 +173,7 @@ const Innovations = () => {
                     </div>
                   </div>
 
-                  <div className="text-left">
+                  <div className="text-left p-8 shadow-lg rounded-md">
                     <svg class="w-8 h-8" viewBox="0 0 30 30" fill="none">
                       <path
                         d="M27.3633 7.08984H26.4844V6.21094C26.4844 4.75705 25.3015 3.57422 23.8477 3.57422H4.39453C2.94064 3.57422 1.75781 4.75705 1.75781 6.21094V21.1523H0.878906C0.393516 21.1523 0 21.5459 0 22.0312V23.7891C0 25.2429 1.18283 26.4258 2.63672 26.4258H27.3633C28.8172 26.4258 30 25.2429 30 23.7891V9.72656C30 8.27268 28.8172 7.08984 27.3633 7.08984ZM3.51562 6.21094C3.51562 5.72631 3.9099 5.33203 4.39453 5.33203H23.8477C24.3323 5.33203 24.7266 5.72631 24.7266 6.21094V7.08984H20.332C18.8781 7.08984 17.6953 8.27268 17.6953 9.72656V21.1523H3.51562V6.21094ZM1.75781 23.7891V22.9102H17.6953V23.7891C17.6953 24.0971 17.7489 24.3929 17.8465 24.668H2.63672C2.15209 24.668 1.75781 24.2737 1.75781 23.7891ZM28.2422 23.7891C28.2422 24.2737 27.8479 24.668 27.3633 24.668H20.332C19.8474 24.668 19.4531 24.2737 19.4531 23.7891V9.72656C19.4531 9.24193 19.8474 8.84766 20.332 8.84766H27.3633C27.8479 8.84766 28.2422 9.24193 28.2422 9.72656V23.7891Z"
@@ -189,7 +189,7 @@ const Innovations = () => {
                       />
                     </svg>
                     <motion.div
-                      initial={{ x: -100, opacity: 0.9 }}
+                      initial={{ x: -10, opacity: 0 }}
                       transition={{
                         type: "spring",
                         stiffness: 400,
@@ -203,7 +203,7 @@ const Innovations = () => {
                       </h1>
                     </motion.div>
                     <motion.div
-                      initial={{ x: -100, opacity: 0.9 }}
+                      initial={{ x: -10, opacity: 0 }}
                       transition={{
                         type: "spring",
                         stiffness: 400,
@@ -219,7 +219,7 @@ const Innovations = () => {
                     <div>
                       <ul className="list-square ml-4">
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -231,7 +231,7 @@ const Innovations = () => {
                           <li className="mt-4 ">Overwhelming</li>
                         </motion.div>
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -245,7 +245,7 @@ const Innovations = () => {
                           </li>
                         </motion.div>
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -260,7 +260,7 @@ const Innovations = () => {
                     </div>
                   </div>
 
-                  <div>
+                  <div className="shadow-lg p-8 rounded-md">
                     <svg class="w-8 h-8" viewBox="0 0 30 30" fill="none">
                       <g clip-path="url(#clip0)">
                         <path
@@ -292,7 +292,7 @@ const Innovations = () => {
                     </svg>
 
                     <motion.div
-                      initial={{ x: -100, opacity: 0.9 }}
+                      initial={{ x: -10, opacity: 0 }}
                       transition={{
                         type: "spring",
                         stiffness: 400,
@@ -307,7 +307,7 @@ const Innovations = () => {
                     </motion.div>
 
                     <motion.div
-                      initial={{ x: -100, opacity: 0.9 }}
+                      initial={{ x: -10, opacity: 0 }}
                       transition={{
                         type: "spring",
                         stiffness: 400,
@@ -324,7 +324,7 @@ const Innovations = () => {
                     <div>
                       <ul className="list-square ml-4">
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -337,7 +337,7 @@ const Innovations = () => {
                         </motion.div>
 
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -352,7 +352,7 @@ const Innovations = () => {
                         </motion.div>
 
                         <motion.div
-                          initial={{ x: -100, opacity: 0.9 }}
+                          initial={{ x: -10, opacity: 0 }}
                           transition={{
                             type: "spring",
                             stiffness: 400,
@@ -371,11 +371,11 @@ const Innovations = () => {
             </section>
           </div>
           {/* solutions */}
-          <div>
+          <div className="pr-48 pl-48">
             <section class="bg-white dark:bg-gray-900">
               <div class="container px-6 py-10 mx-auto">
                 <motion.div
-                  initial={{ x: -100, opacity: 0.9 }}
+                  initial={{ x: -10, opacity: 0 }}
                   transition={{
                     type: "spring",
                     stiffness: 400,
@@ -704,196 +704,303 @@ const Innovations = () => {
           </div>
         </header>
       </div>
+      {/* new image box */}
+      <div className="mr-44 ml-44">
+        <section class="bg-white dark:bg-gray-900">
+          <div class="h-[32rem] bg-gray-100 dark:bg-gray-800">
+            <div class="container px-6 py-10 mx-auto">
+              <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+                The Executive Team
+              </h1>
+
+              <div class="flex justify-center mx-auto mt-6">
+                <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                <span class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
+                <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
+              </div>
+
+              <p class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                incidunt ex placeat modi magni quia error alias, adipisci rem
+                similique, at omnis eligendi optio eos harum.
+              </p>
+            </div>
+          </div>
+
+          <div class="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+              <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+                <img
+                  class="object-cover w-full rounded-xl aspect-square"
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt=""
+                />
+              </div>
+
+              <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+                <img
+                  class="object-cover w-full rounded-xl aspect-square"
+                  src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                  alt=""
+                />
+              </div>
+
+              <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+                <img
+                  class="object-cover w-full rounded-xl aspect-square"
+                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      {/* new two big images */}
+      <div className="mr-44 ml-44">
+        <section class="bg-white dark:bg-gray-900">
+          <div class="container px-6 pb-12 mx-auto">
+            <div class="grid grid-cols-1 gap-6 mt-2 lg:grid-cols-2">
+              <div>
+                <img
+                  class="relative z-10 object-cover w-full rounded-md h-96"
+                  src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt=""
+                />
+
+                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-md shadow dark:bg-gray-900 ">
+                  <p class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                    Kubeflow running on kubernetes cluster
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <img
+                  class="relative z-10 object-cover w-full rounded-md h-96"
+                  src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt=""
+                />
+
+                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-md shadow dark:bg-gray-900">
+                  <p
+                    href="#"
+                    class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl"
+                  >
+                    Hypervisor running on our server
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       {/* BLUE BOX */}
-      <section class="bg-white dark:bg-gray-900">
-        <div class="relative flex">
-          <div class="min-h-screen lg:w-1/3"></div>
-          <div class="hidden w-3/4 min-h-screen bg-gray-100 dark:bg-gray-800 lg:block"></div>
+      <div className="pr-48 pl-48">
+        <section class="bg-white dark:bg-gray-900">
+          <div class="relative flex">
+            <div class="min-h-screen lg:w-1/3"></div>
+            <div class="hidden w-3/4 min-h-screen bg-gray-100 dark:bg-gray-800 lg:block"></div>
 
-          <div class="container flex flex-col justify-center w-full min-h-screen px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
-            <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-              One more <span class="text-blue-500">thing</span> <br />
-            </h1>
+            <div class="container flex flex-col justify-center w-full min-h-screen px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
+              <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+                One more <span class="text-blue-500">thing</span> <br />
+              </h1>
 
-            <div class="mt-10 lg:mt-20 lg:flex lg:items-center">
-              <img
-                class="object-cover object-center w-full lg:w-[32rem] rounded-md h-96"
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
+              <div class="mt-10 lg:mt-20 lg:flex lg:items-center">
+                <motion.div
+                  initial={{ x: -500, rotate: -90, opacity: 0.9 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 50,
+                  }}
+                  whileInView={{ opacity: 1, rotate: 0, x: 0 }}
+                  viewport={{ once: false }}
+                >
+                  <img
+                    class="object-cover object-center w-full lg:w-[32rem] rounded-md h-96"
+                    src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                    alt=""
+                  />
+                </motion.div>
 
-              <div class="mt-8 lg:px-10 lg:mt-0">
-                {/* <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:w-72">
+                <div class="mt-8 lg:px-10 lg:mt-0">
+                  {/* <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:w-72">
                   Help us improve our productivity
                 </h1> */}
 
-                <p class="max-w-lg mt-6 text-gray-500 dark:text-gray-400 tracking-wide">
-                  <span className="font-serif "> “</span> We are dedicated to
-                  exploring new technologies in our core product areas and have
-                  established a good ecosystem between academics and industry
-                  for technology development with innovation. We have a strong
-                  team with I.I.T background who are continuously innovating new
-                  technology solutions for the company. We believe in continuous
-                  innovation for bringing cutting-edge technologies to the
-                  market.
-                  <span className="font-serif"> ”</span>
-                </p>
+                  <p class="max-w-lg mt-6 text-gray-500 dark:text-gray-400 tracking-wide">
+                    <span className="font-serif "> “</span> We are dedicated to
+                    exploring new technologies in our core product areas and
+                    have established a good ecosystem between academics and
+                    industry for technology development with innovation. We have
+                    a strong team with I.I.T background who are continuously
+                    innovating new technology solutions for the company. We
+                    believe in continuous innovation for bringing cutting-edge
+                    technologies to the market.
+                    <span className="font-serif"> ”</span>
+                  </p>
 
-                <h3 class="mt-6 text-lg font-medium text-blue-500">
-                  Dr. karun Rawat
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300">
-                  Founder & Director
+                  <h3 class="mt-6 text-lg font-medium text-blue-500">
+                    Dr. karun Rawat
+                  </h3>
+                  <p class="text-gray-600 dark:text-gray-300">
+                    Founder & Director
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      {/* other featues */}
+      <div className="pr-48 pl-48">
+        <section class="bg-white dark:bg-gray-900">
+          <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+              explore our <br /> awesome{" "}
+              <span class="underline decoration-blue-500">Components</span>
+            </h1>
+
+            <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+              quam voluptatibus
+            </p>
+
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+              <div class="p-8 space-y-3 border-0 shadow-xl border-blue-400 dark:border-blue-300 rounded-md">
+                <img
+                  class="object-cover object-center w-full lg:w-[32rem] rounded-md h-90"
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt=""
+                />
+                <span class="inline-block text-blue-500 dark:text-blue-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-8 h-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+                    />
+                  </svg>
+                </span>
+
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                  Cyber physical system
+                </h1>
+
+                <p class="text-gray-500 dark:text-gray-300 tracking-wide">
+                  Refers to a system that integrates physical devices with a
+                  cyber interface for monitoring and controlling the physical
+                  world. The company is focusing on innovation in CPS for
+                  various applications such as
+                  <span className="">Traffic Solutions</span>, Industry 4.0, and
+                  Defence Platforms, and is seeking unique sensors for
+                  innovative solutions such as Gun-Shot Detection, RF
+                  Location-Finding, and Correlation Interferometry, amonog
+                  others.
+                </p>
+              </div>
+
+              <div class="p-8 space-y-3 border-0 border-blue-400 dark:border-blue-300 rounded-md shadow-xl">
+                <img
+                  class="object-cover object-center w-full lg:w-[32rem] rounded-md h-90"
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt=""
+                />
+                <span class="inline-block text-blue-500 dark:text-blue-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-8 h-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
+                    />
+                  </svg>
+                </span>
+
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                  AI and ML
+                </h1>
+
+                <p class="text-gray-500 dark:text-gray-300">
+                  We are committed to evolving as Deep Tech Comapany. Artificial
+                  Intelligence and Machine Learning is one the innovative areas
+                  to which we are keen to contribute. Our recent innovation
+                  involves the development of and ML Pipleline in our own
+                  Network-Attached Storage (NAS) and computational Platform for
+                  executing all the background algorithms.
+                </p>
+              </div>
+
+              <div class="p-8 space-y-3 border-0 border-blue-400 shadow-xl dark:border-blue-300 rounded-md">
+                <img
+                  class="object-cover object-center w-full lg:w-[32rem] rounded-md h-90"
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  alt=""
+                />
+                <span class="inline-block text-blue-500 dark:text-blue-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-8 h-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                    />
+                  </svg>
+                </span>
+
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                  Cyber physical system
+                </h1>
+
+                <p class="text-gray-500 dark:text-gray-300">
+                  The company is focused on innovation in the field of active
+                  and passive radio frequency components. They specialize in
+                  broadband high-power amplifiers, waveguide-based combining,
+                  and cavity filters. In addition, they have added innovations
+                  in software-defined radios to mitigate impairments.
+                </p>
+                <p class="text-gray-500 dark:text-gray-300">
+                  The company has a strong research background, with directors
+                  from I.I.T-Roorkee who are working in cutting-edge radio
+                  frequency technologies. Their recent R&D focus includes
+                  intelligent reflecting surfaces, multi-octave GAN MMICs, and
+                  millimeter-wave RFICs in CMOS and SiGe BiCMOS. Overall, the
+                  company is dedicated to pushing the boundaries of radio
+                  frequency technology and providing innovative solutions to
+                  their clients.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* other featues */}
-      <section class="bg-white dark:bg-gray-900">
-        <div class="container px-6 py-10 mx-auto">
-          <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-            explore our <br /> awesome{" "}
-            <span class="underline decoration-blue-500">Components</span>
-          </h1>
-
-          <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-            quam voluptatibus
-          </p>
-
-          <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-            <div class="p-8 space-y-3 border-0 shadow-xl border-blue-400 dark:border-blue-300 rounded-md">
-              <img
-                class="object-cover object-center w-full lg:w-[32rem] rounded-md h-90"
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-8 h-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
-                  />
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Cyber physical system
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300 tracking-wide">
-                Refers to a system that integrates physical devices with a cyber
-                interface for monitoring and controlling the physical world. The
-                company is focusing on innovation in CPS for various
-                applications such as
-                <span className="">Traffic Solutions</span>, Industry 4.0, and
-                Defence Platforms, and is seeking unique sensors for innovative
-                solutions such as Gun-Shot Detection, RF Location-Finding, and
-                Correlation Interferometry, amonog others.
-              </p>
-            </div>
-
-            <div class="p-8 space-y-3 border-0 border-blue-400 dark:border-blue-300 rounded-md shadow-xl">
-              <img
-                class="object-cover object-center w-full lg:w-[32rem] rounded-md h-90"
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-8 h-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
-                  />
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                AI and ML
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                We are committed to evolving as Deep Tech Comapany. Artificial
-                Intelligence and Machine Learning is one the innovative areas to
-                which we are keen to contribute. Our recent innovation involves
-                the development of and ML Pipleline in our own Network-Attached
-                Storage (NAS) and computational Platform for executing all the
-                background algorithms.
-              </p>
-            </div>
-
-            <div class="p-8 space-y-3 border-0 border-blue-400 shadow-xl dark:border-blue-300 rounded-md">
-              <img
-                class="object-cover object-center w-full lg:w-[32rem] rounded-md h-90"
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
-              />
-              <span class="inline-block text-blue-500 dark:text-blue-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-8 h-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                  />
-                </svg>
-              </span>
-
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                Cyber physical system
-              </h1>
-
-              <p class="text-gray-500 dark:text-gray-300">
-                The company is focused on innovation in the field of active and
-                passive radio frequency components. They specialize in broadband
-                high-power amplifiers, waveguide-based combining, and cavity
-                filters. In addition, they have added innovations in
-                software-defined radios to mitigate impairments.
-              </p>
-              <p class="text-gray-500 dark:text-gray-300">
-                The company has a strong research background, with directors
-                from I.I.T-Roorkee who are working in cutting-edge radio
-                frequency technologies. Their recent R&D focus includes
-                intelligent reflecting surfaces, multi-octave GAN MMICs, and
-                millimeter-wave RFICs in CMOS and SiGe BiCMOS. Overall, the
-                company is dedicated to pushing the boundaries of radio
-                frequency technology and providing innovative solutions to their
-                clients.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <Footer />
     </div>
   );
