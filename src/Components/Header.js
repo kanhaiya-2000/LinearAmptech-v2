@@ -14,7 +14,7 @@ const Header = () => {
             <NavLink to="/">
               <img
                 className="w-auto h-10 sm:h-16 sm:w-auto"
-                src={require("../Assets/logo.png")}
+                src={require("../assets/logo.png")}
                 alt="linear-amptec-logo"
               />
             </NavLink>
