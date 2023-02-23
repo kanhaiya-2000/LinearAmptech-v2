@@ -22,7 +22,7 @@ const Team = () => {
               </p>
 
               <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                     src={require("../assets/minakshi.jpg")}
@@ -64,7 +64,7 @@ const Team = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                     src={require("../assets/karun.png")}
@@ -106,7 +106,7 @@ const Team = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                   <img
                     className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                     src={require("../assets/vivek.jpeg")}
@@ -168,7 +168,7 @@ const Team = () => {
                   </p>
 
                   <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                       <img
                         className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                         src={require("../assets/minakshi.jpg")}
@@ -210,7 +210,7 @@ const Team = () => {
                       </div>
                     </div>
 
-                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                       <img
                         className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                         src={require("../assets/karun.png")}
@@ -252,7 +252,7 @@ const Team = () => {
                       </div>
                     </div>
 
-                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                       <img
                         className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                         src={require("../assets/vivek.jpeg")}
@@ -293,7 +293,7 @@ const Team = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-xl cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+                    <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
                       <img
                         className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                         src={require("../assets/vivek.jpeg")}
