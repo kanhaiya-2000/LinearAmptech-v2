@@ -1,7 +1,6 @@
 import Header from "../Components/Header";
 
 import Footer from "../Components/Footer";
-import { MdCelebration } from "react-icons/md";
 
 const data = [
   {
@@ -123,21 +122,12 @@ const NewsEvents = () => {
                   return (
                     <div className="flex">
                       <div className="lg:flex border mx-2 my-4 w-[594px]">
-                        <img
-                          className="object-cover h-64 w-64"
-                          src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                          alt=""
-                        />
-
                         <div className="flex flex-col justify-between py-6 lg:mx-6">
-                          <a
-                            href="#"
-                            className="text-xl font-semibold text-black   "
-                          >
+                          <p className="text-xl font-semibold text-black   ">
                             {title ? title : "Title"}
-                          </a>
+                          </p>
 
-                          <span className="text-sm text-gray-500 dark:text-gray-300">
+                          <span className="text-sm text-gray-800 mt-4 dark:text-gray-300">
                             On: {date ? date : "Date"}
                           </span>
                         </div>
