@@ -2,37 +2,31 @@ import React from "react";
 import { Footer, Header } from "../Components";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
   return (
     <div className="">
       <Header />
       {/* firt section */}
-      <div>
-        <header>
-          <div
-            className="w-full bg-center bg-cover h-[755px]"
-            style={{
-              backgroundColor: " #0465F8",
-            }}
-          >
-            <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
-              <div className="text-center">
-                <h1 className="text-4xl font-semibold text-white lg:text-[64px] leading-snug">
-                  Build your new Project
-                </h1>
-                <h1 className="text-4xl font-semibold text-white lg:text-[64px] leading-snug">
-                  some other text
-                </h1>
 
-                <button className="w-[148.8px] h-[47px] px-5 py-2 mt-4 text-[18.8px]  text-[#0465F8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto ">
-                  Read more
-                </button>
-              </div>
-            </div>
-          </div>
-        </header>
+      <div className="heroSection z-0  h-[400px] overflow-hidden ">
+        <div className="absolute z-[15] w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
+          <h2 className="text-[4rem] font-bold font-Roboto drop-shadow-2xl text-center">
+            Get to Know Us
+            <br /> Our Passion, Purpose, and People
+          </h2>
+          {/* <p className="text-[1.5rem] font-mnormal mb-4">
+            Solutions for a smarter, more connected
+          </p> */}
+        </div>
+        <div className="absolute h-[400px] w-[100%] bg-black z-10 opacity-50"></div>
+        <img
+          src={require("../assets/video/about.png")}
+          className="w-[100%] -translate-y-64 "
+        ></img>
       </div>
+
       {/* middle */}
       <div className="mt-10 ">
         <section className="bg-white dark:bg-gray-800 lg:pt-12 pb-0 lg:flex lg:justify-center">
@@ -105,7 +99,7 @@ const AboutUs = () => {
       {/* fetuses area */}
 
       {/* we build awesome products */}
-      <div className="h-[893px] bg-[#292C33] w-screen flex justify-center flex-col align-end items-center ">
+      <div className="h-[893px] bg-[#292C33] w-[98.9vw] flex justify-center flex-col align-end items-center ">
         <div className="py-16 mt-40">
           <h1 className="text-white text-[48px] font-semibold text-center">
             We build awesome products
@@ -113,16 +107,19 @@ const AboutUs = () => {
         </div>
         <div className="flex text-[16px] ">
           <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
-            <h1 className="text-[20px] font-semibold">Product Heading</h1>
+            <h1 className="text-[20px] font-semibold">RF Power Amplifiers</h1>
             <p className="mt-4">
-              Vestibulum volutpat ante id rhoncus interdum. Morbi porttitor
-              neque lacus, in cursus diam suscipit nec. Phasellus odio null
-              posuere viverra erat. Proin vestibulum facilisis libero in
-              porttitor. Maecenas et fermentum felis.
+              Linear Amptech provides excellent indigenous power amplifier
+              solution for Cellular application and variety of military and
+              space applications. We provide vast range of high performance
+              power amplifiers with frequency coverage from Dc to 18 GHz.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <NavLink
+              to={"/products/rf-power-amplifiers"}
+              className="w-[114px] h-[36px]  px-5 py-3  mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto "
+            >
               Read more
-            </button>
+            </NavLink>
           </div>
           <div className="h-[282px] w-[477px] bg-white"></div>
         </div>
@@ -130,12 +127,15 @@ const AboutUs = () => {
         <div className="flex">
           <div className="h-[282px] w-[477px] bg-white"></div>{" "}
           <div className="h-[282px] w-[477px] bg-[#0465F8] text-white p-8 ">
-            <h1 className="text-[20px] font-semibold">Product Heading</h1>
+            <h1 className="text-[20px] font-semibold">
+              Software Defined Point to Point Radio Applications
+            </h1>
             <p className="mt-4">
-              Vestibulum volutpat ante id rhoncus interdum. Morbi porttitor
-              neque lacus, in cursus diam suscipit nec. Phasellus odio null
-              posuere viverra erat. Proin vestibulum facilisis libero in
-              porttitor. Maecenas et fermentum felis.
+              With the advent of Software Defined Radio (SDR) the radio hardware
+              scaled down to software and most of the features is pushed into
+              software. In the scenario of war, the communication significantly
+              depends on flexibility, interoperability, accuracy, and
+              promptness.
             </p>
             <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
               Read more
@@ -144,7 +144,6 @@ const AboutUs = () => {
         </div>
 
         <div className="flex">
-          {" "}
           <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">Product Heading</h1>
             <p className="mt-4">

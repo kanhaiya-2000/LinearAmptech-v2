@@ -1,37 +1,44 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Innovations = () => {
   return (
     <div>
       <Header />
-      <div>
-        <header>
-          <div className="w-full bg-center bg-cover h-[612px] bg-[#0465f8]">
-            <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
-              <div className="text-center">
-                <h1 className="text-[24px] font-medium text-white lg:text-[24px]">
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 20,
-                    }}
-                    whileInView={{ opacity: 1 }}
-                    viewport={{ once: false }}
-                  >
-                    <span className="text-[96px] font-bold">Innovations</span>{" "}
-                  </motion.div>
-                  Innovation that drives progress
-                </h1>
 
-                <button className=" px-7 py-2 w-[148.83px]  h-[47px] mt-8 text-sm font-medium text-[#0465f8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto  focus:outline-none">
-                  Read more
-                </button>
-              </div>
+      <div className="z-10">
+        <header>
+          <div className="w-full h-[612px] z-0 overflow-hidden bg-cover">
+            <div className="absolute z-10 h-[612px] w-[100%] text-white flex justify-center items-center flex-col">
+              <h2 className=" text-[5rem] font-bold drop-shadow-2xl">
+                Innovations
+              </h2>
+              <p className="text-[1.5rem] font-mnormal mb-6 ">
+                Innovation that drives progress
+              </p>
+              <NavLink
+                className=" border-[3px] border-white text-white text-[1.1rem] py-3 px-5 hover:scale-110 duration-300"
+                to="/about-us"
+              >
+                Read more
+              </NavLink>
             </div>
+            <img
+              src={require("../assets/video/img1.jpg")}
+              className="z-10 -translate-y-40"
+            ></img>
+            {/* <div className=" flex items-center justify-center w-full h-full bg-gray-900/40"> */}
+            {/* <div className="absolute z-50 text-center">
+              <h1 className="text-[24px] font-medium text-black lg:text-[24px]">
+                Innovation that drives progress
+              </h1>
+              <button className=" px-7 py-2 w-[148.83px]  h-[47px] mt-8 text-sm font-medium text-[#0465f8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto  focus:outline-none">
+                Read more
+              </button>
+            </div> */}
+            {/* </div> */}
           </div>
           <div>
             <section className="bg-white  mt-4">
@@ -729,7 +736,7 @@ const Innovations = () => {
         </section>
       </div>
       {/* new two big images */}
-      <div className="lg:pr-48 lg:pl-48 mt-8">
+      {/* <div className="lg:pr-48 lg:pl-48 mt-8">
         <section className="bg-white ">
           <div className="container px-6 pb-12 mx-auto">
             <div className="grid grid-cols-1 gap-6 mt-2 lg:grid-cols-2">
@@ -763,10 +770,10 @@ const Innovations = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
       {/* BLUE BOX */}
       <div className="lg:pr-48 lg:pl-48 h-[324px] w-[100%] bg-[#0465f8] flex justify-center justify-items-center mt-20  items-center content-center">
-        <p className="text-center text-white text-[20px]">
+        <p className="text-center text-white text-[20px] leading-loose">
           We are dedicated to exploring new technologies in our core product
           areas and have established a good ecosystem between academics and
           industry for technology development with innovation. We have a strong

@@ -7,11 +7,17 @@ const PowerAmp = () => {
       <Header />
       {/* *****************************HERO SECTION***************** */}
 
-      <div className="heroSection gap-2 bg-primary-color h-[400px] flex flex-col justify-center items-center text-white">
-        <h2 className="text-[4rem] font-bold font-Roboto">Our Products</h2>
-        <p className="text-[1.5rem] font-mnormal mb-4">
-          Solutions for a smarter, more connected future
-        </p>
+      <div className="heroSection z-0  h-[400px] overflow-hidden ">
+        <div className="absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
+          <h2 className="text-[4rem] font-bold font-Roboto">Our Products</h2>
+          <p className="text-[1.5rem] font-mnormal mb-4">
+            Solutions for a smarter, more connected
+          </p>
+        </div>
+        <img
+          src={require("../../assets/video/bg-product.jpg")}
+          className="w-[100%] -translate-y-64"
+        ></img>
       </div>
 
       {/* *****************************CONTENT SECTION***************** */}
@@ -51,7 +57,7 @@ const PowerAmp = () => {
           Digital Predistortion based Linearized Transmitters
         </h2>
         <p>
-          We have developed and deployed distortion correction algorithm for RF
+          {/* We have developed and deployed distortion correction algorithm for RF
           High power amplifiers (SSPA/TWTA). This predistortion method requires
           the baseband access of the I/Q signals for modeling and distortion
           correction. The advantage of this method lies in terms of no extra
@@ -60,7 +66,7 @@ const PowerAmp = () => {
           user end. Our method works upto 500 MHz bandwidth and distortion
           reduction >20 dB. Moreover we have also achieved good performance in
           the case of multiple-input and multiple-output (MIMO) DPD
-          transmitters.
+          transmitters. */}
         </p>
         <div className="flex gap-10 justify-around my-10">
           <img
