@@ -7,29 +7,24 @@ const data = [
     title:
       "We featured on Engineers Tribune. Their partner website is Peigenesis.",
     date: "21 July 2020",
-    icon: <MdCelebration size={64} />,
   },
   {
     title:
       "Dr. Meenakshi Rawat has presented paper titled, “Linear Vector Signal Generator for X-band Communication” in Radio & Wireless Week, San Antonio, Texas, U.S.A.",
     date: "29 January 2020",
-    icon: <MdCelebration size={64} />,
   },
   {
     title: `Dr. Meenakshi Rawat has delivered lecture under workshop on :Machine Learning and Dimensionality Reduction Techniques for RF Components and Systems: from Modeling to Linearization" Radio & Wireless Week, San Antonio, Texas, U.S.A.`,
     date: "26 January 2020",
-    icon: <MdCelebration size={64} />,
   },
   {
     title: `Dr. Meenakshi Rawat was instructor and co-coordinator for Training Program on " Basics of software Defined Radio Architectures and building blocks of SDR Waveform development for SDR " in Bharat Electronics Limited, Bangalore 2019.`,
     date: "5-16 July 2019",
-    icon: <MdCelebration size={64} />,
   },
   {
     title:
       "Product showcased in two-day event ‘ICT & IOT START UP TECH EXPO 2018' at ITI Limited, Doorvaninagar, Bangalore-560016. Product showcased in C-DOT foundation day ' 5G Technologies, Standardization, Business and applications",
     date: "28-29 August 2018",
-    icon: <MdCelebration size={64} />,
   },
   {
     title:
