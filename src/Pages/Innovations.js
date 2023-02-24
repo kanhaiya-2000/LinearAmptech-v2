@@ -8,16 +8,10 @@ const Innovations = () => {
       <Header />
       <div>
         <header>
-          <div
-            className="w-full bg-center bg-cover h-[40rem]"
-            style={{
-              backgroundImage:
-                " url(https://images.unsplash.com/photo-1592659762303-90081d34b277?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3173&q=80)",
-            }}
-          >
+          <div className="w-full bg-center bg-cover h-[612px] bg-[#0465f8]">
             <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
               <div className="text-center">
-                <h1 className="text-4xl font-semibold text-white lg:text-4xl">
+                <h1 className="text-[24px] font-medium text-white lg:text-[24px]">
                   <motion.div
                     initial={{ opacity: 0 }}
                     transition={{
@@ -28,36 +22,36 @@ const Innovations = () => {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: false }}
                   >
-                    <span className="lg:text-8xl">INNOVATIONS</span>{" "}
+                    <span className="text-[96px] font-bold">Innovations</span>{" "}
                   </motion.div>
                   Innovation that drives progress
                 </h1>
 
-                <button className="w-full px-5 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-none lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                <button className=" px-7 py-2 w-[148.83px]  h-[47px] mt-8 text-sm font-medium text-[#0465f8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto  focus:outline-none">
                   Read more
                 </button>
               </div>
             </div>
           </div>
           <div>
-            <section className="bg-white dark:bg-gray-900">
-              <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
-                <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
-                  Tagline text will be{" "}
-                  <span className="text-blue-500">shown here.</span>
+            <section className="bg-white  mt-4">
+              <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
+                <h2 className="font-bold text-[40px] text-black mb-4">
+                  Tagline text
                 </h2>
-
-                <p className="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
-                  quidem officiis reprehenderit, aperiam veritatis non, quod
-                  veniam fuga possimus hic explicabo laboriosam nam. A tempore
-                  totam ipsa nemo adipisci iusto!
-                </p>
+                <div className="w-[1196px] h-[432px] bg-[#D9D9D9]">
+                  <p className="max-w-4xl mt-6 text-left text-black">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Cum quidem officiis reprehenderit, aperiam veritatis non,
+                    quod veniam fuga possimus hic explicabo laboriosam nam. A
+                    tempore v totam ipsa nemo adipisci iusto!
+                  </p>
+                </div>
               </div>
             </section>
           </div>
           <div className="lg:pr-48 lg:pl-48">
-            <section className="bg-white dark:bg-gray-900">
+            <section className="bg-white ">
               <div className="container px-6 py-12 mx-auto">
                 <motion.div
                   initial={{ x: -10, opacity: 0 }}
@@ -69,17 +63,13 @@ const Innovations = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: false }}
                 >
-                  <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white ">
+                  <h1 className="text-[40px] font-bold text-black capitalize   ">
                     Problems
                   </h1>
                 </motion.div>
-                <div className="mt-2 mb-10">
-                  <span className="inline-block w-40 h-1 bg-red-500 rounded-full"></span>
-                  <span className="inline-block w-3 h-1 ml-1 bg-red-500 rounded-full"></span>
-                  <span className="inline-block w-1 h-1 ml-1 bg-red-500 rounded-full"></span>
-                </div>
+
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                  <div className="text-left shadow-lg rounded-none p-8">
+                  <div className="text-left border border-black p-8">
                     <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none">
                       <path
                         d="M29.6931 14.2283L22.7556 6.87823C22.3292 6.426 21.6175 6.40538 21.1652 6.83212C20.7137 7.25851 20.6927 7.9706 21.1195 8.42248L27.3284 15L21.1195 21.5783C20.6927 22.0302 20.7137 22.7419 21.1652 23.1687C21.3827 23.3738 21.6606 23.4754 21.9374 23.4754C22.2363 23.4754 22.5348 23.3569 22.7557 23.1233L29.6932 15.7729C30.1022 15.339 30.1023 14.6618 29.6931 14.2283Z"
@@ -104,7 +94,7 @@ const Innovations = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false }}
                     >
-                      <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                      <h1 className="mt-4 text-xl font-semibold text-black ">
                         Innovation that drives progress
                       </h1>
                     </motion.div>
@@ -118,7 +108,7 @@ const Innovations = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false }}
                     >
-                      <p className="mt-2 text-gray-500 dark:text-gray-400">
+                      <p className="mt-2 text-black ">
                         The present maintenance process has following
                         limitations
                       </p>
@@ -173,7 +163,7 @@ const Innovations = () => {
                     </div>
                   </div>
 
-                  <div className="text-left p-8 shadow-lg rounded-none">
+                  <div className="text-left p-8 border border-black">
                     <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none">
                       <path
                         d="M27.3633 7.08984H26.4844V6.21094C26.4844 4.75705 25.3015 3.57422 23.8477 3.57422H4.39453C2.94064 3.57422 1.75781 4.75705 1.75781 6.21094V21.1523H0.878906C0.393516 21.1523 0 21.5459 0 22.0312V23.7891C0 25.2429 1.18283 26.4258 2.63672 26.4258H27.3633C28.8172 26.4258 30 25.2429 30 23.7891V9.72656C30 8.27268 28.8172 7.08984 27.3633 7.08984ZM3.51562 6.21094C3.51562 5.72631 3.9099 5.33203 4.39453 5.33203H23.8477C24.3323 5.33203 24.7266 5.72631 24.7266 6.21094V7.08984H20.332C18.8781 7.08984 17.6953 8.27268 17.6953 9.72656V21.1523H3.51562V6.21094ZM1.75781 23.7891V22.9102H17.6953V23.7891C17.6953 24.0971 17.7489 24.3929 17.8465 24.668H2.63672C2.15209 24.668 1.75781 24.2737 1.75781 23.7891ZM28.2422 23.7891C28.2422 24.2737 27.8479 24.668 27.3633 24.668H20.332C19.8474 24.668 19.4531 24.2737 19.4531 23.7891V9.72656C19.4531 9.24193 19.8474 8.84766 20.332 8.84766H27.3633C27.8479 8.84766 28.2422 9.24193 28.2422 9.72656V23.7891Z"
@@ -198,7 +188,7 @@ const Innovations = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false }}
                     >
-                      <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                      <h1 className="mt-4 text-xl font-semibold text-black ">
                         Increasing number of devices and sensors data
                       </h1>
                     </motion.div>
@@ -212,7 +202,7 @@ const Innovations = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false }}
                     >
-                      <p className="mt-2 text-gray-500 dark:text-gray-400">
+                      <p className="mt-2 text-black ">
                         The sheer volume of data being generated can be
                       </p>
                     </motion.div>
@@ -260,7 +250,7 @@ const Innovations = () => {
                     </div>
                   </div>
 
-                  <div className="shadow-lg p-8 rounded-none">
+                  <div className="border border-black p-8 ">
                     <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none">
                       <g clip-path="url(#clip0)">
                         <path
@@ -301,7 +291,7 @@ const Innovations = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false }}
                     >
-                      <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                      <h1 className="mt-4 text-xl font-semibold text-black ">
                         Untimely maintenance can lead to machine failure
                       </h1>
                     </motion.div>
@@ -316,7 +306,7 @@ const Innovations = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false }}
                     >
-                      <p className="mt-2 text-gray-500 dark:text-gray-400">
+                      <p className="mt-2 text-black ">
                         At present maintenance is done periodically or after the
                         device has been damaged, which leads to unwanted
                       </p>
@@ -372,7 +362,7 @@ const Innovations = () => {
           </div>
           {/* solutions */}
           <div className="lg:pr-48 lg:pl-48">
-            <section className="bg-white dark:bg-gray-900">
+            <section className="bg-white ">
               <div className="container px-6 py-10 mx-auto">
                 <motion.div
                   initial={{ x: -10, opacity: 0 }}
@@ -384,21 +374,15 @@ const Innovations = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: false }}
                 >
-                  <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-6xl dark:text-white">
-                    <br /> Solutions
+                  <h1 className="text-[40px] font-bold text-black capitalize   ">
+                    Solutions
                   </h1>
                 </motion.div>
 
-                <div className="mt-2">
-                  <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-                  <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                  <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-                </div>
-
-                <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
-                  <div className="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
-                    <div className="space-y-2">
-                      <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                <div className="mt-2 lg:flex lg:items-center">
+                  <div className="grid w-full grid-cols-1 gap-4 lg:w-1/2 xl:gap-8 md:grid-cols-2">
+                    <div className="space-y-2 border border-black p-4">
+                      <span className="inline-block p-3 text-[#0465F8] bg-blue-100   dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -424,7 +408,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="text-xl font-semibold  text-black capitalize ">
                           Machine Learning
                         </h1>
                       </motion.div>
@@ -438,15 +422,15 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <p className="text-gray-500 dark:text-gray-300">
+                        <p className="text-black">
                           It is a generalized ML platform to provide
                           personalized solution for defence and industries.
                         </p>
                       </motion.div>
                     </div>
 
-                    <div className="space-y-2">
-                      <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                    <div className="space-y-2 border border-black p-4">
+                      <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -478,7 +462,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="text-xl font-semibold  text-black capitalize ">
                           Real Time Data
                         </h1>
                       </motion.div>
@@ -492,7 +476,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <p className="text-gray-500 dark:text-gray-300">
+                        <p className="text-black">
                           Use of real-time data predictive analytics to identify
                           and track potential problems before they occur in our
                           assets.
@@ -500,8 +484,8 @@ const Innovations = () => {
                       </motion.div>
                     </div>
 
-                    <div className="space-y-2">
-                      <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                    <div className="space-y-2  border border-black p-4">
+                      <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -527,7 +511,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="text-xl font-semibold  text-black capitalize ">
                           Acuuracy
                         </h1>
                       </motion.div>
@@ -541,15 +525,15 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <p className="text-gray-500 dark:text-gray-300">
+                        <p className="text-black">
                           To develop a digital twin of an industrial asset that
                           accurately represents its behavior and performance.
                         </p>
                       </motion.div>
                     </div>
 
-                    <div className="space-y-2">
-                      <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                    <div className="space-y-2 border border-black p-4">
+                      <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -575,7 +559,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="text-xl font-semibold  text-black capitalize ">
                           Usefullness
                         </h1>
                       </motion.div>
@@ -589,13 +573,13 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <p className="text-gray-500 dark:text-gray-300">
+                        <p className="text-black">
                           To predict remaining useful life (RUL) of Machines.
                         </p>
                       </motion.div>
                     </div>
-                    <div className="space-y-2">
-                      <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                    <div className="space-y-2 border border-black p-4">
+                      <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -621,7 +605,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="text-xl font-semibold  text-black capitalize ">
                           Deep Learning
                         </h1>
                       </motion.div>
@@ -635,15 +619,15 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <p className="text-gray-500 dark:text-gray-300">
+                        <p className="text-black">
                           Provide research platform where teams can collaborate
                           develop deep learning models and take data driven
                           actions.
                         </p>
                       </motion.div>
                     </div>
-                    <div className="space-y-2">
-                      <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                    <div className="space-y-2 border border-black p-4">
+                      <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="w-6 h-6"
@@ -669,8 +653,8 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                          Prmise Solution
+                        <h1 className="text-xl font-semibold  text-black capitalize ">
+                          Premise Solution
                         </h1>
                       </motion.div>
                       <motion.div
@@ -683,7 +667,7 @@ const Innovations = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                       >
-                        <p className="text-gray-500 dark:text-gray-300">
+                        <p className="text-black">
                           Provide on premise solution which gives full control
                           of their critical data with security
                         </p>
@@ -691,9 +675,9 @@ const Innovations = () => {
                     </div>
                   </div>
 
-                  <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
+                  <div className="hidden lg:flex lg:w-1/2 lg:justify-around ml-8">
                     <img
-                      className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
+                      className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[798px] "
                       src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                       alt=""
                     />
@@ -706,43 +690,37 @@ const Innovations = () => {
       </div>
       {/* new image box */}
       <div className="lg:pr-48 lg:pl-48">
-        <section className="bg-white dark:bg-gray-900">
-          <div className="h-[32rem] bg-gray-100 dark:bg-gray-800">
-            <div className="container px-6 py-10 mx-auto">
-              <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+        <section className="bg-white ">
+          <div className="h-[32rem]  ">
+            <div className="container px-6 py-32 mx-auto">
+              <h1 className="text-2xl font-semibold text-center text-black capitalize lg:text-3xl ">
                 Asset tracking by VHR remote sensing data
               </h1>
-
-              <div className="flex justify-center mx-auto mt-6">
-                <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-                <span className="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
-                <span className="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
-              </div>
             </div>
           </div>
 
           <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-              <div className="flex flex-col items-center p-2 border sm:p-2 rounded-none dark:border-gray-700">
+              <div className="flex flex-col items-center  rounded-none dark:-gray-700">
                 <img
                   className="object-cover w-full rounded-none aspect-square"
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  src={require("../assets/tracking1.png")}
                   alt=""
                 />
               </div>
 
-              <div className="flex flex-col items-center p-2 border sm:p-2 rounded-none dark:border-gray-700">
+              <div className="flex flex-col items-center  sm:rounded-none dark:-gray-700">
                 <img
                   className="object-cover w-full rounded-none aspect-square"
-                  src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                  src={require("../assets/tracking2.png")}
                   alt=""
                 />
               </div>
 
-              <div className="flex flex-col items-center p-2 border sm:p-2 rounded-none dark:border-gray-700">
+              <div className="flex flex-col items-center  sm:rounded-none dark:-gray-700">
                 <img
                   className="object-cover w-full rounded-none aspect-square"
-                  src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  src={require("../assets/tracking3.png")}
                   alt=""
                 />
               </div>
@@ -751,19 +729,19 @@ const Innovations = () => {
         </section>
       </div>
       {/* new two big images */}
-      <div className="lg:pr-48 lg:pl-48">
-        <section className="bg-white dark:bg-gray-900">
+      <div className="lg:pr-48 lg:pl-48 mt-8">
+        <section className="bg-white ">
           <div className="container px-6 pb-12 mx-auto">
             <div className="grid grid-cols-1 gap-6 mt-2 lg:grid-cols-2">
               <div>
                 <img
-                  className="relative z-10 object-cover w-full rounded-none h-96"
-                  src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                  alt=""
+                  className="relative z-10 object-cover w-full rounded-none h-96 rounded-tl-md rounded-tr-md"
+                  src={require("../assets/kuberflow.png")}
+                  alt="Kuberflow"
                 />
 
-                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-none shadow dark:bg-gray-900 ">
-                  <p className="font-semibold text-gray-800  dark:text-white md:text-xl">
+                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-none shadow rounded-bl-md rounded-br-md  ">
+                  <p className="font-semibold text-black   md:text-xl text-center">
                     Kubeflow running on kubernetes cluster
                   </p>
                 </div>
@@ -771,13 +749,13 @@ const Innovations = () => {
 
               <div>
                 <img
-                  className="relative z-10 object-cover w-full rounded-none h-96"
-                  src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                  alt=""
+                  className="relative z-10 object-cover w-full rounded-tl-md rounded-tr-md   h-96"
+                  src={require("../assets/hypervisor.jpg")}
+                  alt="Hypervisor"
                 />
 
-                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-none shadow dark:bg-gray-900">
-                  <p className="font-semibold text-gray-800  dark:text-white md:text-xl">
+                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-none shadow rounded-bl-md rounded-br-md ">
+                  <p className="font-semibold text-black   md:text-xl text-center  ">
                     Hypervisor running on our server
                   </p>
                 </div>
@@ -787,113 +765,33 @@ const Innovations = () => {
         </section>
       </div>
       {/* BLUE BOX */}
-      <div className="lg:pr-48 lg:pl-48">
-        <section className="bg-white dark:bg-gray-900">
-          <div className="relative flex">
-            <div className="min-h-screen lg:w-1/3"></div>
-            <div className="hidden w-3/4 min-h-screen bg-gray-100 dark:bg-gray-800 lg:block"></div>
-
-            <div className="container flex flex-col justify-center w-full min-h-screen px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
-              <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-                One more <span className="text-blue-500">thing</span> <br />
-              </h1>
-
-              <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
-                <motion.div
-                  initial={{ x: -500, rotate: -90, opacity: 0.9 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 400,
-                    damping: 50,
-                  }}
-                  whileInView={{ opacity: 1, rotate: 0, x: 0 }}
-                  viewport={{ once: false }}
-                >
-                  <img
-                    className="object-cover object-center w-full lg:w-[32rem] rounded-none h-96"
-                    src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                    alt=""
-                  />
-                </motion.div>
-
-                <div className="mt-8 lg:px-10 lg:mt-0">
-                  {/* <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:w-72">
-                  Help us improve our productivity
-                </h1> */}
-
-                  <p className="max-w-lg mt-6 text-gray-500 dark:text-gray-400 tracking-wide">
-                    <span className="font-serif "> “</span> We are dedicated to
-                    exploring new technologies in our core product areas and
-                    have established a good ecosystem between academics and
-                    industry for technology development with innovation. We have
-                    a strong team with I.I.T background who are continuously
-                    innovating new technology solutions for the company. We
-                    believe in continuous innovation for bringing cutting-edge
-                    technologies to the market.
-                    <span className="font-serif"> ”</span>
-                  </p>
-
-                  <h3 className="mt-6 text-lg font-medium text-blue-500">
-                    Dr. karun Rawat
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    Founder & Director
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div className="lg:pr-48 lg:pl-48 h-[324px] w-[100%] bg-[#0465f8] flex justify-center justify-items-center mt-20  items-center content-center">
+        <p className="text-center text-white text-[20px]">
+          We are dedicated to exploring new technologies in our core product
+          areas and have established a good ecosystem between academics and
+          industry for technology development with innovation. We have a strong
+          team with I.I.T background who are continuously innovating new
+          technology solutions for the company. We believe in continuous
+          innovation for bringing cutting-edge technologies to the market.
+        </p>
       </div>
       {/* other featues */}
-      <div className="lg:pr-48 lg:pl-48">
-        <section className="bg-white dark:bg-gray-900">
+      <div className="lg:pr-48 lg:pl-48 bg-[#F2F2F2]">
+        <section className="bg-[#f2f2f2] ">
           <div className="container px-6 py-10 mx-auto">
-            <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-              explore our <br /> awesome{" "}
-              <span className="underline decoration-blue-500">Components</span>
-            </h1>
-
-            <p className="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-              quam voluptatibus
-            </p>
-
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-              <div className="p-8 space-y-3 border-0 shadow-none border-blue-400 dark:border-blue-300 rounded-none">
+              <div className="p space-y-3  bg-white  ">
                 <img
-                  className="object-cover object-center w-full lg:w-[32rem] rounded-none h-90"
+                  className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
-                <span className="inline-block text-blue-500 dark:text-blue-400">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-8 h-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
-                    />
-                  </svg>
-                </span>
 
-                <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                <h1 className="text-[20px] font-bold  text-black capitalize  px-4">
                   Cyber physical system
                 </h1>
 
-                <p className="text-gray-500 dark:text-gray-300 tracking-wide">
+                <p className="text-black tracking-wide px-4">
                   Refers to a system that integrates physical devices with a
                   cyber interface for monitoring and controlling the physical
                   world. The company is focusing on innovation in CPS for
@@ -906,34 +804,18 @@ const Innovations = () => {
                 </p>
               </div>
 
-              <div className="p-8 space-y-3 border-0 border-blue-400 dark:border-blue-300 rounded-none shadow-none">
+              <div className=" space-y-3 bg-white  rounded-none ">
                 <img
-                  className="object-cover object-center w-full lg:w-[32rem] rounded-none h-90"
+                  className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
-                <span className="inline-block text-blue-500 dark:text-blue-400">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-8 h-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
-                    />
-                  </svg>
-                </span>
 
-                <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+                <h1 className="text-[20px] font-bold  text-black capitalize px-4 ">
                   AI and ML
                 </h1>
 
-                <p className="text-gray-500 dark:text-gray-300">
+                <p className="text-black px-4">
                   We are committed to evolving as Deep Tech Comapany. Artificial
                   Intelligence and Machine Learning is one the innovative areas
                   to which we are keen to contribute. Our recent innovation
@@ -943,41 +825,25 @@ const Innovations = () => {
                 </p>
               </div>
 
-              <div className="p-8 space-y-3 border-0 border-blue-400 shadow-none dark:border-blue-300 rounded-none">
+              <div className=" space-y-3 bg-white">
                 <img
-                  className="object-cover object-center w-full lg:w-[32rem] rounded-none h-90"
+                  className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
-                <span className="inline-block text-blue-500 dark:text-blue-400">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-8 h-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                    />
-                  </svg>
-                </span>
 
-                <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                  Cyber physical system
+                <h1 className="text-[20px] font-bold  text-black capitalize px-4  ">
+                  The Radio Frequency Components
                 </h1>
 
-                <p className="text-gray-500 dark:text-gray-300">
+                <p className=" text-black  px-4 ">
                   The company is focused on innovation in the field of active
                   and passive radio frequency components. They specialize in
                   broadband high-power amplifiers, waveguide-based combining,
                   and cavity filters. In addition, they have added innovations
                   in software-defined radios to mitigate impairments.
                 </p>
-                <p className="text-gray-500 dark:text-gray-300">
+                <p className="text-black px-4 pb-4">
                   The company has a strong research background, with directors
                   from I.I.T-Roorkee who are working in cutting-edge radio
                   frequency technologies. Their recent R&D focus includes

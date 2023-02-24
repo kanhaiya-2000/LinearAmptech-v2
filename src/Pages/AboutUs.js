@@ -39,7 +39,7 @@ const AboutUs = () => {
       {/* middle */}
       <div className="mt-10 ">
         <section className="bg-white dark:bg-gray-800 lg:pt-12 pb-0 lg:flex lg:justify-center">
-          <div className="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
+          <div className="overflow-hidden bg-white  lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
             <div className="lg:w-1/2">
               <div
                 className="h-64 bg-cover lg:h-full"
@@ -53,11 +53,12 @@ const AboutUs = () => {
             </div>
 
             <div className="max-w-xl pl-12 py-12 lg:max-w-5xl lg:w-1/2">
-              <h2 className="text-[40px] font-semibold text-black dark:text-white ">
+              <div class="lineStyle h-[6px] w-[111px] bg-[#0465f8] relative top-7 left-1/2"></div>
+              <h2 className="text-[40px] font-semibold text-black  ">
                 About us
               </h2>
 
-              <p className="mt-4 text-black dark:text-gray-300 tracking-wide text-justify">
+              <p className="mt-4 text-[20px] text-black  ">
                 Linear Amplifier Technology & Services private ltd (Linear
                 Amp-tech) is a company formed and driven by innovative minds of
                 Indian I.I.T Roorkee. The company is Incubated in I.I.T Roorkee
@@ -74,9 +75,9 @@ const AboutUs = () => {
           </div>
         </section>
         <section className="bg-white dark:bg-gray-800 lg:pb-12 pt-0 lg:flex lg:justify-center">
-          <div className="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
+          <div className="overflow-hidden bg-white  lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
             <div className=" px-0 py-12 ">
-              <p className="mt-0 text-black dark:text-gray-300 tracking-wide ">
+              <p className="mt-0 text-black  text-[20px] ">
                 The company is geared up to take on new technology development
                 projects in the relevant areas. The company is primarily
                 focusing on various aspects of cyber-physical system design
@@ -88,7 +89,7 @@ const AboutUs = () => {
                 including radio-frequency sensors development and addressing the
                 cyber domain with Artificial intelligence and Machine Learning.
               </p>
-              <p className="mt-0 text-black dark:text-gray-300 tracking-wide">
+              <p className="mt-0 text-black  text-[20px]">
                 The company also envisages the requirement for the specialized
                 technology areas such as Radio-frequency design and hence is
                 committed to the development of radios and related components to
@@ -113,7 +114,7 @@ const AboutUs = () => {
             We build awesome products
           </h1>
         </div>
-        <div className="flex">
+        <div className="flex text-[16px] ">
           {" "}
           <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">Product Heading</h1>
@@ -123,7 +124,7 @@ const AboutUs = () => {
               posuere viverra erat. Proin vestibulum facilisis libero in
               porttitor. Maecenas et fermentum felis.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border-2 border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
               Read more
             </button>
           </div>
@@ -140,7 +141,7 @@ const AboutUs = () => {
               posuere viverra erat. Proin vestibulum facilisis libero in
               porttitor. Maecenas et fermentum felis.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border-2 border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
               Read more
             </button>
           </div>
@@ -156,48 +157,47 @@ const AboutUs = () => {
               posuere viverra erat. Proin vestibulum facilisis libero in
               porttitor. Maecenas et fermentum felis.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border-2 border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
               Read more
             </button>
           </div>
-          <div className="h-[282px] w-[477px] bg-white border-b-2 border-r-2 border-black"></div>
+          <div className="h-[282px] w-[477px] bg-white border-b border-r border-black"></div>
         </div>
       </div>
       {/* BOARD of Directors */}
       <div className="mt-80 mb-20">
-        <div>
-          <section className="bg-white dark:bg-gray-900">
-            <div className="container px-6 py-10 mx-auto">
-              <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
-                Board Of Directors
-              </h1>
+        <section className="bg-white ">
+          <div className="container px-6 py-10 mx-auto">
+            <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+              Board Of Directors
+            </h1>
 
-              <p className="max-w-2xl mx-auto my-6 text-center text-black dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                incidunt ex placeat modi magni quia error alias, adipisci rem
-                similique, at omnis eligendi optio eos harum.
-              </p>
+            <p className="max-w-2xl text-[20px] mx-auto my-6 text-center text-black ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              incidunt ex placeat modi magni quia error alias, adipisci rem
+              similique, at omnis eligendi optio eos harum.
+            </p>
 
-              <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer border">
-                  <img
-                    className="object-cover w-32 h-32 "
-                    src={minakshi}
-                    alt=""
-                  />
-
-                  <h1 className="mt-4 text-2xl font-semibold text-black capitalize dark:text-white group-hover:text-white">
+            <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+                <img
+                  className="object-cover w-[148px] h-[164px] "
+                  src={require("../assets/minakshi.jpg")}
+                  alt=""
+                />
+                <div className="self-center justify-self-start">
+                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
                     Dr Minakshi Rawat
                   </h1>
 
-                  <p className="mt-2 text-black capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
                     Founder & Director
                   </p>
 
                   <div className="flex mt-3 -mx-2">
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Reddit"
                     >
                       <AiFillTwitterCircle size={26} />
@@ -205,7 +205,7 @@ const AboutUs = () => {
 
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Facebook"
                     >
                       <BsFacebook size={22} />
@@ -213,29 +213,33 @@ const AboutUs = () => {
 
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Github"
                     >
                       <BsLinkedin size={22} />
                     </a>
                   </div>
                 </div>
-
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer border">
-                  <img className="object-cover w-32 h-32 " src={karun} alt="" />
-
-                  <h1 className="mt-4 text-2xl font-semibold text-blackcapitalize dark:text-white group-hover:text-white">
-                    Dr. Karun Rawat
+              </div>
+              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+                <img
+                  className="object-cover w-[148px] h-[164px] "
+                  src={require("../assets/karun.png")}
+                  alt="Dr Karun Rawat"
+                />
+                <div className="self-center justify-self-start">
+                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
+                    Dr Karun Rawat
                   </h1>
 
-                  <p className="mt-2 text-black capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
                     Founder & Chairman
                   </p>
 
                   <div className="flex mt-3 -mx-2">
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Reddit"
                     >
                       <AiFillTwitterCircle size={26} />
@@ -243,7 +247,7 @@ const AboutUs = () => {
 
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Facebook"
                     >
                       <BsFacebook size={22} />
@@ -251,29 +255,33 @@ const AboutUs = () => {
 
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Github"
                     >
                       <BsLinkedin size={22} />
                     </a>
                   </div>
                 </div>
-
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer border">
-                  <img className="object-cover w-32 h-32 " src={vivek} alt="" />
-
-                  <h1 className="mt-4 text-2xl font-semibold text-blackcapitalize dark:text-white group-hover:text-white">
+              </div>{" "}
+              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+                <img
+                  className="object-cover w-[148px] h-[164px] "
+                  src={require("../assets/vivek.jpeg")}
+                  alt=""
+                />
+                <div className="self-center justify-self-start">
+                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
                     Mr. Vivek Sharma
                   </h1>
 
-                  <p className="mt-2 text-black capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
                     Director
                   </p>
 
                   <div className="flex mt-3 -mx-2">
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Reddit"
                     >
                       <AiFillTwitterCircle size={26} />
@@ -281,41 +289,41 @@ const AboutUs = () => {
 
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Facebook"
                     >
                       <BsFacebook size={22} />
                     </a>
 
                     <a
-                      href="https://www.linkedin.com/in/vivek-sharma-986950121/"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      href="#"
+                      className="mx-2 text-black  "
                       aria-label="Github"
                     >
                       <BsLinkedin size={22} />
                     </a>
                   </div>
                 </div>
-
-                <div className="flex flex-col items-center p-8 transition-colors duration-300 transform shadow-none cursor-pointer border">
-                  <img
-                    className="object-cover w-32 h-32 "
-                    src={require("../assets/gowrish.jpg")}
-                    alt=""
-                  />
-
-                  <h1 className="mt-4 text-2xl font-semibold text-blackcapitalize dark:text-white group-hover:text-white">
+              </div>{" "}
+              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+                <img
+                  className="object-cover w-[148px] h-[164px] "
+                  src={require("../assets/gowrish.jpg")}
+                  alt=""
+                />
+                <div className="self-center justify-self-start">
+                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
                     Mr. Gowrish B
                   </h1>
 
-                  <p className="mt-2 text-black capitalize dark:text-gray-300 group-hover:text-gray-300">
+                  <p className="mt-2 text-black capitalize text-[20px] group-hover:text-gray-300">
                     Director
                   </p>
 
                   <div className="flex mt-3 -mx-2">
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Reddit"
                     >
                       <AiFillTwitterCircle size={26} />
@@ -323,15 +331,15 @@ const AboutUs = () => {
 
                     <a
                       href="#"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      className="mx-2 text-black  "
                       aria-label="Facebook"
                     >
                       <BsFacebook size={22} />
                     </a>
 
                     <a
-                      href="https://www.linkedin.com/in/vivek-sharma-986950121/"
-                      className="mx-2 text-black dark:text-gray-300 hover:text-black dark:hover:text-gray-300 group-hover:text-white"
+                      href="#"
+                      className="mx-2 text-black  "
                       aria-label="Github"
                     >
                       <BsLinkedin size={22} />
@@ -340,8 +348,8 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
       {/* GET to know */}
       <hr />
@@ -353,7 +361,7 @@ const AboutUs = () => {
 
           <div className="mt-8 lg:mt-0 ">
             <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
-              <button className="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform  focus:ring focus:ring-blue-300 focus:ring-opacity-80 fo sm:mx-2 border-2 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+              <button className="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform  focus:ring focus:ring-blue-300 font-semibold focus:ring-opacity-80 fo sm:mx-2 border hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                 Get Started
               </button>
             </div>
