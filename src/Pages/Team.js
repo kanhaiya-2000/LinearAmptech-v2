@@ -426,7 +426,7 @@ const Team = () => {
                 <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
                   <img
                     className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/devansh.jfif")}
+                    src={require("../assets/aditya.jfif")}
                     alt=""
                   />
                   <div className="self-center justify-self-start">
@@ -456,7 +456,7 @@ const Team = () => {
                       </a>
 
                       <a
-                        href="https://www.linkedin.com/in/jdevansh/"
+                        href="https://www.linkedin.com/in/aditya-raj-singh-gour-8438a6179/"
                         className="mx-2 text-black  "
                         aria-label="Github"
                       >
