@@ -89,22 +89,34 @@ const Header = () => {
                 {isDropDownOpen && (
                   <div className="absolute w-[300px]  bg-white list-none">
                     <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
-                      <NavLink to="/products/rf-power-amplifiers">
+                      <NavLink
+                        className="hover:text-blue-500"
+                        to="/products/rf-power-amplifiers"
+                      >
                         RF Power Amplifiers
                       </NavLink>
                     </li>
                     <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
-                      <NavLink to="/products/software-defined-radio">
+                      <NavLink
+                        className="hover:text-blue-500"
+                        to="/products/software-defined-radio"
+                      >
                         Software Defined Radio
                       </NavLink>
                     </li>
                     <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
-                      <NavLink to="/products/rf-linear-nonlinear-characterization">
+                      <NavLink
+                        className="hover:text-blue-500"
+                        to="/products/rf-linear-nonlinear-characterization"
+                      >
                         RF linear and nonlinear characterization
                       </NavLink>
                     </li>
                     <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
-                      <NavLink to="/products/rf-power-amplifiers">
+                      <NavLink
+                        className="hover:text-blue-500"
+                        to="/products/rf-power-amplifiers"
+                      >
                         Power amplifier linearization
                       </NavLink>
                     </li>

@@ -58,7 +58,9 @@ const RFPower = () => {
           </div>
           <div className="rightBox w-[50%] flex p-20">
             <div className="fronBox h-[400px] w-[500px] bg-primary-color"></div>
-            <div className="backBox absolute h-[400px] w-[500px] bg-[#EFF6FF] translate-x-5 translate-y-5"></div>
+            <div className="backBox absolute h-[400px] w-[500px] bg-[#EFF6FF] translate-x-5 translate-y-5 flex justify-center items-center">
+              <img src={require("../../assets/rfpower/0.png")}></img>
+            </div>
           </div>
         </div>
       </div>

@@ -37,7 +37,10 @@ const SDR = () => {
             and support multiple protocols.
           </div>
           <div className="w-1/2">
-            <img src={require("../../assets/SDR/1.jpg")}></img>
+            <img
+              src={require("../../assets/SDR/1.jpg")}
+              className="border-2 border-black"
+            ></img>
             <p className="text-center mt-1">
               SDR based transceiver for point to point radio communication
             </p>
