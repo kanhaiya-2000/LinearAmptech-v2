@@ -30,16 +30,58 @@ const Team = () => {
               similique, at omnis eligendi optio eos harum.
             </p>
 
-            <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
-              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+            <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+              <div className="flex flex-col items-center justify-around   border">
                 <img
-                  className="object-cover w-[148px] h-[164px] "
+                  className="object-cover w-[100%] h-[auto] "
+                  src={require("../assets/karun.png")}
+                  alt=""
+                />
+                <div className="self-start m-4 justify-self-start">
+                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
+                    Dr. Karun Rawat
+                  </h1>
+
+                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
+                    Founder & Chairman
+                  </p>
+
+                  <div className="flex mt-3 -mx-2">
+                    <a
+                      href="#"
+                      className="mx-2 text-black  "
+                      aria-label="Reddit"
+                    >
+                      <AiFillTwitterCircle size={26} />
+                    </a>
+
+                    <a
+                      href="#"
+                      className="mx-2 text-black  "
+                      aria-label="Facebook"
+                    >
+                      <BsFacebook size={22} />
+                    </a>
+
+                    <a
+                      href="#"
+                      className="mx-2 text-black  "
+                      aria-label="Github"
+                    >
+                      <BsLinkedin size={22} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-around   border">
+                <img
+                  className="object-cover w-[100%] h-[auto] "
                   src={require("../assets/minakshi.png")}
                   alt=""
                 />
-                <div className="self-center justify-self-start">
+                <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr Minakshi Rawat
+                    Dr. Minakshi Rawat
                   </h1>
 
                   <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
@@ -73,55 +115,13 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+              <div className="flex flex-col items-center justify-around   border">
                 <img
-                  className="object-cover w-[148px] h-[164px] "
-                  src={require("../assets/karun.png")}
-                  alt="Dr Karun Rawat"
-                />
-                <div className="self-center justify-self-start">
-                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr Karun Rawat
-                  </h1>
-
-                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                    Founder & Chairman
-                  </p>
-
-                  <div className="flex mt-3 -mx-2">
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Reddit"
-                    >
-                      <AiFillTwitterCircle size={26} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Facebook"
-                    >
-                      <BsFacebook size={22} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Github"
-                    >
-                      <BsLinkedin size={22} />
-                    </a>
-                  </div>
-                </div>
-              </div>{" "}
-              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                <img
-                  className="object-cover w-[148px] h-[164px] "
+                  className="object-cover w-[100%] h-[auto] "
                   src={require("../assets/vivek.jpeg")}
                   alt=""
                 />
-                <div className="self-center justify-self-start">
+                <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
                     Mr. Vivek Sharma
                   </h1>
@@ -156,19 +156,19 @@ const Team = () => {
                     </a>
                   </div>
                 </div>
-              </div>{" "}
-              <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+              </div>
+              <div className="flex flex-col items-center justify-around   border">
                 <img
-                  className="object-cover w-[148px] h-[164px] "
+                  className="object-cover w-[100%] h-[auto] "
                   src={require("../assets/gowrish.jpg")}
                   alt=""
                 />
-                <div className="self-center justify-self-start">
+                <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Mr. Gowrish B
+                    Dr. Gowrish B
                   </h1>
 
-                  <p className="mt-2 text-black capitalize text-[20px] group-hover:text-gray-300">
+                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
                     Director
                   </p>
 
@@ -221,7 +221,7 @@ const Team = () => {
                   />
                   <div className="self-center justify-self-start">
                     <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Dr Minakshi Rawat
+                      Dr. Minakshi Rawat
                     </h1>
 
                     <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
@@ -263,7 +263,7 @@ const Team = () => {
                   />
                   <div className="self-center justify-self-start">
                     <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Dr Karun Rawat
+                      Dr. Karun Rawat
                     </h1>
 
                     <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
