@@ -27,7 +27,7 @@ const Innovations = () => {
                   Innovation that drives progress
                 </h1>
 
-                <button className=" px-7 py-2 w-[148.83px]  h-[47px] mt-8 text-sm font-medium text-[#0465f8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto  focus:outline-none">
+                <button className=" px-7 py-2 w-[148.83px]  h-[47px] mt-8 text-sm font-medium text-[#0465f8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto  focus:outline-none hover:scale-110 duration-300">
                   Read more
                 </button>
               </div>

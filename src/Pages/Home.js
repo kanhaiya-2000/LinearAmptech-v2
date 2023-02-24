@@ -14,7 +14,7 @@ const Home = () => {
         <p className="text-[2rem] font-mnormal mb-4">
           Creating Difference With Technology
         </p>
-        <button className="bg-white text-primary-color text-[1.1rem] py-3 px-5">
+        <button className="bg-white text-primary-color text-[1.1rem] py-3 px-5 hover:scale-110 duration-300">
           Read more
         </button>
       </div>
@@ -108,7 +108,7 @@ const Home = () => {
               Phasellus odio nulla, gravida et odio sed, congue.
             </p>
           </div>
-          <button className="bg-primary-color text-white text-[1.1rem] py-3 px-5 w-44">
+          <button className="bg-primary-color text-white text-[1.1rem] py-3 px-5 w-44 hover:scale-110 duration-300">
             Discover more
           </button>
         </div>
@@ -126,7 +126,7 @@ const Home = () => {
           about using our skills and knowledge to help our clients harness the
           full potential of technology to achieve their goals.
         </p>
-        <button className="bg-primary-color text-white text-[1.1rem] py-3 px-6 border-2 border-white">
+        <button className="bg-primary-color text-white text-[1.1rem] py-3 px-6 border-2 border-white hover:scale-110 duration-300">
           Read more
         </button>
       </div>

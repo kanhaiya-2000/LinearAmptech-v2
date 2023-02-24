@@ -25,7 +25,7 @@ const AboutUs = () => {
                   some other text
                 </h1>
 
-                <button className="w-[148.8px] h-[47px] px-5 py-2 mt-4 text-[18.8px]  text-[#0465F8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto ">
+                <button className="w-[148.8px] h-[47px] px-5 py-2 mt-4 text-[18.8px]  text-[#0465F8] hover:scale-110  capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto ">
                   Read more
                 </button>
               </div>
@@ -65,7 +65,7 @@ const AboutUs = () => {
                 Engineering.
               </p>
 
-              <button className="w-[148.8px] h-[47px] bg-[#0465F8] px-5 py-2 mt-4 text-[18.8px]  text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+              <button className="w-[148.8px] h-[47px] bg-[#0465F8] px-5 py-2 mt-4 text-[18.8px]  text-white  transition-colors hover:scale-110  duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
                 Read more
               </button>
             </div>
@@ -120,7 +120,7 @@ const AboutUs = () => {
               posuere viverra erat. Proin vestibulum facilisis libero in
               porttitor. Maecenas et fermentum felis.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto hover:scale-110  ">
               Read more
             </button>
           </div>
@@ -137,7 +137,7 @@ const AboutUs = () => {
               posuere viverra erat. Proin vestibulum facilisis libero in
               porttitor. Maecenas et fermentum felis.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto hover:scale-110 ">
               Read more
             </button>
           </div>
@@ -153,7 +153,7 @@ const AboutUs = () => {
               posuere viverra erat. Proin vestibulum facilisis libero in
               porttitor. Maecenas et fermentum felis.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto ">
+            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto hover:scale-110  ">
               Read more
             </button>
           </div>
@@ -357,7 +357,7 @@ const AboutUs = () => {
 
           <div className="mt-8 lg:mt-0 ">
             <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
-              <button className="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform  focus:ring focus:ring-blue-300 font-semibold focus:ring-opacity-80 fo sm:mx-2 border hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+              <button className="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform  hover:scale-110  font-semibold ">
                 Get Started
               </button>
             </div>
