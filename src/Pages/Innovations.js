@@ -36,11 +36,11 @@ const Innovations = () => {
           <div>
             <section className="bg-white  mt-4">
               <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
-                <h2 className="font-bold text-[40px] text-black mb-4">
+                <h2 className="font-bold text-[40px] text-black mb-2">
                   Tagline text
                 </h2>
                 <div className="w-[1196px] h-[432px] bg-[#D9D9D9]">
-                  <p className="max-w-4xl mt-6 text-left text-black">
+                  <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Cum quidem officiis reprehenderit, aperiam veritatis non,
                     quod veniam fuga possimus hic explicabo laboriosam nam. A
@@ -787,11 +787,11 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize  px-4">
+                <h1 className="text-[20px] font-bold  text-black capitalize  px-6 pt-2">
                   Cyber physical system
                 </h1>
 
-                <p className="text-black tracking-wide px-4">
+                <p className="text-black tracking-wide px-6">
                   Refers to a system that integrates physical devices with a
                   cyber interface for monitoring and controlling the physical
                   world. The company is focusing on innovation in CPS for
@@ -804,18 +804,18 @@ const Innovations = () => {
                 </p>
               </div>
 
-              <div className=" space-y-3 bg-white  rounded-none ">
+              <div className=" space-y-3 bg-white   rounded-none ">
                 <img
                   className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize px-4 ">
+                <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize px-6 pt-2 ">
                   AI and ML
                 </h1>
 
-                <p className="text-black px-4">
+                <p className="text-black px-6">
                   We are committed to evolving as Deep Tech Comapany. Artificial
                   Intelligence and Machine Learning is one the innovative areas
                   to which we are keen to contribute. Our recent innovation
@@ -832,18 +832,18 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize px-4  ">
+                <h1 className="text-[20px] font-bold font-Poppins text-black capitalize px-6 pt-2  ">
                   The Radio Frequency Components
                 </h1>
 
-                <p className=" text-black  px-4 ">
+                <p className=" text-black  px-6 ">
                   The company is focused on innovation in the field of active
                   and passive radio frequency components. They specialize in
                   broadband high-power amplifiers, waveguide-based combining,
                   and cavity filters. In addition, they have added innovations
                   in software-defined radios to mitigate impairments.
                 </p>
-                <p className="text-black px-4 pb-4">
+                <p className="text-black px-6 pb-4">
                   The company has a strong research background, with directors
                   from I.I.T-Roorkee who are working in cutting-edge radio
                   frequency technologies. Their recent R&D focus includes

@@ -1,30 +1,36 @@
 import Header from "../Components/Header";
 
 import Footer from "../Components/Footer";
+import { MdCelebration } from "react-icons/md";
 
 const data = [
   {
     title:
       "We featured on Engineers Tribune. Their partner website is Peigenesis.",
     date: "21 July 2020",
+    icon: <MdCelebration size={64} />,
   },
   {
     title:
       "Dr. Meenakshi Rawat has presented paper titled, “Linear Vector Signal Generator for X-band Communication” in Radio & Wireless Week, San Antonio, Texas, U.S.A.",
     date: "29 January 2020",
+    icon: <MdCelebration size={64} />,
   },
   {
     title: `Dr. Meenakshi Rawat has delivered lecture under workshop on :Machine Learning and Dimensionality Reduction Techniques for RF Components and Systems: from Modeling to Linearization" Radio & Wireless Week, San Antonio, Texas, U.S.A.`,
     date: "26 January 2020",
+    icon: <MdCelebration size={64} />,
   },
   {
     title: `Dr. Meenakshi Rawat was instructor and co-coordinator for Training Program on " Basics of software Defined Radio Architectures and building blocks of SDR Waveform development for SDR " in Bharat Electronics Limited, Bangalore 2019.`,
     date: "5-16 July 2019",
+    icon: <MdCelebration size={64} />,
   },
   {
     title:
       "Product showcased in two-day event ‘ICT & IOT START UP TECH EXPO 2018' at ITI Limited, Doorvaninagar, Bangalore-560016. Product showcased in C-DOT foundation day ' 5G Technologies, Standardization, Business and applications",
     date: "28-29 August 2018",
+    icon: <MdCelebration size={64} />,
   },
   {
     title:
@@ -111,14 +117,14 @@ const NewsEvents = () => {
           </div>
         </div>
         <section className="bg-white dark:bg-gray-900">
-          <div className="container px-6 py-10 mx-auto">
+          <div className="container flex flex-wrap px-6 py-10 mx-auto">
             {data
               ? data.map(({ title, date }) => {
                   return (
-                    <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-                      <div className="lg:flex border w-[594px]">
+                    <div className="flex">
+                      <div className="lg:flex border mx-2 my-4 w-[594px]">
                         <img
-                          className="object-cover w-full h-[100%]  lg:w-64"
+                          className="object-cover h-64 w-64"
                           src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                           alt=""
                         />
