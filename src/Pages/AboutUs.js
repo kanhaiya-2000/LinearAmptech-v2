@@ -357,7 +357,7 @@ const AboutUs = () => {
 
           <div className="mt-8 lg:mt-0 ">
             <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
-              <button className="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform  hover:scale-110  font-semibold ">
+              <button className="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform  hover:scale-110 border border-white font-semibold ">
                 Get Started
               </button>
             </div>
