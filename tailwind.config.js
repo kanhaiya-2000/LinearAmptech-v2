@@ -12,6 +12,13 @@ module.exports = {
         Roboto: ["Roboto", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
       },
+      listStyleType: {
+        none: "none",
+        disc: "disc",
+        decimal: "decimal",
+        square: "square",
+        roman: "upper-roman",
+      },
     },
   },
   plugins: [],
