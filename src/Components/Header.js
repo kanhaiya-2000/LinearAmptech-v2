@@ -26,7 +26,7 @@ const Header = () => {
               <button
                 onClick={() => handleClick()}
                 type="button"
-                className="text-gray-500 focus:outline-none hover:scale-110 duration-300"
+                className="text-gray-500 focus:outline-none duration-300  "
                 aria-label="toggle menu"
               >
                 {isOpen ? (
