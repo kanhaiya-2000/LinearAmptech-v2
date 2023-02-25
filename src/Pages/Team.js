@@ -2,6 +2,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import BoardMember from "../Components/BoardMember";
 import TeamMember from "../Components/TeamMember";
+import teambg from "../assets/teambg.jpg";
 import karun from "../assets/karun.png";
 import minakshi from "../assets/minakshi.png";
 import vivek from "../assets/vivek.jpeg";
@@ -15,6 +16,10 @@ import aditya from "../assets/aditya.jfif";
 
 import hafizur from "../assets/hafizur.jpg";
 import omkar from "../assets/omkar.jfif";
+
+import azhar from "../assets/azhar.jpg";
+import himanshi from "../assets/himanshi.jpg";
+import img from "../assets/img.png";
 
 const boardMember = [
   {
@@ -123,7 +128,7 @@ const softwareTeam = [
   },
 
   {
-    photo: achal,
+    photo: img,
     name: "Manav Singh Chauhan",
     position: "Position",
     linkedin: "#",
@@ -131,7 +136,7 @@ const softwareTeam = [
     facebook: "#",
   },
   {
-    photo: devansh,
+    photo: img,
     name: "Deepak Agrawal",
     position: "Position",
     linkedin: "#",
@@ -141,7 +146,7 @@ const softwareTeam = [
 ];
 const hardwareTeam = [
   {
-    photo: kanhaiya,
+    photo: azhar,
     name: "Azhar Ansari",
     position: "Position",
     linkedin: "https://www.linkedin.com/in/azhar-ansari-767a85215/",
@@ -149,10 +154,10 @@ const hardwareTeam = [
     facebook: "#",
   },
   {
-    photo: suyash,
+    photo: himanshi,
     name: "Himanshi Bagel",
     position: "Position",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/himanshi-baghel-846747234",
     twitter: "#",
     facebook: "#",
   },
@@ -161,7 +166,13 @@ const Team = () => {
   return (
     <div>
       <Header />
-      <div className="h-[429px] bg-[#0465F8] w-[100%] flex justify-center items-center">
+
+      <div
+        className="h-[429px] w-[100%] flex justify-center items-center"
+        style={{
+          backgroundImage: `url(${teambg})`,
+        }}
+      >
         <div className=" ">
           <p className="font-bold text-[64px] text-white text-center">
             Meet Our Team
