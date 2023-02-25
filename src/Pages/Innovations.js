@@ -43,11 +43,11 @@ const Innovations = () => {
           <div>
             <section className="bg-white  mt-4">
               <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
-                <h2 className="font-bold text-[40px] text-black mb-4">
+                <h2 className="font-bold text-[40px] text-black mb-2">
                   Tagline text
                 </h2>
                 <div className="w-[1196px] h-[432px] bg-[#D9D9D9]">
-                  <p className="max-w-4xl mt-6 text-left text-black">
+                  <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Cum quidem officiis reprehenderit, aperiam veritatis non,
                     quod veniam fuga possimus hic explicabo laboriosam nam. A
@@ -589,16 +589,16 @@ const Innovations = () => {
                       <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="w-6 h-6"
                           fill="none"
                           viewBox="0 0 24 24"
+                          strokeWidth={2}
                           stroke="currentColor"
+                          className="w-6 h-6"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
                           />
                         </svg>
                       </span>
@@ -637,16 +637,16 @@ const Innovations = () => {
                       <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="w-6 h-6"
                           fill="none"
                           viewBox="0 0 24 24"
+                          strokeWidth={1.5}
                           stroke="currentColor"
+                          className="w-6 h-6"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495"
                           />
                         </svg>
                       </span>
@@ -696,10 +696,10 @@ const Innovations = () => {
         </header>
       </div>
       {/* new image box */}
-      <div className="lg:pr-48 lg:pl-48">
+      <div className="lg:pr-44 lg:pl-44">
         <section className="bg-white ">
           <div className="h-[32rem]  ">
-            <div className="container px-6 py-32 mx-auto">
+            <div className="container  py-32 mx-auto">
               <h1 className="text-2xl font-semibold text-center text-black capitalize lg:text-3xl ">
                 Asset tracking by VHR remote sensing data
               </h1>
@@ -794,11 +794,11 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize  px-4">
+                <h1 className="text-[20px] font-bold  text-black capitalize  px-6 pt-2">
                   Cyber physical system
                 </h1>
 
-                <p className="text-black tracking-wide px-4">
+                <p className="text-black tracking-wide px-6">
                   Refers to a system that integrates physical devices with a
                   cyber interface for monitoring and controlling the physical
                   world. The company is focusing on innovation in CPS for
@@ -811,18 +811,18 @@ const Innovations = () => {
                 </p>
               </div>
 
-              <div className=" space-y-3 bg-white  rounded-none ">
+              <div className=" space-y-3 bg-white   rounded-none ">
                 <img
                   className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
                   src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize px-4 ">
+                <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize px-6 pt-2 ">
                   AI and ML
                 </h1>
 
-                <p className="text-black px-4">
+                <p className="text-black px-6">
                   We are committed to evolving as Deep Tech Comapany. Artificial
                   Intelligence and Machine Learning is one the innovative areas
                   to which we are keen to contribute. Our recent innovation
@@ -839,18 +839,18 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize px-4  ">
+                <h1 className="text-[20px] font-bold font-Poppins text-black capitalize px-6 pt-2  ">
                   The Radio Frequency Components
                 </h1>
 
-                <p className=" text-black  px-4 ">
+                <p className=" text-black  px-6 ">
                   The company is focused on innovation in the field of active
                   and passive radio frequency components. They specialize in
                   broadband high-power amplifiers, waveguide-based combining,
                   and cavity filters. In addition, they have added innovations
                   in software-defined radios to mitigate impairments.
                 </p>
-                <p className="text-black px-4 pb-4">
+                <p className="text-black px-6 pb-6">
                   The company has a strong research background, with directors
                   from I.I.T-Roorkee who are working in cutting-edge radio
                   frequency technologies. Their recent R&D focus includes
