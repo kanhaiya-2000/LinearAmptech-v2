@@ -258,15 +258,16 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
+
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/vivek.jpeg")}
+                  src={require("../assets/gowrish.jpg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Mr. Vivek Sharma
+                    Dr. Gowrish B
                   </h1>
 
                   <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
@@ -303,12 +304,12 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/gowrish.jpg")}
+                  src={require("../assets/vivek.jpeg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr. Gowrish B
+                    Mr. Vivek Sharma
                   </h1>
 
                   <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
