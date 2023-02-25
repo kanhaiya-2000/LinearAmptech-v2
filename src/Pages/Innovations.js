@@ -790,7 +790,7 @@ const Innovations = () => {
               <div className="p space-y-3  bg-white  ">
                 <img
                   className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  src={require("../assets/first.jpg")}
                   alt=""
                 />
 
@@ -814,7 +814,7 @@ const Innovations = () => {
               <div className=" space-y-3 bg-white   rounded-none ">
                 <img
                   className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  src={require("../assets/second.png")}
                   alt=""
                 />
 
@@ -835,7 +835,7 @@ const Innovations = () => {
               <div className=" space-y-3 bg-white">
                 <img
                   className="object-cover object-center w-full lg:w-[354px] rounded-none h-[248px]"
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                  src={require("../assets/third.png")}
                   alt=""
                 />
 
