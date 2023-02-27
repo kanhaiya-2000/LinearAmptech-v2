@@ -3,13 +3,14 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const TeamMember = (props) => {
   return (
-    <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
+    <div className="flex flex-col items-center justify-between   border ">
       <img
-        className="object-cover w-[148px] h-[164px] "
+        className="object-cover w-[100%] h-[auto] "
         src={props.member.photo}
         alt=""
       />
-      <div className="self-center justify-self-start">
+
+      <div className="self-start m-4 justify-self-start">
         <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
           {props.member.name}
         </h1>
@@ -27,11 +28,7 @@ const TeamMember = (props) => {
             <BsFacebook size={22} />
           </a>
 
-          <a
-            href={props.member.linkedin}
-            className="mx-2 text-black  "
-            aria-label="Github"
-          >
+          <a href="#" className="mx-2 text-black  " aria-label="Github">
             <BsLinkedin size={22} />
           </a>
         </div>
