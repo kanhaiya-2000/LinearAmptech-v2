@@ -16,6 +16,7 @@ import aditya from "../assets/aditya.jfif";
 
 import hafizur from "../assets/hafizur.jpg";
 import omkar from "../assets/omkar.jfif";
+import manav from "../assets/manav.jfif";
 
 import azhar from "../assets/azhar.jpg";
 import himanshi from "../assets/himanshi.jpg";
@@ -128,10 +129,10 @@ const softwareTeam = [
   },
 
   {
-    photo: img,
+    photo: manav,
     name: "Manav Singh Chauhan",
     position: "Position",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/manav-chauhan-430379267/",
     twitter: "#",
     facebook: "#",
   },
