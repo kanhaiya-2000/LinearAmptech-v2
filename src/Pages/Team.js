@@ -16,9 +16,10 @@ import aditya from "../assets/aditya.jfif";
 
 import hafizur from "../assets/hafizur.jpg";
 import omkar from "../assets/omkar.jfif";
+import manav from "../assets/manav.jfif";
 
-import azhar from "../assets/azhar.jpg";
-import himanshi from "../assets/himanshi.jpg";
+import azhar from "../assets/azhar.jfif";
+import himanshi from "../assets/himanshi.jfif";
 import img from "../assets/img.png";
 
 const boardMember = [
@@ -128,10 +129,10 @@ const softwareTeam = [
   },
 
   {
-    photo: img,
+    photo: manav,
     name: "Manav Singh Chauhan",
     position: "Position",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/manav-chauhan-430379267/",
     twitter: "#",
     facebook: "#",
   },
@@ -203,8 +204,8 @@ const Team = () => {
           </div>
         </section>
       </div>
-      {/* teams member  */}
-      <div className="mt-10">
+      {/* core team  */}
+      <div className="mt-2">
         <div>
           <section className="bg-white ">
             <div className="container px-6 py-10 mx-auto">
@@ -212,7 +213,7 @@ const Team = () => {
                 Core Team
               </h1>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
                 {coarTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
@@ -222,15 +223,15 @@ const Team = () => {
         </div>
       </div>
       {/* Software team */}
-      <div className="mt-10">
+      <div className="mt-4">
         <div>
           <section className="bg-white ">
-            <div className="container px-6 py-10 mx-auto">
+            <div className="container px-6 py-2 mx-auto">
               <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
                 Software Team
               </h1>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
                 {softwareTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
@@ -240,15 +241,15 @@ const Team = () => {
         </div>
       </div>
       {/* hardware team */}
-      <div className="mt-10">
+      <div className="mt-6">
         <div>
           <section className="bg-white ">
-            <div className="container px-6 py-10 mx-auto">
+            <div className="container px-6 py-2 mx-auto">
               <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
                 Hardware Team
               </h1>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
+              <div className="grid grid-cols-1 gap-8  xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
                 {hardwareTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
