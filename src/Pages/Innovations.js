@@ -736,41 +736,27 @@ const Innovations = () => {
         </section>
       </div>
       {/* new two big images */}
-      {/* <div className="lg:pr-48 lg:pl-48 mt-8">
-        <section className="bg-white ">
-          <div className="container px-6 pb-12 mx-auto">
-            <div className="grid grid-cols-1 gap-6 mt-2 lg:grid-cols-2">
-              <div>
-                <img
-                  className="relative z-10 object-cover w-full rounded-none h-96 rounded-tl-md rounded-tr-md"
-                  src={require("../assets/kuberflow.png")}
-                  alt="Kuberflow"
-                />
+      <div className="lg:pr-44 lg:pl-44 mt-10">
+        <h1 className="text-[40px] font-bold text-black capitalize mb-2 ml-5  ">
+          Heading
+        </h1>
+        <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border "></section>
+        <p className=" w-[1085px] m-auto mt-8 text-[20px]">
+          WAIT System stands for Warning Ahead Of Intersections and Turns.
+          <br />
+          Driving on rural roads in India can be risky, especially during
+          winters when fog reduces visibility. Blind intersections and turns in
+          hilly terrain pose a significant danger to drivers who may be slow to
+          respond to honking or ignore their lanes. This can result in
+          accidents, traffic jams, and road rage. However, Linear Amp Tech has
+          developed an innovative solution called the Wait System, which uses
+          radar technology to detect approaching vehicles and alert drivers with
+          dynamic warning signs. The system can be deployed with road
+          infrastructure to automatically manage traffic in remote locations
+          prone to traffic jams, making driving safer and more efficient.
+        </p>
+      </div>
 
-                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-none shadow rounded-bl-md rounded-br-md  ">
-                  <p className="font-semibold text-black   md:text-xl text-center">
-                    Kubeflow running on kubernetes cluster
-                  </p>
-                </div>
-              </div>
-
-              <div>
-                <img
-                  className="relative z-10 object-cover w-full rounded-tl-md rounded-tr-md   h-96"
-                  src={require("../assets/hypervisor.jpg")}
-                  alt="Hypervisor"
-                />
-
-                <div className="relative z-20 max-w-lg p-6 mx-auto -mt-25 bg-white rounded-none shadow rounded-bl-md rounded-br-md ">
-                  <p className="font-semibold text-black   md:text-xl text-center  ">
-                    Hypervisor running on our server
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div> */}
       {/* BLUE BOX */}
       <div className="lg:pr-48 lg:pl-48 h-[324px] w-[100%] bg-[#0465f8] flex justify-center justify-items-center mt-20  items-center content-center">
         <p className="text-center text-white text-[20px] leading-loose">
