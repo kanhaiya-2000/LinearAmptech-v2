@@ -91,6 +91,15 @@ const Header = () => {
                     <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
                       <NavLink
                         className="hover:text-blue-500"
+                        to="/products/rf-design-and-signal-processing"
+                      >
+                        Radio Frequency Design <br />
+                        and Signal Processing
+                      </NavLink>
+                    </li>
+                    <li className=" py-4 border-b cursor-pointer shadow-sm outline-1 px-3">
+                      <NavLink
+                        className="hover:text-blue-500"
                         to="/products/rf-power-amplifiers"
                       >
                         RF Power Amplifiers
