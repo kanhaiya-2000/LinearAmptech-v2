@@ -187,7 +187,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/karun.png")}
+                  src={require("../assets/profile/karun.png")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
@@ -229,7 +229,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/minakshi.png")}
+                  src={require("../assets/profile/minakshi.png")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
@@ -272,7 +272,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/gowrish.jpg")}
+                  src={require("../assets/profile/gowrish.jpg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
@@ -314,7 +314,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/vivek.jpeg")}
+                  src={require("../assets/profile/vivek.jpeg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">

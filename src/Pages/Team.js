@@ -3,24 +3,25 @@ import Footer from "../Components/Footer";
 import BoardMember from "../Components/BoardMember";
 import TeamMember from "../Components/TeamMember";
 import teambg from "../assets/teambg.jpg";
-import karun from "../assets/karun.png";
-import minakshi from "../assets/minakshi.png";
-import vivek from "../assets/vivek.jpeg";
-import gowrish from "../assets/gowrish.jpg";
-import kanhaiya from "../assets/kanhaiya.jfif";
-import suyash from "../assets/suyash.jfif";
-import devansh from "../assets/devansh.jfif";
-import achal from "../assets/achal.jfif";
-import vishu from "../assets/vishu.jfif";
-import aditya from "../assets/aditya.jfif";
 
-import hafizur from "../assets/hafizur.jpg";
-import omkar from "../assets/omkar.jfif";
-import manav from "../assets/manav.jfif";
+import karun from "../assets/profile/karun.png";
+import minakshi from "../assets/profile/minakshi.png";
+import vivek from "../assets/profile/vivek.jpeg";
+import gowrish from "../assets/profile/gowrish.jpg";
+import kanhaiya from "../assets/profile/kanhaiya.jfif";
+import suyash from "../assets/profile/suyash.jfif";
+import devansh from "../assets/profile/devansh.jfif";
+import achal from "../assets/profile/achal.jfif";
+import vishu from "../assets/profile/vishu.jfif";
+import aditya from "../assets/profile/aditya.jfif";
 
-import azhar from "../assets/azhar.jfif";
-import himanshi from "../assets/himanshi.jfif";
-import img from "../assets/img.png";
+import hafizur from "../assets/profile/hafizur.jpg";
+import omkar from "../assets/profile/omkar.jfif";
+import manav from "../assets/profile/manav.jfif";
+
+import azhar from "../assets/profile/azhar.jfif";
+import himanshi from "../assets/profile/himanshi.jfif";
+import img from "../assets/profile/img.png";
 
 const boardMember = [
   {
