@@ -3,6 +3,10 @@ import { Footer, Header } from "../Components";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
+import aboutbg from "../assets/aboutbg.jpg";
+import rf from "../assets/rfpower/0.png";
+import sdr from "../assets/SDR/1.jpg";
+import poweramp from "../assets/PowerAmp/1.png";
 
 const AboutUs = () => {
   return (
@@ -16,9 +20,6 @@ const AboutUs = () => {
             Get to Know Us
             <br /> Our Passion, Purpose, and People
           </h2>
-          {/* <p className="text-[1.5rem] font-mnormal mb-4">
-            Solutions for a smarter, more connected
-          </p> */}
         </div>
         <div className="absolute h-[400px] w-[100%] bg-black z-10 opacity-50"></div>
         <img
@@ -35,8 +36,7 @@ const AboutUs = () => {
               <div
                 className="h-64 bg-cover lg:h-full"
                 style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+                  backgroundImage: `url(${aboutbg})`,
                   width: "588px",
                   height: "480px",
                 }}
@@ -114,18 +114,19 @@ const AboutUs = () => {
               space applications. We provide vast range of high performance
               power amplifiers with frequency coverage from Dc to 18 GHz.
             </p>
-            <NavLink
-              to={"/products/rf-power-amplifiers"}
-              className="w-[114px] h-[36px]  px-5 py-3  mt-4 text-[14px] border border-white text-white  transition-colors duration-300 transform bg-[#0465F8]rounded-none lg:w-auto "
-            >
-              Read more
-            </NavLink>
+            <div className="w-[114px] h-[36px]  px-5 pt-1 mt-6 text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
+              <NavLink to={"/products/rf-power-amplifiers"}>Read more</NavLink>
+            </div>
           </div>
-          <div className="h-[282px] w-[477px] bg-white"></div>
+          <div className="h-[282px] w-[477px] bg-white">
+            <img src={rf} />
+          </div>
         </div>
 
         <div className="flex">
-          <div className="h-[282px] w-[477px] bg-white"></div>{" "}
+          <div className="h-[282px] w-[477px] bg-white">
+            <img src={sdr} className="h-[100%] " />
+          </div>
           <div className="h-[282px] w-[477px] bg-[#0465F8] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">
               Software Defined Point to Point Radio Applications
@@ -137,26 +138,35 @@ const AboutUs = () => {
               depends on flexibility, interoperability, accuracy, and
               promptness.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white    bg-[#0465F8]rounded-none lg:w-auto hover:scale-110 duration-300  ">
-              Read more
-            </button>
+            <div className="w-[114px] h-[36px]  px-5 pt-1 mt-2  text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
+              <NavLink to={"/products/software-defined-radio"}>
+                Read more
+              </NavLink>
+            </div>
           </div>
         </div>
 
         <div className="flex">
           <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
-            <h1 className="text-[20px] font-semibold">Product Heading</h1>
+            <h1 className="text-[20px] font-semibold">
+              RF linear and nonlinear characterization
+            </h1>
             <p className="mt-4">
-              Vestibulum volutpat ante id rhoncus interdum. Morbi porttitor
-              neque lacus, in cursus diam suscipit nec. Phasellus odio null
-              posuere viverra erat. Proin vestibulum facilisis libero in
-              porttitor. Maecenas et fermentum felis.
+              Our capabilities lies in the generation of single and multiple
+              Tone, modulated signals like QAM, OFDM, LTE, pulse shaping in
+              baseband and transmission in analog domain. The testbed designed
+              is capable of performing the measurement of active devices as well
+              as passive devices.
             </p>
-            <button className="w-[114px] h-[36px]  px-5   mt-4 text-[14px] border border-white text-white    bg-[#0465F8]rounded-none lg:w-auto hover:scale-110 duration-300  ">
-              Read more
-            </button>
+            <div className="w-[114px] h-[36px]  px-5 pt-1 mt-2  text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
+              <NavLink to={"/products/rf-linear-nonlinear-characterization"}>
+                Read more
+              </NavLink>
+            </div>
           </div>
-          <div className="h-[282px] w-[477px] bg-white border-b border-r border-black"></div>
+          <div className="h-[282px] w-[477px] bg-white border-b border-r border-black">
+            <img src={poweramp} />
+          </div>
         </div>
       </div>
       {/* BOARD of Directors */}
@@ -258,15 +268,16 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
+
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/vivek.jpeg")}
+                  src={require("../assets/gowrish.jpg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Mr. Vivek Sharma
+                    Dr. Gowrish B
                   </h1>
 
                   <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
@@ -303,12 +314,12 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/gowrish.jpg")}
+                  src={require("../assets/vivek.jpeg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
                   <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr. Gowrish B
+                    Mr. Vivek Sharma
                   </h1>
 
                   <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
@@ -356,9 +367,16 @@ const AboutUs = () => {
 
           <div className="mt-8 lg:mt-0 ">
             <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
-              <button className="px-6 py-2 text-sm tracking-wide text-white   hover:scale-110 duration-300  border border-white font-semibold ">
-                Get Started
-              </button>
+              <div className="px-6 py-2 text-sm tracking-wide text-white   hover:scale-110 duration-300  border border-white font-semibold ">
+                <NavLink
+                  to={
+                    "https://www.linkedin.com/company/linear-amptech/?originalSubdomain=in"
+                  }
+                  target="_blank"
+                >
+                  Read more
+                </NavLink>
+              </div>
             </div>
           </div>
         </div>

@@ -1,13 +1,179 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import { BsLinkedin, BsFacebook } from "react-icons/bs";
-import { AiFillTwitterCircle } from "react-icons/ai";
+import BoardMember from "../Components/BoardMember";
+import TeamMember from "../Components/TeamMember";
+import teambg from "../assets/teambg.jpg";
+import karun from "../assets/karun.png";
+import minakshi from "../assets/minakshi.png";
+import vivek from "../assets/vivek.jpeg";
+import gowrish from "../assets/gowrish.jpg";
+import kanhaiya from "../assets/kanhaiya.jfif";
+import suyash from "../assets/suyash.jfif";
+import devansh from "../assets/devansh.jfif";
+import achal from "../assets/achal.jfif";
+import vishu from "../assets/vishu.jfif";
+import aditya from "../assets/aditya.jfif";
 
+import hafizur from "../assets/hafizur.jpg";
+import omkar from "../assets/omkar.jfif";
+import manav from "../assets/manav.jfif";
+
+import azhar from "../assets/azhar.jfif";
+import himanshi from "../assets/himanshi.jfif";
+import img from "../assets/img.png";
+
+const boardMember = [
+  {
+    photo: karun,
+    name: "Dr. Karun Rawat",
+    position: "Founder & Chairman",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: minakshi,
+    name: "Dr. Minakshi Rawat",
+    position: "Founder & Director",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+
+  {
+    photo: gowrish,
+    name: "Dr. Gowrish B",
+    position: "Director",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: vivek,
+    name: "Mr. Vivek Sharma",
+    position: "Director",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+];
+
+const coarTeam = [
+  {
+    photo: kanhaiya,
+    name: "Kanhaiya Kumar",
+    position: "Position",
+    linkedin: "https://www.linkedin.com/in/kanhaiya-kumar-1ba2b81a1/",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: suyash,
+    name: "Suyash Jain",
+    position: "Position",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+
+  {
+    photo: achal,
+    name: "Achal Talati",
+    position: "Position",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: devansh,
+    name: "Devansh Joshi",
+    position: "Position",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: vishu,
+    name: "Vishu Saxena",
+    position: "Position",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: aditya,
+    name: "Aditya Raj Singh",
+    position: "Position",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+];
+
+const softwareTeam = [
+  {
+    photo: hafizur,
+    name: "Hafizur Rahman",
+    position: "Position",
+    linkedin: "https://www.linkedin.com/in/hafeez25/",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: omkar,
+    name: "Omkar Darde",
+    position: "Position",
+    linkedin: "https://www.linkedin.com/in/omkar-darde-680041215/",
+    twitter: "#",
+    facebook: "#",
+  },
+
+  {
+    photo: manav,
+    name: "Manav Singh Chauhan",
+    position: "Position",
+    linkedin: "https://www.linkedin.com/in/manav-chauhan-430379267/",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: img,
+    name: "Deepak Agrawal",
+    position: "Position",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
+];
+const hardwareTeam = [
+  {
+    photo: azhar,
+    name: "Azhar Ansari",
+    position: "Position",
+    linkedin: "https://www.linkedin.com/in/azhar-ansari-767a85215/",
+    twitter: "#",
+    facebook: "#",
+  },
+  {
+    photo: himanshi,
+    name: "Himanshi Bagel",
+    position: "Position",
+    linkedin: "https://www.linkedin.com/in/himanshi-baghel-846747234",
+    twitter: "#",
+    facebook: "#",
+  },
+];
 const Team = () => {
   return (
     <div>
       <Header />
-      <div className="h-[429px] bg-[#0465F8] w-[100%] flex justify-center items-center">
+
+      <div
+        className="h-[429px] w-[100%] flex justify-center items-center"
+        style={{
+          backgroundImage: `url(${teambg})`,
+        }}
+      >
         <div className=" ">
           <p className="font-bold text-[64px] text-white text-center">
             Meet Our Team
@@ -31,440 +197,62 @@ const Team = () => {
             </p>
 
             <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-              <div className="flex flex-col items-center justify-around   border">
-                <img
-                  className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/karun.png")}
-                  alt=""
-                />
-                <div className="self-start m-4 justify-self-start">
-                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr. Karun Rawat
-                  </h1>
-
-                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                    Founder & Chairman
-                  </p>
-
-                  <div className="flex mt-3 -mx-2">
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Reddit"
-                    >
-                      <AiFillTwitterCircle size={26} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Facebook"
-                    >
-                      <BsFacebook size={22} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Github"
-                    >
-                      <BsLinkedin size={22} />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-around   border">
-                <img
-                  className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/minakshi.png")}
-                  alt=""
-                />
-                <div className="self-start m-4 justify-self-start">
-                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr. Minakshi Rawat
-                  </h1>
-
-                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                    Founder & Director
-                  </p>
-
-                  <div className="flex mt-3 -mx-2">
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Reddit"
-                    >
-                      <AiFillTwitterCircle size={26} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Facebook"
-                    >
-                      <BsFacebook size={22} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Github"
-                    >
-                      <BsLinkedin size={22} />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-around   border">
-                <img
-                  className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/vivek.jpeg")}
-                  alt=""
-                />
-                <div className="self-start m-4 justify-self-start">
-                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Mr. Vivek Sharma
-                  </h1>
-
-                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                    Director
-                  </p>
-
-                  <div className="flex mt-3 -mx-2">
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Reddit"
-                    >
-                      <AiFillTwitterCircle size={26} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Facebook"
-                    >
-                      <BsFacebook size={22} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Github"
-                    >
-                      <BsLinkedin size={22} />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-around   border">
-                <img
-                  className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/gowrish.jpg")}
-                  alt=""
-                />
-                <div className="self-start m-4 justify-self-start">
-                  <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                    Dr. Gowrish B
-                  </h1>
-
-                  <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                    Director
-                  </p>
-
-                  <div className="flex mt-3 -mx-2">
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Reddit"
-                    >
-                      <AiFillTwitterCircle size={26} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Facebook"
-                    >
-                      <BsFacebook size={22} />
-                    </a>
-
-                    <a
-                      href="#"
-                      className="mx-2 text-black  "
-                      aria-label="Github"
-                    >
-                      <BsLinkedin size={22} />
-                    </a>
-                  </div>
-                </div>
-              </div>
+              {boardMember.map((member) => {
+                return <BoardMember member={member} />;
+              })}
             </div>
           </div>
         </section>
       </div>
-      {/* teams member  */}
-      <div className="mt-10">
+      {/* core team  */}
+      <div className="mt-2">
         <div>
           <section className="bg-white ">
             <div className="container px-6 py-10 mx-auto">
               <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
-                Other Team
+                Core Team
               </h1>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
-                <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                  <img
-                    className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/kanhaiya.jfif")}
-                    alt=""
-                  />
-                  <div className="self-center justify-self-start">
-                    <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Kanhaiya Kumar
-                    </h1>
+              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
+                {coarTeam.map((member) => {
+                  return <TeamMember member={member} />;
+                })}
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      {/* Software team */}
+      <div className="mt-4">
+        <div>
+          <section className="bg-white ">
+            <div className="container px-6 py-2 mx-auto">
+              <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+                Software Team
+              </h1>
 
-                    <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                      Position
-                    </p>
+              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
+                {softwareTeam.map((member) => {
+                  return <TeamMember member={member} />;
+                })}
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      {/* hardware team */}
+      <div className="mt-6">
+        <div>
+          <section className="bg-white ">
+            <div className="container px-6 py-2 mx-auto">
+              <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+                Hardware Team
+              </h1>
 
-                    <div className="flex mt-3 -mx-2">
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Reddit"
-                      >
-                        <AiFillTwitterCircle size={26} />
-                      </a>
-
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Facebook"
-                      >
-                        <BsFacebook size={22} />
-                      </a>
-
-                      <a
-                        href="https://www.linkedin.com/in/kanhaiya-kumar-1ba2b81a1/"
-                        className="mx-2 text-black  "
-                        aria-label="Github"
-                      >
-                        <BsLinkedin size={22} />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                  <img
-                    className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/suyash.jfif")}
-                    alt="Dr Karun Rawat"
-                  />
-                  <div className="self-center justify-self-start">
-                    <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Suyash Jain
-                    </h1>
-
-                    <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                      Position
-                    </p>
-
-                    <div className="flex mt-3 -mx-2">
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Reddit"
-                      >
-                        <AiFillTwitterCircle size={26} />
-                      </a>
-
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Facebook"
-                      >
-                        <BsFacebook size={22} />
-                      </a>
-
-                      <a
-                        href="https://www.linkedin.com/in/jainsuyash/"
-                        className="mx-2 text-black  "
-                        aria-label="Github"
-                      >
-                        <BsLinkedin size={22} />
-                      </a>
-                    </div>
-                  </div>
-                </div>{" "}
-                <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                  <img
-                    className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/achal.jfif")}
-                    alt=""
-                  />
-                  <div className="self-center justify-self-start">
-                    <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Achal Talati
-                    </h1>
-
-                    <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
-                      Position
-                    </p>
-
-                    <div className="flex mt-3 -mx-2">
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Reddit"
-                      >
-                        <AiFillTwitterCircle size={26} />
-                      </a>
-
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Facebook"
-                      >
-                        <BsFacebook size={22} />
-                      </a>
-
-                      <a
-                        href="https://www.linkedin.com/in/achal-talati-45a9631b2/"
-                        className="mx-2 text-black  "
-                        aria-label="Github"
-                      >
-                        <BsLinkedin size={22} />
-                      </a>
-                    </div>
-                  </div>
-                </div>{" "}
-                <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                  <img
-                    className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/devansh.jfif")}
-                    alt=""
-                  />
-                  <div className="self-center justify-self-start">
-                    <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Devansh Joshi
-                    </h1>
-
-                    <p className="mt-2 text-black capitalize text-[20px] group-hover:text-gray-300">
-                      Position
-                    </p>
-
-                    <div className="flex mt-3 -mx-2">
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Reddit"
-                      >
-                        <AiFillTwitterCircle size={26} />
-                      </a>
-
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Facebook"
-                      >
-                        <BsFacebook size={22} />
-                      </a>
-
-                      <a
-                        href="https://www.linkedin.com/in/jdevansh/"
-                        className="mx-2 text-black  "
-                        aria-label="Github"
-                      >
-                        <BsLinkedin size={22} />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                  <img
-                    className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/vishu.jfif")}
-                    alt=""
-                  />
-                  <div className="self-center justify-self-start">
-                    <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Vishu Saxena
-                    </h1>
-
-                    <p className="mt-2 text-black capitalize text-[20px] group-hover:text-gray-300">
-                      Position
-                    </p>
-
-                    <div className="flex mt-3 -mx-2">
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Reddit"
-                      >
-                        <AiFillTwitterCircle size={26} />
-                      </a>
-
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Facebook"
-                      >
-                        <BsFacebook size={22} />
-                      </a>
-
-                      <a
-                        href="https://www.linkedin.com/in/vishu-saxena-73432818b/"
-                        className="mx-2 text-black  "
-                        aria-label="Github"
-                      >
-                        <BsLinkedin size={22} />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-row items-center justify-around h-[215px] w-[594px]  border">
-                  <img
-                    className="object-cover w-[148px] h-[164px] "
-                    src={require("../assets/aditya.jfif")}
-                    alt=""
-                  />
-                  <div className="self-center justify-self-start">
-                    <h1 className="mt-2 text-2xl font-semibold text-black capitalize  group-hover:text-white">
-                      Aditya Raj Singh
-                    </h1>
-
-                    <p className="mt-2 text-black capitalize text-[20px] group-hover:text-gray-300">
-                      Position
-                    </p>
-
-                    <div className="flex mt-3 -mx-2">
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Reddit"
-                      >
-                        <AiFillTwitterCircle size={26} />
-                      </a>
-
-                      <a
-                        href="#"
-                        className="mx-2 text-black  "
-                        aria-label="Facebook"
-                      >
-                        <BsFacebook size={22} />
-                      </a>
-
-                      <a
-                        href="https://www.linkedin.com/in/aditya-raj-singh-gour-8438a6179/"
-                        className="mx-2 text-black  "
-                        aria-label="Github"
-                      >
-                        <BsLinkedin size={22} />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+              <div className="grid grid-cols-1 gap-8  xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
+                {hardwareTeam.map((member) => {
+                  return <TeamMember member={member} />;
+                })}
               </div>
             </div>
           </section>
