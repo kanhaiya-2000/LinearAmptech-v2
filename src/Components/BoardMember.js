@@ -16,7 +16,7 @@ const BoardMember = (props) => {
           {props.member.name}
         </h1>
 
-        <p className="mt-2 text-black capitalize text-[20px]  group-hover:text-gray-300">
+        <p className=" text-black capitalize text-[20px]  group-hover:text-gray-300">
           {props.member.position}
         </p>
 
@@ -29,7 +29,12 @@ const BoardMember = (props) => {
             <BsFacebook size={22} />
           </a>
 
-          <a href="#" className="mx-2 text-black  " aria-label="Github">
+          <a
+            href={props.member.linkedin}
+            className="mx-2 text-black  "
+            aria-label="Github"
+            target={"_blank"}
+          >
             <BsLinkedin size={22} />
           </a>
         </div>
