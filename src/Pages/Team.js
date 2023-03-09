@@ -4,177 +4,11 @@ import BoardMember from "../Components/BoardMember";
 import TeamMember from "../Components/TeamMember";
 import teambg from "../assets/teambg.jpg";
 
-import karun from "../assets/profile/karun.png";
-import minakshi from "../assets/profile/minakshi.png";
-import vivek from "../assets/profile/vivek.jpeg";
-import gowrish from "../assets/profile/gowrish.jpg";
-import kanhaiya from "../assets/profile/kanhaiya.jfif";
-import suyash from "../assets/profile/suyash.jfif";
-import devansh from "../assets/profile/devansh.jfif";
-import achal from "../assets/profile/achal.jfif";
-import vishu from "../assets/profile/vishu.jfif";
-import aditya from "../assets/profile/aditya.jfif";
+import { boardMember } from "../data/BoardMemberData";
+import { coreTeam } from "../data/CoreTeamData";
+import { softwareTeam } from "../data/SoftwareTeamData";
+import { hardwareTeam } from "../data/HardwareTeamData";
 
-import hafizur from "../assets/profile/hafizur.jpg";
-import omkar from "../assets/profile/omkar.jfif";
-import manav from "../assets/profile/manav.jfif";
-import deepak from "../assets/profile/deepak.jpg";
-
-import rahul from "../assets/profile/rahul.jpg";
-import bipul from "../assets/profile/bipul.jpg";
-import azhar from "../assets/profile/azhar.jfif";
-import himanshi from "../assets/profile/himanshi.jfif";
-
-const boardMember = [
-  {
-    photo: karun,
-    name: "Dr. Karun Rawat",
-    position: "Founder & Chairman",
-    linkedin: "https://www.linkedin.com/in/karun-rawat-b732784b/",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: minakshi,
-    name: "Dr. Minakshi Rawat",
-    position: "Founder & Director",
-    linkedin: "#",
-    twitter: "#",
-    facebook: "#",
-  },
-
-  {
-    photo: gowrish,
-    name: "Dr. Gowrish B",
-    position: "Director",
-    linkedin: "#",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: vivek,
-    name: "Mr. Vivek Sharma",
-    position: "Director",
-    linkedin: "https://www.linkedin.com/in/vivek-sharma-986950121/",
-    twitter: "#",
-    facebook: "#",
-  },
-];
-
-const coarTeam = [
-  {
-    photo: kanhaiya,
-    name: "Kanhaiya Kumar",
-    position: "Alpha Stocks",
-    linkedin: "https://www.linkedin.com/in/kanhaiya-kumar-1ba2b81a1/",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: vishu,
-    name: "Vishu Saxena",
-    position: "Critix Systems, Flookup",
-    linkedin: "https://www.linkedin.com/in/vishu-saxena-73432818b/",
-    twitter: "#",
-    facebook: "#",
-  },
-
-  {
-    photo: achal,
-    name: "Achal Talati",
-    position: "Oracle, PowerPlay",
-    linkedin: "https://www.linkedin.com/in/achal-talati-45a9631b2/",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: devansh,
-    name: "Devansh Joshi",
-    position: "Sprinklr",
-    linkedin: "https://www.linkedin.com/in/jdevansh/",
-    twitter: "#",
-    facebook: "#",
-  },
-
-  {
-    photo: suyash,
-    name: "Suyash Jain",
-    position: "Intuit",
-    linkedin: "https://www.linkedin.com/in/jainsuyash/",
-    twitter: "#",
-    facebook: "#",
-  },
-];
-
-const softwareTeam = [
-  {
-    photo: hafizur,
-    name: "Hafizur Rahman",
-    position: "Linear AmpTech",
-    linkedin: "https://www.linkedin.com/in/hafeez25/",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: omkar,
-    name: "Omkar Darde",
-    position: "Linear AmpTech",
-    linkedin: "https://www.linkedin.com/in/omkar-darde-680041215/",
-    twitter: "#",
-    facebook: "#",
-  },
-
-  {
-    photo: manav,
-    name: "Manav Singh Chauhan",
-    position: "Linear AmpTech",
-    linkedin: "https://www.linkedin.com/in/manav-chauhan-430379267/",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: deepak,
-    name: "Deepak Agrawal",
-    position: "Salesforce",
-    linkedin: "https://www.linkedin.com/in/deepakjsagarwal/",
-    twitter: "#",
-    facebook: "#",
-  },
-];
-const hardwareTeam = [
-  {
-    photo: rahul,
-    name: "Rahul Kumar",
-    position: "Qualcomm",
-    linkedin: "https://www.linkedin.com/in/rahul-kumar-675a18190/",
-    twitter: "",
-    facebook: "",
-  },
-  {
-    photo: bipul,
-    name: "Bipul Raj",
-    position: "Position",
-    linkedin: "https://www.linkedin.com/in/bipul-raj-3a7596201/",
-    twitter: "",
-    facebook: "",
-  },
-  {
-    photo: azhar,
-    name: "Azhar Ansari",
-    position: "Linear AmpTech",
-    linkedin: "https://www.linkedin.com/in/azhar-ansari-767a85215/",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    photo: himanshi,
-    name: "Himanshi Bagel",
-    position: "Linear AmpTech",
-    linkedin: "https://www.linkedin.com/in/himanshi-baghel-846747234",
-    twitter: "#",
-    facebook: "#",
-  },
-];
 const Team = () => {
   return (
     <div>
@@ -240,7 +74,7 @@ const Team = () => {
               </p>
 
               <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4 xl:[&>*:nth-child(5)]:relative xl:[&>*:nth-child(5)]:left-[480px]">
-                {coarTeam.map((member) => {
+                {coreTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
               </div>
