@@ -178,16 +178,21 @@ const AboutUs = () => {
             </h1>
 
             <p className="max-w-2xl text-[20px] mx-auto my-6 text-center text-black ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              incidunt ex placeat modi magni quia error alias, adipisci rem
-              similique, at omnis eligendi optio eos harum.
+              Our board of directors comprises seasoned professionals who
+              possess a wealth of knowledge and expertise in various fields. We
+              are honored to have a world-renowned power amplifier expert Dr.
+              Karun Rawat, a professor from IIT Roorkee, and an experienced
+              member in the field of electronics communication on our board.
+              With their diverse skill sets and leadership, we are well-equipped
+              to steer our organization towards success and deliver outstanding
+              outcomes to our stakeholders
             </p>
 
             <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/karun.png")}
+                  src={require("../assets/profile/karun.png")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
@@ -229,7 +234,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/minakshi.png")}
+                  src={require("../assets/profile/minakshi.png")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
@@ -272,7 +277,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/gowrish.jpg")}
+                  src={require("../assets/profile/gowrish.jpg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
@@ -314,7 +319,7 @@ const AboutUs = () => {
               <div className="flex flex-col items-center justify-around   border">
                 <img
                   className="object-cover w-[100%] h-[auto] "
-                  src={require("../assets/vivek.jpeg")}
+                  src={require("../assets/profile/vivek.jpeg")}
                   alt=""
                 />
                 <div className="self-start m-4 justify-self-start">
