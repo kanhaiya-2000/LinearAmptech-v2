@@ -6,8 +6,8 @@ import "aos/dist/aos.css";
 
 const TempProduct = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
-  }, []);
+    AOS.init({ duration: 500, delay: 300 });
+  }, [AOS]);
   return (
     <div>
       <Header />
@@ -50,8 +50,12 @@ const TempProduct = () => {
         </p>
         <div className="w-[200px] h-[2px] bg-black inline-block mt-24"></div>
       </div>
-      <div className="w-[100vw] overflow-hidden h-[100px]">
-        <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[50%]" />
+      <div
+        className="w-[100vw] overflow-hidden h-[200px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
       </div>
 
       <div className="productContainer  w-[100%] text-[1.2rem] leading-relaxed">
@@ -67,7 +71,7 @@ const TempProduct = () => {
               <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 Radio Frequency Passive Components
               </h2>
-              <p>
+              <p data-aos="fade-left" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum consectetur, est id consequat ultricies, nibh lacus
                 vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
@@ -87,10 +91,10 @@ const TempProduct = () => {
         <div className="flex  justify-center gap-16 py-40 px-[10%] text-white bg-primary-color">
           <div className="w-[800px] flex flex-col justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5">
+              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 Radio Frequency Power Amplifier
               </h2>
-              <p>
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum consectetur, est id consequat ultricies, nibh lacus
                 vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
@@ -112,8 +116,10 @@ const TempProduct = () => {
             ></img>
           </div>
         </div>
-        <div className="w-[100vw] overflow-hidden">
-          <BgElement2 className="w-[300px] absolute origin-center -left-36 -translate-y-[50%]" />
+        <div className="w-[100vw] h-[100px]">
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <BgElement2 className="w-[300px] absolute origin-center -left-36 -translate-y-[30%]" />
+          </div>
         </div>
 
         <div className="flex  justify-center gap-16 my-40 px-[10%]">
@@ -125,8 +131,10 @@ const TempProduct = () => {
           </div>
           <div className="w-[800px] flex flex-col justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5">GaN MMIC Designs</h2>
-              <p>
+              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
+                GaN MMIC Designs
+              </h2>
+              <p data-aos="fade-left" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum consectetur, est id consequat ultricies, nibh lacus
                 vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
@@ -146,8 +154,10 @@ const TempProduct = () => {
         <div className="flex  justify-center gap-16 py-40 px-[10%] text-white bg-primary-color">
           <div className="w-[800px] flex flex-col justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5">SDR Test-Beds</h2>
-              <p>
+              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
+                SDR Test-Beds
+              </h2>
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum consectetur, est id consequat ultricies, nibh lacus
                 vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
@@ -169,8 +179,10 @@ const TempProduct = () => {
             ></img>
           </div>
         </div>
-        <div className="w-[100vw] overflow-hidden ">
-          <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[50%]" />
+        <div className="w-[100vw] ">
+          <div data-aos="fade-up" data-aos-duration="1500">
+            <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[50%]" />
+          </div>
         </div>
 
         <div className="flex  justify-center gap-16 my-40 px-[10%]">
@@ -182,10 +194,10 @@ const TempProduct = () => {
           </div>
           <div className="w-[800px] flex flex-col justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5">
+              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 Transmitter Linearization
               </h2>
-              <p>
+              <p data-aos="fade-left" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum consectetur, est id consequat ultricies, nibh lacus
                 vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
@@ -205,8 +217,10 @@ const TempProduct = () => {
         <div className="flex  justify-center gap-16 py-40 px-[10%] text-white bg-primary-color">
           <div className="w-[800px] flex flex-col justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5">Antenna Solutions</h2>
-              <p>
+              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
+                Antenna Solutions
+              </h2>
+              <p data-aos="fade-right" data-aos-duration="1000">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum consectetur, est id consequat ultricies, nibh lacus
                 vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
@@ -232,7 +246,10 @@ const TempProduct = () => {
 
       <div className="text-white text-[1.3rem] leading-relaxed">
         <div className="absolute py-10 px-[12%] ">
-          <h2 className="text-[3rem] font-bold text-center mb-10">
+          <h2
+            className="text-[3rem] font-bold text-center mb-10"
+            data-aos="fade-up"
+          >
             What we focus
           </h2>
           <p className="">
