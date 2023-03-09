@@ -105,14 +105,14 @@ const coarTeam = [
     facebook: "#",
   },
 
-  {
-    photo: aditya,
-    name: "Aditya Raj Singh",
-    position: "Position",
-    linkedin: "#",
-    twitter: "#",
-    facebook: "#",
-  },
+  // {
+  //   photo: aditya,
+  //   name: "Aditya Raj Singh",
+  //   position: "Position",
+  //   linkedin: "#",
+  //   twitter: "#",
+  //   facebook: "#",
+  // },
 ];
 
 const softwareTeam = [
