@@ -1,31 +1,31 @@
 import Header from "../Components/Header";
 
 import Footer from "../Components/Footer";
-import celebrate from "../assets/celebrate.jpg";
-import celebrate1 from "../assets/celebrate (1).jpg";
-import celebrate2 from "../assets/celebrate (2).jpg";
-import celebrate3 from "../assets/celebrate (3).jpg";
-import celebrate4 from "../assets/celebrate (4).jpg";
-import celebrate5 from "../assets/celebrate (5).jpg";
-import celebrate6 from "../assets/celebrate (6).jpg";
-import celebrate7 from "../assets/celebrate (7).jpg";
-import celebrate8 from "../assets/celebrate (8).jpg";
+import celebrate from "../assets/news/news.jpg";
+import celebrate1 from "../assets/news/celebrate (1).jpg";
+import celebrate2 from "../assets/news/celebrate (2).jpg";
+import celebrate3 from "../assets/news/celebrate (3).jpg";
+import celebrate4 from "../assets/news/celebrate (4).jpg";
+import celebrate5 from "../assets/news/celebrate (5).jpg";
+import celebrate6 from "../assets/news/celebrate (6).jpg";
+import celebrate7 from "../assets/news/celebrate (7).jpg";
+import celebrate8 from "../assets/news/celebrate (8).jpg";
 
-import news from "../assets/news.jpg";
-import news1 from "../assets/news (1).jpg";
-import news2 from "../assets/news (2).jpg";
-import news3 from "../assets/news (3).jpg";
-import news4 from "../assets/news (4).jpg";
-import news5 from "../assets/news (5).jpg";
-import news6 from "../assets/news (6).jpg";
-import news7 from "../assets/news (7).jpg";
-// import news1 from "../assets/news (1).jpg";
-import news8 from "../assets/news (8).jpg";
-// import news9 from "../assets/news (9).jpg";
-// import news8 from "../assets/news (8).jpg";
-import news9 from "../assets/news (12).jpg";
+import news from "../assets/news/news.jpg";
+import news1 from "../assets/news/news (1).jpg";
+import news2 from "../assets/news/news (2).jpg";
+import news3 from "../assets/news/news (3).jpg";
+import news4 from "../assets/news/news (4).jpg";
+import news5 from "../assets/news/news (5).jpg";
+import news6 from "../assets/news/news (6).jpg";
+import news7 from "../assets/news/news (7).jpg";
+// import news1 from "../assets/news/news (1).jpg";
+import news8 from "../assets/news/news (8).jpg";
+// import news9 from "../assets/news/news (9).jpg";
+// import news8 from "../assets/news/news (8).jpg";
+import news9 from "../assets/news/news (12).jpg";
 
-import newsbg from "../assets/newsbg.jpg";
+import newsbg from "../assets/news/newsbg.jpg";
 
 const data = [
   {
