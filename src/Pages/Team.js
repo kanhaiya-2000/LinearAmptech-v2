@@ -30,7 +30,7 @@ const boardMember = [
     photo: karun,
     name: "Dr. Karun Rawat",
     position: "Founder & Chairman",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/karun-rawat-b732784b/",
     twitter: "#",
     facebook: "#",
   },
@@ -55,7 +55,7 @@ const boardMember = [
     photo: vivek,
     name: "Mr. Vivek Sharma",
     position: "Director",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/vivek-sharma-986950121/",
     twitter: "#",
     facebook: "#",
   },
@@ -65,7 +65,7 @@ const coarTeam = [
   {
     photo: kanhaiya,
     name: "Kanhaiya Kumar",
-    position: "Position",
+    position: "Alpha Stocks",
     linkedin: "https://www.linkedin.com/in/kanhaiya-kumar-1ba2b81a1/",
     twitter: "#",
     facebook: "#",
@@ -73,8 +73,8 @@ const coarTeam = [
   {
     photo: vishu,
     name: "Vishu Saxena",
-    position: "Position",
-    linkedin: "#",
+    position: "Critix Systems, Flookup",
+    linkedin: "https://www.linkedin.com/in/vishu-saxena-73432818b/",
     twitter: "#",
     facebook: "#",
   },
@@ -82,16 +82,16 @@ const coarTeam = [
   {
     photo: achal,
     name: "Achal Talati",
-    position: "Position",
-    linkedin: "#",
+    position: "Oracle, PowerPlay",
+    linkedin: "https://www.linkedin.com/in/achal-talati-45a9631b2/",
     twitter: "#",
     facebook: "#",
   },
   {
     photo: devansh,
     name: "Devansh Joshi",
-    position: "Position",
-    linkedin: "#",
+    position: "Sprinklr",
+    linkedin: "https://www.linkedin.com/in/jdevansh/",
     twitter: "#",
     facebook: "#",
   },
@@ -99,27 +99,18 @@ const coarTeam = [
   {
     photo: suyash,
     name: "Suyash Jain",
-    position: "Position",
-    linkedin: "#",
+    position: "Intuit",
+    linkedin: "https://www.linkedin.com/in/jainsuyash/",
     twitter: "#",
     facebook: "#",
   },
-
-  // {
-  //   photo: aditya,
-  //   name: "Aditya Raj Singh",
-  //   position: "Position",
-  //   linkedin: "#",
-  //   twitter: "#",
-  //   facebook: "#",
-  // },
 ];
 
 const softwareTeam = [
   {
     photo: hafizur,
     name: "Hafizur Rahman",
-    position: "Position",
+    position: "Linear AmpTech",
     linkedin: "https://www.linkedin.com/in/hafeez25/",
     twitter: "#",
     facebook: "#",
@@ -127,7 +118,7 @@ const softwareTeam = [
   {
     photo: omkar,
     name: "Omkar Darde",
-    position: "Position",
+    position: "Linear AmpTech",
     linkedin: "https://www.linkedin.com/in/omkar-darde-680041215/",
     twitter: "#",
     facebook: "#",
@@ -136,7 +127,7 @@ const softwareTeam = [
   {
     photo: manav,
     name: "Manav Singh Chauhan",
-    position: "Position",
+    position: "Linear AmpTech",
     linkedin: "https://www.linkedin.com/in/manav-chauhan-430379267/",
     twitter: "#",
     facebook: "#",
@@ -144,7 +135,7 @@ const softwareTeam = [
   {
     photo: deepak,
     name: "Deepak Agrawal",
-    position: "Position",
+    position: "Salesforce",
     linkedin: "https://www.linkedin.com/in/deepakjsagarwal/",
     twitter: "#",
     facebook: "#",
@@ -154,7 +145,7 @@ const hardwareTeam = [
   {
     photo: rahul,
     name: "Rahul Kumar",
-    position: "Position",
+    position: "Qualcomm",
     linkedin: "https://www.linkedin.com/in/rahul-kumar-675a18190/",
     twitter: "",
     facebook: "",
@@ -170,7 +161,7 @@ const hardwareTeam = [
   {
     photo: azhar,
     name: "Azhar Ansari",
-    position: "Position",
+    position: "Linear AmpTech",
     linkedin: "https://www.linkedin.com/in/azhar-ansari-767a85215/",
     twitter: "#",
     facebook: "#",
@@ -178,7 +169,7 @@ const hardwareTeam = [
   {
     photo: himanshi,
     name: "Himanshi Bagel",
-    position: "Position",
+    position: "Linear AmpTech",
     linkedin: "https://www.linkedin.com/in/himanshi-baghel-846747234",
     twitter: "#",
     facebook: "#",
@@ -211,7 +202,7 @@ const Team = () => {
               Board Of Directors
             </h1>
 
-            <p className="max-w-2xl text-[20px] mx-auto my-6 text-center text-black ">
+            <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
               Our board of directors comprises seasoned professionals who
               possess a wealth of knowledge and expertise in various fields. We
               are honored to have a world-renowned power amplifier expert Dr.
@@ -238,7 +229,7 @@ const Team = () => {
               <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
                 Core Team
               </h1>
-              <p className="max-w-2xl text-[20px] mx-auto my-6 text-center text-black ">
+              <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
                 Our core team comprises talented individuals with diverse
                 backgrounds and experiences. Our members hail from some of the
                 largest software companies in the world, including JPMC,
@@ -276,7 +267,7 @@ const Team = () => {
         </div>
       </div>
       {/* hardware team */}
-      <div className="mt-6">
+      <div className="mt-6 mb-6">
         <div>
           <section className="bg-white ">
             <div className="container px-6 py-2 mx-auto">
