@@ -19,6 +19,7 @@ module.exports = {
         square: "square",
         roman: "upper-roman",
       },
+      padding: ["last"],
     },
   },
   plugins: [],

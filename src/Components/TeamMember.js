@@ -3,7 +3,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const TeamMember = (props) => {
   return (
-    <div className="flex flex-col items-center justify-between   border ">
+    <div className="flex flex-col items-center justify-between   border  ">
       <img
         className="object-cover w-[100%] h-[auto] "
         src={props.member.photo}

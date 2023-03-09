@@ -239,7 +239,7 @@ const Team = () => {
                 exceptional outcomes to our clients.
               </p>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
+              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4 xl:[&>*:nth-child(5)]:relative xl:[&>*:nth-child(5)]:left-[480px]">
                 {coarTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
