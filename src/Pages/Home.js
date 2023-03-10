@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Footer, Slider } from "../Components";
 import { NavLink } from "react-router-dom";
 import Header from "../Components/Header";
 import video1 from "../assets/video/1.mp4";
+import {
+  BgElement1,
+  BgElement2,
+  BgElement3,
+  Element1,
+  Element2,
+  Element3,
+} from "../assets";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: 500, delay: 300 });
+  }, [AOS]);
   return (
     <div className="font-Inter">
       <Header />
@@ -14,7 +27,7 @@ const Home = () => {
       <div className="heroSection gap-2  h-[88vh] flex flex-col justify-center items-center text-white z-0 overflow-hidden">
         {/* <div className=" bg-slate-600 z-10"></div> */}
         <video autoPlay muted loop src={video1} className="z-10" />
-        <div className="absolute w-[100%] h-[50vh] z-50 flex flex-col justify-center items-center">
+        <div className="absolute w-[100%] h-[50vh] z-10 flex flex-col justify-center items-center">
           <h2 className=" text-[5rem] font-bold drop-shadow-2xl">
             Linear AmpTech
           </h2>
@@ -32,27 +45,17 @@ const Home = () => {
 
       {/* *********************Intro Section****************************** */}
 
-      <div className="introSection gap-0  flex justify-center items-center px-[10%] h-[100vh] pb-10">
-        <div className="flex justify-end items-end translate-x-28">
-          <div className="flex flex-col gap-5">
+      <div className="introSection gap-16  flex justify-center items-end px-[10%] h-[100vh] pb-16">
+        <div className="flex justify-center items-center">
+          <div className="flex flex-col gap-10">
             <h2 className="text-[2.5rem] font-bold">
               We're Delivering Only
               <br /> Exceptinal Quality Work
             </h2>
-            <div className="img h-[400px] w-[550px] bg-gray-300"></div>
-          </div>
-          <div className="h-[170px] w-[300px] flex justify-between items-center px-12 bg-[#0346B5] relative -translate-x-40 translate-y-20">
-            <div className="count text-white flex flex-col justify-center items-center gap-1">
-              <p className="">Count</p>
-              <p className="text-[2.5rem] font-bold">2k+</p>
-            </div>
-            <div className="count text-white flex flex-col justify-center items-center gap-1">
-              <p className="">Count</p>
-              <p className="text-[2.5rem] font-bold">2k+</p>
-            </div>
+            <Element3 className="h-[400px] w-[400px]" />
           </div>
         </div>
-        <div className="relative -translate-x-28">
+        <div className=" w-[40%] mb-20">
           <p className=" text-[1.1rem] font-medium leading-loose mb-2 ">
             The linearized amplifier technologies and services private limited
             (linear-amptech) is a start-up company formed by faculty and
@@ -66,9 +69,16 @@ const Home = () => {
           </NavLink>
         </div>
       </div>
+      <div
+        className="w-[100vw] absolute overflow-hidden h-[200px] -translate-y-[200px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
+      </div>
       {/* *********************Intro ****************************** */}
 
-      <div className="slider w-[98.9vw] px-[7%] py-14 bg-[#F2F2F2]">
+      <div className="slider w-[98.9vw] px-[7%] py-14 bg-[#F2F2F2] mt-28">
         <h2 className="text-[2.5rem] font-bold text-center">Our Products</h2>
         <Slider />
       </div>
@@ -92,8 +102,11 @@ const Home = () => {
             Discover more
           </NavLink>
         </div>
-        <div className="right h-[400px] w-[550px] bg-gray-300">
-          <img src={require("../assets/iot.jpg")}></img>
+        <Element1 className="h-[450px]" />
+      </div>
+      <div className="w-[100vw] h-[100px]">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <BgElement2 className="w-[300px] absolute origin-center -left-36 -translate-y-[30%]" />
         </div>
       </div>
 
@@ -105,9 +118,11 @@ const Home = () => {
               Services We’re
               <br /> Offering
             </div>
+
             <div className="lineStyle h-[6px] w-[335px]  bg-primary-color relative top-7"></div>
           </div>
-          <div className="imgLower h-[400px] w-[100%] bg-gray-300"></div>
+          {/* <div className="imgLower h-[400px] w-[100%] bg-gray-300">dv</div> */}{" "}
+          <Element2 />
         </div>
         <div className="right w-1/2 flex flex-col gap-7">
           <div className="imgLower h-[400px] w-[100%] bg-gray-300"></div>
@@ -128,6 +143,11 @@ const Home = () => {
           >
             Discover more
           </NavLink>
+        </div>
+      </div>
+      <div className="w-[100vw] ">
+        <div data-aos="fade-up" data-aos-duration="1500">
+          <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[50%]" />
         </div>
       </div>
 
