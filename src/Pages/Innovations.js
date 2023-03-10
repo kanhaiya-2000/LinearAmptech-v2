@@ -46,7 +46,7 @@ const Innovations = () => {
                 <h2 className="font-bold text-[40px] text-black mb-2">
                   Shaping the future with creativity and vision.
                 </h2>
-                <div className="w-[1196px] h-[432px] bg-[#D9D9D9]">
+                <div className="w-[1196px] h-[432px] bg-[#D1D5DB] flex justify-center align-middle ">
                   <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
                     Innovations are the lifeblood of progress and have the power
                     to transform the way we live, work, and interact with the
