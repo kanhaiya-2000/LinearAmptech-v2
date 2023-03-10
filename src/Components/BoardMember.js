@@ -16,9 +16,13 @@ const BoardMember = (props) => {
           {props.member.name}
         </h1>
 
-        <p className=" text-black capitalize text-[20px]  group-hover:text-gray-300">
-          {props.member.position}
-        </p>
+        {props.member.position.map((pos) => {
+          return (
+            <p className=" text-black capitalize text-[20px]  group-hover:text-gray-300">
+              {pos}
+            </p>
+          );
+        })}
 
         <div className="flex mt-3 -mx-2">
           <a href="#" className="mx-2 text-black  " aria-label="Reddit">
