@@ -2,7 +2,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import waitSysVideo from "../assets/video/waitSysVideo.mp4";
 const Innovations = () => {
   return (
     <div>
@@ -44,14 +44,23 @@ const Innovations = () => {
             <section className="bg-white  mt-4">
               <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
                 <h2 className="font-bold text-[40px] text-black mb-2">
-                  Tagline text
+                  Shaping the future with creativity and vision.
                 </h2>
                 <div className="w-[1196px] h-[432px] bg-[#D9D9D9]">
                   <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Cum quidem officiis reprehenderit, aperiam veritatis non,
-                    quod veniam fuga possimus hic explicabo laboriosam nam. A
-                    tempore v totam ipsa nemo adipisci iusto!
+                    Innovations are the lifeblood of progress and have the power
+                    to transform the way we live, work, and interact with the
+                    world around us. From the wheel to the internet, human
+                    beings have been constantly pushing the boundaries of what's
+                    possible, seeking new and better ways to solve problems,
+                    improve efficiency, and enhance our quality of life.
+                    Innovations can take many forms, from breakthrough
+                    technologies and scientific discoveries to new business
+                    models and social movements. They often require creativity,
+                    perseverance, and the courage to challenge conventional
+                    thinking. The impact of innovations can be profound and
+                    long-lasting, shaping the course of history and defining the
+                    future of humanity.
                   </p>
                 </div>
               </div>
@@ -738,10 +747,12 @@ const Innovations = () => {
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 mt-10">
         <h1 className="text-[40px] font-bold text-black capitalize mb-2 ml-5  ">
-          Heading
+          WAIT System
         </h1>
-        <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border "></section>
-        <p className=" w-[1085px] m-auto mt-8 text-[20px]">
+        <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border ">
+          <video src={waitSysVideo} controls className="z-10" />
+        </section>
+        <p className=" w-[1085px] m-auto mt-16 text-[20px] ">
           WAIT System stands for Warning Ahead Of Intersections and Turns.
           <br />
           Driving on rural roads in India can be risky, especially during
