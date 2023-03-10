@@ -176,7 +176,7 @@ const NewsEvents = () => {
           </div>
         </div>
         <section className="bg-white dark:bg-gray-900">
-          <div className="container flex flex-wrap px-6 py-10 mx-auto">
+          <div className="container flex justify-center flex-wrap py-10 mx-auto gap-10">
             {data
               ? data.map(({ title, date, photo }) => {
                   return (

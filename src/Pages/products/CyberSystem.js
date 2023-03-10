@@ -149,18 +149,18 @@ const CyberSystem = () => {
                 PLAN System
               </h2>
               <p data-aos="fade-left" data-aos-duration="1000">
-                Content: The PLAN an acronym here for PLanning Metropolis
-                Navigation is a product suitable for planning and regulating the
-                entire city traffic navigation to avoid any congestions and
-                assists in route diversions required during unavoidable events.
-                The system aquires data from Track system as well as from online
-                traffic data services such as Google map and Microsoft Azure to
-                model the entire city traffic using our AI/ML platform. This
-                platform can give traffic analytics based on data fusion with
-                deployed sensors and online data services to plan for city
-                traffic managements. A “digital Twin” will be developed to
-                predict important measures to make smart city traffic regulated
-                in a wholestic manner.
+                The PLAN an acronym here for PLanning Metropolis Navigation is a
+                product suitable for planning and regulating the entire city
+                traffic navigation to avoid any congestions and assists in route
+                diversions required during unavoidable events. The system
+                aquires data from Track system as well as from online traffic
+                data services such as Google map and Microsoft Azure to model
+                the entire city traffic using our AI/ML platform. This platform
+                can give traffic analytics based on data fusion with deployed
+                sensors and online data services to plan for city traffic
+                managements. A “digital Twin” will be developed to predict
+                important measures to make smart city traffic regulated in a
+                wholestic manner.
               </p>
             </div>
             <a className="underline cursor-pointer hover:text-blue-800">more</a>
