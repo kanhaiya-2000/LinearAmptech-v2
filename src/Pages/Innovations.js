@@ -41,7 +41,7 @@ const Innovations = () => {
             {/* </div> */}
           </div>
           <div>
-            <section className="bg-white  mt-4">
+            <section className="bg-white  mt-8">
               <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
                 <h2 className="font-bold text-[40px] text-black mb-2">
                   Shaping the future with creativity and vision.
