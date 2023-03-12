@@ -14,22 +14,22 @@ import { boardMember } from "../data/BoardMemberData";
 
 const AboutUs = () => {
   return (
-    <div className="">
+    <div>
       <Header />
       {/* firt section */}
 
-      <div className="heroSection z-0  h-[400px] overflow-hidden ">
-        <div className="absolute z-[15] w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
+      <div className="heroSection   ">
+        <div
+          className="  w-[100%] min-h-[400px] flex flex-col justify-center items-center gap-2 text-white"
+          style={{
+            backgroundImage: `url("https://via.placeholder.com/500")`,
+          }}
+        >
           <h2 className="text-[4rem] font-bold font-Roboto drop-shadow-2xl text-center">
             Get to Know Us
             <br /> Our Passion, Purpose, and People
           </h2>
         </div>
-        <div className="absolute h-[400px] w-[100%] bg-black z-10 opacity-50"></div>
-        <img
-          src={require("../assets/video/about.png")}
-          className="w-[100%] -translate-y-64 "
-        ></img>
       </div>
 
       {/* middle */}
@@ -47,7 +47,7 @@ const AboutUs = () => {
               ></div>
             </div>
 
-            <div className="max-w-xl pl-12 py-12 lg:max-w-5xl lg:w-1/2">
+            <div className="max-w-xl px-4 lg:pl-12 py-12 lg:max-w-5xl lg:w-1/2">
               <div class="lineStyle h-[6px] w-[111px] bg-[#0465f8] relative top-7 left-1/2"></div>
               <h2 className="text-[40px] font-semibold text-black  ">
                 About us
@@ -69,8 +69,8 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section className="bg-white dark:bg-gray-800 lg:pb-12 pt-0 lg:flex lg:justify-center">
-          <div className="overflow-hidden bg-white  lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
+        <section className="bg-white dark:bg-gray-800 lg:pb-12 pt-0 lg:flex lg:justify-center px-4">
+          <div className="overflow-hidden bg-white  lg:mx-auto lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
             <div className=" px-0 py-12 ">
               <p className="mt-0 text-black  text-[20px] ">
                 The company is geared up to take on new technology development
@@ -84,7 +84,7 @@ const AboutUs = () => {
                 including radio-frequency sensors development and addressing the
                 cyber domain with Artificial intelligence and Machine Learning.
               </p>
-              <p className="mt-0 text-black  text-[20px]">
+              <p className="mt-4 text-black  text-[20px]">
                 The company also envisages the requirement for the specialized
                 technology areas such as Radio-frequency design and hence is
                 committed to the development of radios and related components to
@@ -103,13 +103,13 @@ const AboutUs = () => {
       {/* fetuses area */}
 
       {/* we build awesome products */}
-      <div className="h-[893px] bg-[#292C33] w-[98.9vw] flex justify-center flex-col align-end items-center ">
-        <div className="py-16 mt-40">
+      <div className="lg:h-[893px] bg-[#292C33]  flex justify-center flex-col align-end items-center mt-12 ">
+        <div className="py-16 lg:mt-32">
           <h1 className="text-white text-[48px] font-semibold text-center">
             We build awesome products
           </h1>
         </div>
-        <div className="flex text-[16px] ">
+        <div className=" text-[16px] lg:flex  ">
           <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">RF Power Amplifiers</h1>
             <p className="mt-4">
@@ -127,7 +127,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="flex">
+        <div className="lg:flex ">
           <div className="h-[282px] w-[477px] bg-white">
             <img src={sdr} className="h-[100%] " />
           </div>
@@ -150,7 +150,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="flex">
+        <div className="lg:flex ">
           <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">
               RF linear and nonlinear characterization
@@ -174,7 +174,7 @@ const AboutUs = () => {
         </div>
       </div>
       {/* BOARD of Directors */}
-      <div className="mt-64 mb-20">
+      <div className="lg:mt-64 mb-20">
         <section className="bg-white ">
           <div className="container px-6 py-10 mx-auto">
             <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
@@ -209,7 +209,7 @@ const AboutUs = () => {
           </h2>
 
           <div className="mt-8 lg:mt-0 ">
-            <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
+            <div className="flex w-36 flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
               <div className="px-6 py-2 text-sm tracking-wide text-white   hover:scale-110 duration-300  border border-white font-semibold ">
                 <NavLink
                   to={
