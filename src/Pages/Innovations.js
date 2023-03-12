@@ -4,6 +4,10 @@ import Footer from "../Components/Footer";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import waitSysVideo from "../assets/video/waitSysVideo.mp4";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { BgElement1, BgElement2, BgElement3 } from "../assets";
+
 const Innovations = () => {
   useEffect(() => {
     AOS.init({ duration: 500, delay: 300 });
@@ -46,12 +50,13 @@ const Innovations = () => {
           </div>
           <div>
             <section className="bg-white  mt-8">
-              <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
-                <h2 className="font-bold text-[40px] text-black mb-2">
-                  Shaping the future with creativity and vision.
-                </h2>
-                <div className="w-[1196px] h-[432px] bg-[#D1D5DB] flex justify-center align-middle ">
-                  <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
+              <div className="container flex px-[12%] pt-12 mx-auto text-left">
+                <div className="w-[50%]">
+                  <h2 className="font-bold text-[40px] text-black mb-2 ">
+                    Shaping the future with creativity and vision.
+                  </h2>
+
+                  <p className=" leading-relaxed w-[95%] mt-8 text-[1.1rem]">
                     Innovations are the lifeblood of progress and have the power
                     to transform the way we live, work, and interact with the
                     world around us. From the wheel to the internet, human
@@ -768,13 +773,13 @@ const Innovations = () => {
       </div>
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 mt-10">
-        <h1 className="text-[40px] font-bold text-black capitalize mb-2 ml-5  ">
+        <h1 className="text-[40px] font-bold text-black capitalize mb-4 ml-5  ">
           WAIT System
         </h1>
         <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border ">
           <video src={waitSysVideo} controls className="z-10" />
         </section>
-        <p className=" w-[1085px] m-auto mt-16 text-[20px] ">
+        <p className=" w-[1085px] m-auto mt-20 text-[1.2rem] ">
           WAIT System stands for Warning Ahead Of Intersections and Turns.
           <br />
           Driving on rural roads in India can be risky, especially during
@@ -788,6 +793,9 @@ const Innovations = () => {
           infrastructure to automatically manage traffic in remote locations
           prone to traffic jams, making driving safer and more efficient.
         </p>
+        <h2 className="text-[2.5rem] font-bold mb-5 mt-14">
+          IOT Connection ( LoraWAN )
+        </h2>
         <div className="flex justify-between">
           <div className="w-[50%]">
             <h2 className="text-[1.8rem] font-bold mt-5">
