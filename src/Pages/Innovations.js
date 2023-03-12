@@ -7,6 +7,7 @@ import waitSysVideo from "../assets/video/waitSysVideo.mp4";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BgElement1, BgElement2, BgElement3 } from "../assets";
+// import Background from "../assets/";
 
 const Innovations = () => {
   useEffect(() => {
@@ -18,16 +19,16 @@ const Innovations = () => {
 
       <div className="z-10">
         <header>
-          <div className="w-full h-[612px] z-0 overflow-hidden bg-cover">
-            <div className="absolute z-10 h-[612px] w-[100%] text-white flex justify-center items-center flex-col">
-              <h2 className=" text-[5rem] font-bold drop-shadow-2xl">
+          <div className="w-full lg:min-h-[612px] z-0 overflow-hidden  bg-cover  ">
+            <div className="absolute z-10 lg:min-h-[612px] w-[100%] text-white flex justify-center items-center flex-col ">
+              <h2 className=" lg:text-[5rem] text-4xl font-bold drop-shadow-2xl ">
                 Innovations
               </h2>
-              <p className="text-[1.5rem] font-mnormal mb-6 ">
+              <p className="text-[1.5rem] text-lg font-mnormal mb-6 ">
                 Innovation that drives progress
               </p>
               <NavLink
-                className=" border-[3px] border-white text-white text-[1.1rem] py-3 px-5 hover:scale-110 duration-300"
+                className=" lg:border-[3px] border border-white text-white text-[1.1rem] py-3 px-5 hover:scale-110 duration-300"
                 to="/about-us"
               >
                 Read more
@@ -35,24 +36,14 @@ const Innovations = () => {
             </div>
             <img
               src={require("../assets/video/img1.jpg")}
-              className="z-10 -translate-y-40"
+              className="z-10 -translate-y-40 w-[100%] "
             ></img>
-            {/* <div className=" flex items-center justify-center w-full h-full bg-gray-900/40"> */}
-            {/* <div className="absolute z-50 text-center">
-              <h1 className="text-[24px] font-medium text-black lg:text-[24px]">
-                Innovation that drives progress
-              </h1>
-              <button className=" px-7 py-2 w-[148.83px]  h-[47px] mt-8 text-sm font-medium text-[#0465f8] capitalize transition-colors duration-300 transform bg-white rounded-none lg:w-auto  focus:outline-none">
-                Read more
-              </button>
-            </div> */}
-            {/* </div> */}
           </div>
           <div>
-            <section className="bg-white  mt-8">
-              <div className="container flex px-[12%] pt-12 mx-auto text-left">
-                <div className="w-[50%]">
-                  <h2 className="font-bold text-[40px] text-black mb-2 ">
+            <section className="bg-white  lg:mt-8 ">
+              <div className="container lg:flex lg:px-[12%] pt-12 mx-auto text-left px-4">
+                <div className="lg:w-[50%]">
+                  <h2 className="font-bold lg:text-[40px] text-3xl text-black mb-2 ">
                     Shaping the future with creativity and vision.
                   </h2>
 
@@ -72,7 +63,7 @@ const Innovations = () => {
                     future of humanity.
                   </p>
                 </div>
-                <div className="w-[50%] flex justify-center items-center">
+                <div className="lg:w-[50%] flex justify-center items-center">
                   <img
                     src={require("../assets/AI&ML/1.png")}
                     className="w-[500px]"
@@ -86,25 +77,14 @@ const Innovations = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
+            <BgElement1 className="lg:w-[200px] w-[150px] absolute origin-center lg:-right-20 -right-10 -translate-y-[20%]" />
           </div>
           <div className="lg:pr-48 lg:pl-48">
             <section className="bg-white ">
-              <div className="container px-6 py-12 mx-auto">
-                <motion.div
-                  initial={{ x: -10, opacity: 0 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 400,
-                    damping: 50,
-                  }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: false }}
-                >
-                  <h1 className="text-[40px] font-bold text-black capitalize   ">
-                    Problems
-                  </h1>
-                </motion.div>
+              <div className="container px-4 py-12 mx-auto">
+                <h1 className="lg:text-[40px] text-3xl mb-2 font-bold text-black capitalize   ">
+                  Problems
+                </h1>
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                   <div className="text-left border border-black p-8">
@@ -122,81 +102,27 @@ const Innovations = () => {
                         fill="#4299E1"
                       />
                     </svg>
-                    <motion.div
-                      initial={{ x: -10, opacity: 0 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 50,
-                      }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: false }}
-                    >
-                      <h1 className="mt-4 text-xl font-semibold text-black ">
-                        Innovation that drives progress
-                      </h1>
-                    </motion.div>
-                    <motion.div
-                      initial={{ x: -10, opacity: 0 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 50,
-                      }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: false }}
-                    >
-                      <p className="mt-2 text-black ">
-                        The present maintenance process has following
-                        limitations
-                      </p>
-                    </motion.div>
+
+                    <h1 className="mt-4 text-[20px] font-bold font-Poppins text-black ">
+                      Innovation that drives progress
+                    </h1>
+
+                    <p className="mt-2 text-black ">
+                      The present maintenance process has following limitations
+                    </p>
+
                     <div>
                       <ul className="list-square ml-4">
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className="mt-4 ">
-                            Skilled operator are required for analyzing
-                            thousands of complex components
-                          </li>
-                        </motion.div>
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className=" mt-4">
-                            Phone to mistakes due to human error
-                          </li>
-                        </motion.div>{" "}
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className="mt-4">
-                            Sensor data can be utilized for predective
-                            maintenance
-                          </li>
-                        </motion.div>
+                        <li className="mt-4 ">
+                          Skilled operator are required for analyzing thousands
+                          of complex components
+                        </li>
+                        <li className=" mt-4">
+                          Phone to mistakes due to human error
+                        </li>{" "}
+                        <li className="mt-4">
+                          Sensor data can be utilized for predective maintenance
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -216,74 +142,24 @@ const Innovations = () => {
                         fill="#4299E1"
                       />
                     </svg>
-                    <motion.div
-                      initial={{ x: -10, opacity: 0 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 50,
-                      }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: false }}
-                    >
-                      <h1 className="mt-4 text-xl font-semibold text-black ">
-                        Increasing number of devices and sensors data
-                      </h1>
-                    </motion.div>
-                    <motion.div
-                      initial={{ x: -10, opacity: 0 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 50,
-                      }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: false }}
-                    >
-                      <p className="mt-2 text-black ">
-                        The sheer volume of data being generated can be
-                      </p>
-                    </motion.div>
+
+                    <h1 className="mt-4 text-[20px] font-bold font-Poppins text-black ">
+                      Increasing number of devices and sensors data
+                    </h1>
+
+                    <p className="mt-2 text-black ">
+                      The sheer volume of data being generated can be
+                    </p>
+
                     <div>
                       <ul className="list-square ml-4">
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className="mt-4 ">Overwhelming</li>
-                        </motion.div>
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className=" mt-4">
-                            Difficult to extract data for meaningful insights
-                          </li>
-                        </motion.div>
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className="mt-4">Data is not leveraged</li>
-                        </motion.div>
+                        <li className="mt-4 ">Overwhelming</li>
+
+                        <li className=" mt-4">
+                          Difficult to extract data for meaningful insights
+                        </li>
+
+                        <li className="mt-4">Data is not leveraged</li>
                       </ul>
                     </div>
                   </div>
@@ -319,78 +195,24 @@ const Innovations = () => {
                       </defs>
                     </svg>
 
-                    <motion.div
-                      initial={{ x: -10, opacity: 0 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 50,
-                      }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: false }}
-                    >
-                      <h1 className="mt-4 text-xl font-semibold text-black ">
-                        Untimely maintenance can lead to machine failure
-                      </h1>
-                    </motion.div>
+                    <h1 className="mt-4 text-[20px] font-bold font-Poppins text-black ">
+                      Untimely maintenance can lead to machine failure
+                    </h1>
 
-                    <motion.div
-                      initial={{ x: -10, opacity: 0 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 50,
-                      }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: false }}
-                    >
-                      <p className="mt-2 text-black ">
-                        At present maintenance is done periodically or after the
-                        device has been damaged, which leads to unwanted
-                      </p>
-                    </motion.div>
+                    <p className="mt-2 text-black ">
+                      At present maintenance is done periodically or after the
+                      device has been damaged, which leads to unwanted
+                    </p>
+
                     <div>
                       <ul className="list-square ml-4">
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className="mt-4 ">Downtime additional costs</li>
-                        </motion.div>
+                        <li className="mt-4 ">Downtime additional costs</li>
 
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className=" mt-4">
-                            Negatively affects productivity
-                          </li>
-                        </motion.div>
+                        <li className=" mt-4">
+                          Negatively affects productivity
+                        </li>
 
-                        <motion.div
-                          initial={{ x: -10, opacity: 0 }}
-                          transition={{
-                            type: "spring",
-                            stiffness: 400,
-                            damping: 50,
-                          }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          viewport={{ once: false }}
-                        >
-                          <li className="mt-4"> Operational efficiency</li>
-                        </motion.div>
+                        <li className="mt-4"> Operational efficiency</li>
                       </ul>
                     </div>
                   </div>
@@ -401,21 +223,10 @@ const Innovations = () => {
           {/* solutions */}
           <div className="lg:pr-48 lg:pl-48">
             <section className="bg-white ">
-              <div className="container px-6 py-10 mx-auto">
-                <motion.div
-                  initial={{ x: -10, opacity: 0 }}
-                  transition={{
-                    type: "spring",
-                    stiffness: 400,
-                    damping: 50,
-                  }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: false }}
-                >
-                  <h1 className="text-[40px] font-bold text-black capitalize   ">
-                    Solutions
-                  </h1>
-                </motion.div>
+              <div className="container px-4 py-10 mx-auto">
+                <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize   ">
+                  Solutions
+                </h1>
 
                 <div className="mt-2 lg:flex lg:items-center">
                   <div className="grid w-full grid-cols-1 gap-4 lg:w-1/2 xl:gap-8 md:grid-cols-2">
@@ -436,35 +247,15 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-                      <motion.div
-                        initial={{ x: -100, opacity: 1 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <h1 className="text-xl font-semibold  text-black capitalize ">
-                          Machine Learning
-                        </h1>
-                      </motion.div>
-                      <motion.div
-                        initial={{ x: -100, opacity: 1 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <p className="text-black">
-                          It is a generalized ML platform to provide
-                          personalized solution for defence and industries.
-                        </p>
-                      </motion.div>
+
+                      <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize ">
+                        Machine Learning
+                      </h1>
+
+                      <p className="text-black">
+                        It is a generalized ML platform to provide personalized
+                        solution for defence and industries.
+                      </p>
                     </div>
 
                     <div className="space-y-2 border border-black p-4">
@@ -490,36 +281,16 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-                      <motion.div
-                        initial={{ x: -100, opacity: 1 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <h1 className="text-xl font-semibold  text-black capitalize ">
-                          Real Time Data
-                        </h1>
-                      </motion.div>
-                      <motion.div
-                        initial={{ x: -100, opacity: 1 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <p className="text-black">
-                          Use of real-time data predictive analytics to identify
-                          and track potential problems before they occur in our
-                          assets.
-                        </p>
-                      </motion.div>
+
+                      <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize ">
+                        Real Time Data
+                      </h1>
+
+                      <p className="text-black">
+                        Use of real-time data predictive analytics to identify
+                        and track potential problems before they occur in our
+                        assets.
+                      </p>
                     </div>
 
                     <div className="space-y-2  border border-black p-4">
@@ -539,35 +310,15 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <h1 className="text-xl font-semibold  text-black capitalize ">
-                          Acuuracy
-                        </h1>
-                      </motion.div>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <p className="text-black">
-                          To develop a digital twin of an industrial asset that
-                          accurately represents its behavior and performance.
-                        </p>
-                      </motion.div>
+
+                      <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize ">
+                        Acuuracy
+                      </h1>
+
+                      <p className="text-black">
+                        To develop a digital twin of an industrial asset that
+                        accurately represents its behavior and performance.
+                      </p>
                     </div>
 
                     <div className="space-y-2 border border-black p-4">
@@ -587,34 +338,14 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <h1 className="text-xl font-semibold  text-black capitalize ">
-                          Usefullness
-                        </h1>
-                      </motion.div>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <p className="text-black">
-                          To predict remaining useful life (RUL) of Machines.
-                        </p>
-                      </motion.div>
+
+                      <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize ">
+                        Usefullness
+                      </h1>
+
+                      <p className="text-black">
+                        To predict remaining useful life (RUL) of Machines.
+                      </p>
                     </div>
                     <div className="space-y-2 border border-black p-4">
                       <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
@@ -633,36 +364,16 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <h1 className="text-xl font-semibold  text-black capitalize ">
-                          Deep Learning
-                        </h1>
-                      </motion.div>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <p className="text-black">
-                          Provide research platform where teams can collaborate
-                          develop deep learning models and take data driven
-                          actions.
-                        </p>
-                      </motion.div>
+
+                      <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize ">
+                        Deep Learning
+                      </h1>
+
+                      <p className="text-black">
+                        Provide research platform where teams can collaborate
+                        develop deep learning models and take data driven
+                        actions.
+                      </p>
                     </div>
                     <div className="space-y-2 border border-black p-4">
                       <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
@@ -681,35 +392,15 @@ const Innovations = () => {
                           />
                         </svg>
                       </span>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <h1 className="text-xl font-semibold  text-black capitalize ">
-                          Premise Solution
-                        </h1>
-                      </motion.div>
-                      <motion.div
-                        initial={{ x: -100, opacity: 0.9 }}
-                        transition={{
-                          type: "spring",
-                          stiffness: 400,
-                          damping: 50,
-                        }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: false }}
-                      >
-                        <p className="text-black">
-                          Provide on premise solution which gives full control
-                          of their critical data with security
-                        </p>
-                      </motion.div>
+
+                      <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize ">
+                        Premise Solution
+                      </h1>
+
+                      <p className="text-black">
+                        Provide on premise solution which gives full control of
+                        their critical data with security
+                      </p>
                     </div>
                   </div>
 
@@ -728,7 +419,7 @@ const Innovations = () => {
       </div>
       <div className="w-[100vw] h-[100px]">
         <div data-aos="fade-up" data-aos-duration="1000">
-          <BgElement2 className="w-[300px] absolute origin-center -left-36 -translate-y-[30%]" />
+          <BgElement2 className="lg:w-[300px] absolute origin-center lg:-left-36 -translate-y-[30%] w-[180px] -left-20" />
         </div>
       </div>
       {/* new image box */}
@@ -736,13 +427,13 @@ const Innovations = () => {
         <section className="bg-white ">
           <div className="h-[32rem]  ">
             <div className="container  py-32 mx-auto">
-              <h1 className="text-2xl font-semibold text-center text-black capitalize lg:text-3xl ">
+              <h1 className="text-2xl font-bold font-Poppins text-center text-black capitalize lg:text-3xl px-4 ">
                 Asset tracking by VHR remote sensing data
               </h1>
             </div>
           </div>
 
-          <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+          <div className="container px-4 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
               <div className="flex flex-col items-center  rounded-none dark:-gray-700">
                 <img
@@ -772,14 +463,14 @@ const Innovations = () => {
         </section>
       </div>
       {/* new two big images */}
-      <div className="lg:pr-44 lg:pl-44 mt-10">
-        <h1 className="text-[40px] font-bold text-black capitalize mb-4 ml-5  ">
+      <div className="lg:pr-44 lg:pl-44 mt-10 mx-4">
+        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-4   ">
           WAIT System
         </h1>
-        <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border ">
+        <section className="bg-[#6A6A6A] max-w-[1085px] m-auto max-h-[564px] border ">
           <video src={waitSysVideo} controls className="z-10" />
         </section>
-        <p className=" w-[1085px] m-auto mt-20 text-[1.2rem] ">
+        <p className=" max-w-[1085px] m-auto mt-20 text-[1.2rem] ">
           WAIT System stands for Warning Ahead Of Intersections and Turns.
           <br />
           Driving on rural roads in India can be risky, especially during
@@ -793,15 +484,15 @@ const Innovations = () => {
           infrastructure to automatically manage traffic in remote locations
           prone to traffic jams, making driving safer and more efficient.
         </p>
-        <h2 className="text-[2.5rem] font-bold mb-5 mt-14">
+        <h2 className="lg:text-[2.5rem] text-3xl font-bold mb-5 mt-14">
           IOT Connection ( LoraWAN )
         </h2>
-        <div className="flex justify-between">
-          <div className="w-[50%]">
+        <div className="lg:flex justify-between">
+          <div className="lg:w-[50%]">
             <h2 className="text-[1.8rem] font-bold mt-5">
               Testing Hard Connections
             </h2>
-            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+            <ul className=" my-3 ml-8 flex flex-col gap-1 list-square">
               <li>
                 Device connected to multiple gateways with varying backhaul
                 performance
@@ -811,7 +502,7 @@ const Innovations = () => {
               <li> Uncalibrated crystals</li>
             </ul>
             <h2 className="text-[1.8rem] font-bold mt-5">Benefits</h2>
-            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+            <ul className=" my-3 ml-8 flex flex-col gap-1 list-square">
               <li> Run application in seconds </li>
               <li>
                 Full control over gateway parameters (RSSI, gateways within
@@ -824,15 +515,15 @@ const Innovations = () => {
               <li>No changes required on network side</li>
             </ul>
           </div>
-          <div className="rightBox w-[50%] flex p-20">
+          <div className="rightBox lg:w-[50%] flex lg:p-20">
             <div className="fronBox h-[400px] w-[500px] bg-primary-color"></div>
-            <div className="backBox absolute h-[400px] w-[500px] bg-[#EFF6FF] translate-x-5 translate-y-5 flex justify-center items-center">
+            <div className="backBox absolute h-[400px] max-w-[500px] bg-[#EFF6FF] translate-x-5 m-auto translate-y-5 flex justify-center items-center">
               <img src={require("../assets/lorawan.png")}></img>
             </div>
           </div>
         </div>
         <div className="w-[100vw] h-[100px]">
-          <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[20%]" />
+          <BgElement3 className="lg:w-[300px] absolute origin-center w-[180px] -right-20 lg:-right-36 -translate-y-[20%]" />
         </div>
         <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
         <div className="imgContainer flex justify-center items-center gap-24">
@@ -853,8 +544,8 @@ const Innovations = () => {
       </div>
 
       {/* BLUE BOX */}
-      <div className="lg:pr-48 lg:pl-48 h-[324px] w-[100%] bg-[#0465f8] flex justify-center justify-items-center mt-20  items-center content-center">
-        <p className="text-center text-white text-[20px] leading-loose">
+      <div className="lg:pr-48 lg:pl-48 h-[324px] max-w-[100%] bg-[#0465f8] flex justify-center m-4 lg:m-0 lg:mt-6 justify-items-center mt-20  items-center content-center">
+        <p className="text-center text-white lg:text-[20px] text-base leading-relaxed px-2 lg:px-0">
           We are dedicated to exploring new technologies in our core product
           areas and have established a good ecosystem between academics and
           industry for technology development with innovation. We have a strong
@@ -866,7 +557,7 @@ const Innovations = () => {
       {/* other featues */}
       <div className="lg:pr-48 lg:pl-48 bg-[#F2F2F2]">
         <section className="bg-[#f2f2f2] ">
-          <div className="container px-6 py-10 mx-auto">
+          <div className="container px-4 py-10 mx-auto">
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
               <div className="p space-y-3  bg-white  ">
                 <img
@@ -875,11 +566,11 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold  text-black capitalize  px-6 pt-2">
+                <h1 className="text-[20px] font-bold  text-black capitalize  px-4 pt-2">
                   Cyber physical system
                 </h1>
 
-                <p className="text-black tracking-wide px-6">
+                <p className="text-black tracking-wide px-4 pb-6">
                   Refers to a system that integrates physical devices with a
                   cyber interface for monitoring and controlling the physical
                   world. The company is focusing on innovation in CPS for
@@ -899,11 +590,11 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize px-6 pt-2 ">
+                <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize px-4 pt-2 ">
                   AI and ML
                 </h1>
 
-                <p className="text-black px-6">
+                <p className="text-black px-4 pb-6">
                   We are committed to evolving as Deep Tech Comapany. Artificial
                   Intelligence and Machine Learning is one the innovative areas
                   to which we are keen to contribute. Our recent innovation
@@ -920,11 +611,11 @@ const Innovations = () => {
                   alt=""
                 />
 
-                <h1 className="text-[20px] font-bold font-Poppins text-black capitalize px-6 pt-2  ">
+                <h1 className="text-[20px] font-bold font-Poppins  text-black capitalize px-4 pt-2 ">
                   The Radio Frequency Components
                 </h1>
 
-                <p className="text-black px-6 pb-6">
+                <p className="text-black px-4 pb-6">
                   The company has a strong research background, with directors
                   from I.I.T-Roorkee who are working in cutting-edge radio
                   frequency technologies. Their recent R&D focus includes
