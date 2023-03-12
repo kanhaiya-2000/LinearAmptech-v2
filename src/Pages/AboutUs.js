@@ -110,7 +110,7 @@ const AboutUs = () => {
           </h1>
         </div>
         <div className=" text-[16px] lg:flex  ">
-          <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
+          <div className="h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">RF Power Amplifiers</h1>
             <p className="mt-4">
               Linear Amptech provides excellent indigenous power amplifier
@@ -127,8 +127,8 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="lg:flex ">
-          <div className="h-[282px] w-[477px] bg-white">
+        <div className="lg:flex  ">
+          <div className="h-[282px] max-w-[477px] bg-white">
             <img src={sdr} className="h-[100%] " />
           </div>
           <div className="h-[282px] w-[477px] bg-[#0465F8] text-white p-8 ">
@@ -151,7 +151,7 @@ const AboutUs = () => {
         </div>
 
         <div className="lg:flex ">
-          <div className="h-[282px] w-[477px] bg-[#48484A] text-white p-8 ">
+          <div className="h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">
               RF linear and nonlinear characterization
             </h1>

@@ -840,13 +840,6 @@ const Innovations = () => {
                   The Radio Frequency Components
                 </h1>
 
-                <p className=" text-black  px-6 ">
-                  The company is focused on innovation in the field of active
-                  and passive radio frequency components. They specialize in
-                  broadband high-power amplifiers, waveguide-based combining,
-                  and cavity filters. In addition, they have added innovations
-                  in software-defined radios to mitigate impairments.
-                </p>
                 <p className="text-black px-6 pb-6">
                   The company has a strong research background, with directors
                   from I.I.T-Roorkee who are working in cutting-edge radio
