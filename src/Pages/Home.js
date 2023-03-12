@@ -7,6 +7,7 @@ import {
   BgElement1,
   BgElement2,
   BgElement3,
+  BgElement4,
   Element1,
   Element2,
   Element3,
@@ -121,11 +122,13 @@ const Home = () => {
 
             <div className="lineStyle h-[6px] w-[335px]  bg-primary-color relative top-7"></div>
           </div>
-          {/* <div className="imgLower h-[400px] w-[100%] bg-gray-300">dv</div> */}{" "}
+
           <Element2 />
         </div>
         <div className="right w-1/2 flex flex-col gap-7">
-          <div className="imgLower h-[400px] w-[100%] bg-gray-300"></div>
+          <div className="imgLower h-[400px] w-[100%] flex justify-center items-center  overflow-hidden">
+            <BgElement4 className="h-[450px]" />
+          </div>
           <div className="text-[1.1rem] flex flex-col gap-4">
             <p>
               Vivamus blandit est vitae nisi pellentesque blandit. Donec

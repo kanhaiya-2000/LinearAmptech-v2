@@ -1,9 +1,17 @@
+import React, { useEffect } from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import waitSysVideo from "../assets/video/waitSysVideo.mp4";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { BgElement1, BgElement2, BgElement3 } from "../assets";
+
 const Innovations = () => {
+  useEffect(() => {
+    AOS.init({ duration: 500, delay: 300 });
+  }, [AOS]);
   return (
     <div>
       <Header />
@@ -42,12 +50,13 @@ const Innovations = () => {
           </div>
           <div>
             <section className="bg-white  mt-8">
-              <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
-                <h2 className="font-bold text-[40px] text-black mb-2">
-                  Shaping the future with creativity and vision.
-                </h2>
-                <div className="w-[1196px] h-[432px] bg-[#D1D5DB] flex justify-center align-middle ">
-                  <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
+              <div className="container flex px-[12%] pt-12 mx-auto text-left">
+                <div className="w-[50%]">
+                  <h2 className="font-bold text-[40px] text-black mb-2 ">
+                    Shaping the future with creativity and vision.
+                  </h2>
+
+                  <p className=" leading-relaxed w-[95%] mt-8 text-[1.1rem]">
                     Innovations are the lifeblood of progress and have the power
                     to transform the way we live, work, and interact with the
                     world around us. From the wheel to the internet, human
@@ -63,8 +72,21 @@ const Innovations = () => {
                     future of humanity.
                   </p>
                 </div>
+                <div className="w-[50%] flex justify-center items-center">
+                  <img
+                    src={require("../assets/AI&ML/1.png")}
+                    className="w-[500px]"
+                  ></img>
+                </div>
               </div>
             </section>
+          </div>
+          <div
+            className="absolute w-[100vw] overflow-hidden h-[200px]"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
           </div>
           <div className="lg:pr-48 lg:pl-48">
             <section className="bg-white ">
@@ -704,6 +726,11 @@ const Innovations = () => {
           </div>
         </header>
       </div>
+      <div className="w-[100vw] h-[100px]">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <BgElement2 className="w-[300px] absolute origin-center -left-36 -translate-y-[30%]" />
+        </div>
+      </div>
       {/* new image box */}
       <div className="lg:pr-44 lg:pl-44">
         <section className="bg-white ">
@@ -746,13 +773,13 @@ const Innovations = () => {
       </div>
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 mt-10">
-        <h1 className="text-[40px] font-bold text-black capitalize mb-2 ml-5  ">
+        <h1 className="text-[40px] font-bold text-black capitalize mb-4 ml-5  ">
           WAIT System
         </h1>
         <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border ">
           <video src={waitSysVideo} controls className="z-10" />
         </section>
-        <p className=" w-[1085px] m-auto mt-16 text-[20px] ">
+        <p className=" w-[1085px] m-auto mt-20 text-[1.2rem] ">
           WAIT System stands for Warning Ahead Of Intersections and Turns.
           <br />
           Driving on rural roads in India can be risky, especially during
@@ -766,6 +793,63 @@ const Innovations = () => {
           infrastructure to automatically manage traffic in remote locations
           prone to traffic jams, making driving safer and more efficient.
         </p>
+        <h2 className="text-[2.5rem] font-bold mb-5 mt-14">
+          IOT Connection ( LoraWAN )
+        </h2>
+        <div className="flex justify-between">
+          <div className="w-[50%]">
+            <h2 className="text-[1.8rem] font-bold mt-5">
+              Testing Hard Connections
+            </h2>
+            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+              <li>
+                Device connected to multiple gateways with varying backhaul
+                performance
+              </li>
+              <li> Adaptive Data Rating </li>
+              <li> Rapidly moving devices </li>
+              <li> Uncalibrated crystals</li>
+            </ul>
+            <h2 className="text-[1.8rem] font-bold mt-5">Benefits</h2>
+            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+              <li> Run application in seconds </li>
+              <li>
+                Full control over gateway parameters (RSSI, gateways within
+                reach)
+              </li>
+              <li>
+                Still LoRaWAN: end-to-end encryption, spreading factors, channel
+                hopping
+              </li>
+              <li>No changes required on network side</li>
+            </ul>
+          </div>
+          <div className="rightBox w-[50%] flex p-20">
+            <div className="fronBox h-[400px] w-[500px] bg-primary-color"></div>
+            <div className="backBox absolute h-[400px] w-[500px] bg-[#EFF6FF] translate-x-5 translate-y-5 flex justify-center items-center">
+              <img src={require("../assets/lorawan.png")}></img>
+            </div>
+          </div>
+        </div>
+        <div className="w-[100vw] h-[100px]">
+          <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[20%]" />
+        </div>
+        <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
+        <div className="imgContainer flex justify-center items-center gap-24">
+          <img
+            src={require("../assets/InnovationE.png")}
+            className="w-[800px]"
+          ></img>
+        </div>
+        <div className="text-[1.8rem] font-bold mt-16 mb-12">
+          Frequency Hopping
+        </div>
+        <div className="imgContainer flex justify-center items-center gap-24">
+          <img
+            src={require("../assets/InnovationE2.png")}
+            className="w-[900px]"
+          ></img>
+        </div>
       </div>
 
       {/* BLUE BOX */}
