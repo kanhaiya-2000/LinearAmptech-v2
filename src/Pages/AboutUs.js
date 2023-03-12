@@ -22,12 +22,14 @@ const AboutUs = () => {
         <div
           className="  w-[100%] min-h-[400px] flex flex-col justify-center items-center gap-2 text-white"
           style={{
-            backgroundImage: `url("https://images.unsplash.com/photo-1603201667141-5a2d4c673378?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHRlYW18ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60")`,
+            backgroundImage: `url("https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")`,
           }}
         >
-          <h2 className="text-[4rem] font-bold font-Roboto drop-shadow-2xl text-center">
+          <h2 className="lg:text-[4rem] text-4xl font-bold font-Roboto drop-shadow-2xl text-center">
             Get to Know Us
-            <br /> Our Passion, Purpose, and People
+          </h2>
+          <h2 className="lg:text-[4rem] text-4xl font-bold font-Roboto drop-shadow-2xl text-center lg:mt-8 p-1">
+            Our Passion, Purpose, and People
           </h2>
         </div>
       </div>
@@ -49,11 +51,11 @@ const AboutUs = () => {
 
             <div className="max-w-xl px-4 lg:pl-12 py-12 lg:max-w-5xl lg:w-1/2">
               <div class="lineStyle h-[6px] w-[111px] bg-[#0465f8] relative top-7 left-1/2"></div>
-              <h2 className="text-[40px] font-semibold text-black  ">
+              <h2 className="lg:text-[40px] text-3xl font-semibold text-black  ">
                 About us
               </h2>
 
-              <p className="mt-4 text-[20px] text-black  ">
+              <p className="mt-4 lg:text-[20px] text-base text-black  ">
                 Linear Amplifier Technology & Services private ltd (Linear
                 Amp-tech) is a company formed and driven by innovative minds of
                 Indian I.I.T Roorkee. The company is Incubated in I.I.T Roorkee
@@ -63,7 +65,7 @@ const AboutUs = () => {
                 Engineering.
               </p>
 
-              <button className="w-[148.8px] h-[47px] bg-[#0465F8] px-5 py-2 mt-4 text-[18.8px]  text-white  hover:scale-110  duration-300 rounded-none lg:w-auto ">
+              <button className="w-[148.8px] h-[47px] bg-[#0465F8] px-5 py-2 mt-4 lg:text-[18.8px] text-base  text-white  hover:scale-110  duration-300 rounded-none lg:w-auto ">
                 Read more
               </button>
             </div>
@@ -71,8 +73,8 @@ const AboutUs = () => {
         </section>
         <section className="bg-white dark:bg-gray-800 lg:pb-12 pt-0 lg:flex lg:justify-center px-4">
           <div className="overflow-hidden bg-white  lg:mx-auto lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
-            <div className=" px-0 py-12 ">
-              <p className="mt-0 text-black  text-[20px] ">
+            <div className=" px-0 lg:py-12 ">
+              <p className="mt-0 text-black  lg:text-[20px] text-base ">
                 The company is geared up to take on new technology development
                 projects in the relevant areas. The company is primarily
                 focusing on various aspects of cyber-physical system design
@@ -84,7 +86,7 @@ const AboutUs = () => {
                 including radio-frequency sensors development and addressing the
                 cyber domain with Artificial intelligence and Machine Learning.
               </p>
-              <p className="mt-4 text-black  text-[20px]">
+              <p className="mt-4 text-black  lg:text-[20px] text-base">
                 The company also envisages the requirement for the specialized
                 technology areas such as Radio-frequency design and hence is
                 committed to the development of radios and related components to
@@ -105,14 +107,14 @@ const AboutUs = () => {
       {/* we build awesome products */}
       <div className="lg:h-[893px] bg-[#292C33]  flex justify-center flex-col align-end items-center mt-12 ">
         <div className="py-16 lg:mt-32">
-          <h1 className="text-white text-[48px] font-semibold text-center">
+          <h1 className="text-white lg:text-[48px] text-3xl font-semibold text-center">
             We build awesome products
           </h1>
         </div>
         <div className=" text-[16px] lg:flex  ">
-          <div className="h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
-            <h1 className="text-[20px] font-semibold">RF Power Amplifiers</h1>
-            <p className="mt-4">
+          <div className="min-h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
+            <h1 className="text-[20px]  font-semibold">RF Power Amplifiers</h1>
+            <p className="mt-4 text-base  ">
               Linear Amptech provides excellent indigenous power amplifier
               solution for Cellular application and variety of military and
               space applications. We provide vast range of high performance
@@ -122,7 +124,7 @@ const AboutUs = () => {
               <NavLink to={"/products/rf-power-amplifiers"}>Read more</NavLink>
             </div>
           </div>
-          <div className="h-[282px] w-[477px] bg-white">
+          <div className="h-[282px] max-w-[477px] bg-white">
             <img src={rf} />
           </div>
         </div>
@@ -131,7 +133,7 @@ const AboutUs = () => {
           <div className="h-[282px] max-w-[477px] bg-white">
             <img src={sdr} className="h-[100%] " />
           </div>
-          <div className="h-[282px] w-[477px] bg-[#0465F8] text-white p-8 ">
+          <div className="min-h-[282px] max-w-[477px] bg-[#0465F8] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">
               Software Defined Point to Point Radio Applications
             </h1>
@@ -151,7 +153,7 @@ const AboutUs = () => {
         </div>
 
         <div className="lg:flex ">
-          <div className="h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
+          <div className="min-h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
             <h1 className="text-[20px] font-semibold">
               RF linear and nonlinear characterization
             </h1>
@@ -162,13 +164,13 @@ const AboutUs = () => {
               is capable of performing the measurement of active devices as well
               as passive devices.
             </p>
-            <div className="w-[114px] h-[36px]  px-5 pt-1 mt-2  text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
+            <div className="w-[114px] min-h-[36px]  px-5 pt-1 mt-2  text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
               <NavLink to={"/products/rf-linear-nonlinear-characterization"}>
                 Read more
               </NavLink>
             </div>
           </div>
-          <div className="h-[282px] w-[477px] bg-white border-b border-r border-black">
+          <div className="h-[282px] max-w-[477px] bg-white border-b border-r border-black">
             <img src={poweramp} />
           </div>
         </div>
@@ -177,11 +179,11 @@ const AboutUs = () => {
       <div className="lg:mt-64 mb-20">
         <section className="bg-white ">
           <div className="container px-6 py-10 mx-auto">
-            <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+            <h1 className="lg:text-[40px] text-3xl font-semibold text-center text-black capitalize ">
               Board Of Directors
             </h1>
 
-            <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
+            <p className="max-w-6xl lg:text-[20px] text-base mx-auto my-6 text-center text-black ">
               Our board of directors comprises seasoned professionals who
               possess a wealth of knowledge and expertise in various fields. We
               are honored to have a world-renowned power amplifier expert Dr.
@@ -203,14 +205,14 @@ const AboutUs = () => {
       {/* GET to know */}
       <hr />
       <section className=" bg-[#0465F8]">
-        <div className="container px-4 py-16 mx-auto lg:flex lg:items-center lg:justify-between">
-          <h2 className="text-[48px]  font-medium tracking-tight xl:text-3xl text-white">
+        <div className="container px-4 lg:py-16 py-8 mx-auto lg:flex lg:items-center lg:justify-between">
+          <h2 className="lg:text-[48px] text-3xl  font-medium tracking-tight xl:text-3xl text-white">
             Get to know today!
           </h2>
 
           <div className="mt-8 lg:mt-0 ">
             <div className="flex w-36 flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
-              <div className="px-6 py-2 text-sm tracking-wide text-white   hover:scale-110 duration-300  border border-white font-semibold ">
+              <div className="px-6 py-2 text-sm tracking-wide text-white   hover:scale-110 duration-300  border border-white font-semibold text-center ">
                 <NavLink
                   to={
                     "https://www.linkedin.com/company/linear-amptech/?originalSubdomain=in"
