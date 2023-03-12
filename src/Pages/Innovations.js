@@ -471,7 +471,7 @@ const Innovations = () => {
         <section className="bg-[#6A6A6A] max-w-[1085px] m-auto max-h-[564px] border ">
           <video src={waitSysVideo} controls className="z-10" />
         </section>
-        <p className=" max-w-[1085px] m-auto mt-20 text-[1.2rem] ">
+        <p className=" leading-relaxed max-w-[1085px] m-auto mt-20 text-[1.1rem] ">
           WAIT System stands for Warning Ahead Of Intersections and Turns.
           <br />
           Driving on rural roads in India can be risky, especially during
@@ -518,7 +518,7 @@ const Innovations = () => {
           </div>
           <div className="rightBox lg:w-[50%] flex lg:p-20">
             <div className="fronBox h-[400px] w-[500px] bg-primary-color"></div>
-            <div className="backBox absolute h-[400px] max-w-[500px] bg-[#EFF6FF] translate-x-5 m-auto translate-y-5 flex justify-center items-center">
+            <div className="backBox absolute h-[400px] max-w-[500px] bg-[#EFF6FF] lg:translate-x-5 translate-x-2 m-auto lg:translate-y-5 translate-y-2 flex justify-center items-center">
               <img src={require("../assets/lorawan.png")}></img>
             </div>
           </div>
