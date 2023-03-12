@@ -33,7 +33,7 @@ const Innovations = () => {
                 Innovation that drives progress
               </p>
               <NavLink
-                className=" lg:border-[3px] border border-white text-white text-[1.1rem] py-3 px-5 hover:scale-110 duration-300"
+                className=" lg:border-[3px] border border-white text-white text-[1.1rem] lg:py-3 lg:px-5 py-2 px-4 hover:scale-110 duration-300"
                 to="/about-us"
               >
                 Read more
@@ -460,7 +460,12 @@ const Innovations = () => {
           WAIT System
         </h1>
         <section className="bg-[#6A6A6A] max-w-[1085px] m-auto max-h-[564px] border ">
-          <video src={waitSysVideo} controls className="z-10" />
+          <video
+            src={waitSysVideo}
+            controls
+            className="z-10"
+            data-autoplay="1"
+          />
         </section>
         <p className=" leading-relaxed max-w-[1085px] m-auto mt-20 text-[1.1rem] ">
           WAIT System stands for Warning Ahead Of Intersections and Turns.

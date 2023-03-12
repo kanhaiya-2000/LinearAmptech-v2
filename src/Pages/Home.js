@@ -28,7 +28,7 @@ const Home = () => {
       <div className="heroSection gap-2  lg:max-h-[88vh] flex flex-col justify-center items-center text-white z-0 overflow-hidden">
         {/* <div className=" bg-slate-600 z-10"></div> */}
         <video autoPlay muted loop src={video1} className="z-10" />
-        <div className="absolute w-[100%] lg:p-20 pb-4  overflow-hidden z-10 flex flex-col justify-center items-center">
+        <div className="absolute w-[100%] lg:p-20 pb-4  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
           <h2 className=" lg:text-[5rem] text-3xl font-bold drop-shadow-2xl bg-transparent">
             Linear AmpTech
           </h2>
@@ -49,7 +49,7 @@ const Home = () => {
       <div className="introSection gap-16  lg:flex justify-center items-end px-[10%] lg:h-[100vh] pb-16 pt-16">
         <div className="flex justify-center items-center">
           <div className="flex flex-col gap-10">
-            <h2 className="lg:text-[2.5rem] text-2xl font-bold">
+            <h2 className="lg:text-[2.5rem] text-2xl font-bold leading-relaxed">
               We're Delivering Only
               <br /> Exceptinal Quality Work
             </h2>
@@ -114,10 +114,10 @@ const Home = () => {
       </div>
 
       {/* *********************Service ****************************** */}
-      <div className="flex w-[100%] px-[10%] py-32 gap-20 bg-[#F2F2F2]">
-        <div className="left w-1/2 mt-10">
+      <div className="lg:flex w-[100%] lg:px-[10%] py-32 gap-20 bg-[#F2F2F2]">
+        <div className="lg:left lg:w-1/2 mt-10">
           <div className="upperPart flex">
-            <div className="serviceHeading lg:text-[2.5rem] font-bold w-[300px] mb-14">
+            <div className="serviceHeading lg:text-[2.5rem] text-3xl font-bold w-[300px] mb-14">
               Services We’re
               <br /> Offering
             </div>
@@ -127,9 +127,9 @@ const Home = () => {
 
           <Element2 />
         </div>
-        <div className="right w-1/2 flex flex-col gap-7">
+        <div className="right lg:w-1/2 lg:flex flex-col gap-7">
           <div className="imgLower h-[400px] w-[100%] flex justify-center items-center  overflow-hidden">
-            <BgElement4 className="h-[450px]" />
+            <BgElement4 className="lg:h-[450px] " />
           </div>
           <div className="text-[1.1rem] flex flex-col gap-4">
             <p>
@@ -158,7 +158,9 @@ const Home = () => {
 
       {/* *********************AboutUs ****************************** */}
       <div className="aboutUs w-[100%] px-[10%] flex flex-col justify-center items-center gap-5 py-14 bg-primary-color text-white">
-        <h2 className="text-[2.5rem] font-bold text-center">About Us</h2>
+        <h2 className="lg:text-[2.5rem] text-3xl font-bold text-center">
+          About Us
+        </h2>
         <p className="text-[1.1rem] leading-loose text-center">
           a technology service company that provides innovative solutions to
           help businesses stay ahead of the curve. We specialize in [list your
