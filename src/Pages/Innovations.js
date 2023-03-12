@@ -3,10 +3,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { BgElement1, BgElement2, BgElement3 } from "../assets";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+import waitSysVideo from "../assets/video/waitSysVideo.mp4";
 const Innovations = () => {
   useEffect(() => {
     AOS.init({ duration: 500, delay: 300 });
@@ -48,21 +45,26 @@ const Innovations = () => {
             {/* </div> */}
           </div>
           <div>
-            <section className="bg-white  mt-4">
-              <div className="container flex px-[12%] pt-12 mx-auto text-left">
-                <div className="w-[50%]">
-                  <h2 className="font-bold text-[40px] text-black mb-2 ">
-                    Tagline text
-                  </h2>
-                  <p className=" leading-loose w-[90%] mt-12 text-[1.1rem]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vestibulum consectetur, est id consequat ultricies, nibh
-                    lacus vehicula nisl, eu auctor turpis ante eu ante. Fusce
-                    cursus eu sapien et luctus. Donec eu diam quis nunc interdum
-                    luctus. Ut velit metus, laoreet ut justo vitae, venenatis
-                    euismod mauris. Quisque semper nulla ut augue lobortis, nec
-                    rhoncus orci iaculis. In hac habitasse platea dictumst.
-                    Aliquam fermentum magna neque.
+            <section className="bg-white  mt-8">
+              <div className="container flex flex-col  px-4 py-12 mx-auto text-left">
+                <h2 className="font-bold text-[40px] text-black mb-2">
+                  Shaping the future with creativity and vision.
+                </h2>
+                <div className="w-[1196px] h-[432px] bg-[#D1D5DB] flex justify-center align-middle ">
+                  <p className="max-w-4xl p-4 text-center m-auto text-[20px] text-black">
+                    Innovations are the lifeblood of progress and have the power
+                    to transform the way we live, work, and interact with the
+                    world around us. From the wheel to the internet, human
+                    beings have been constantly pushing the boundaries of what's
+                    possible, seeking new and better ways to solve problems,
+                    improve efficiency, and enhance our quality of life.
+                    Innovations can take many forms, from breakthrough
+                    technologies and scientific discoveries to new business
+                    models and social movements. They often require creativity,
+                    perseverance, and the courage to challenge conventional
+                    thinking. The impact of innovations can be profound and
+                    long-lasting, shaping the course of history and defining the
+                    future of humanity.
                   </p>
                 </div>
                 <div className="w-[50%] flex justify-center items-center">
@@ -765,12 +767,26 @@ const Innovations = () => {
         </section>
       </div>
       {/* new two big images */}
-      <div className="content w-[100%] px-[10%] py-20 text-[1.2rem] leading-relaxed mb-10">
-        <h2 className="text-[2.5rem] font-bold mb-5">
-          IOT Connection ( LoraWAN )
-        </h2>
-        <p className="font-semibold text-[1.5rem]">
-          50 Ω, Wideband, 0.45 to 2.9 GHz, 10W, 28V, SMA.
+      <div className="lg:pr-44 lg:pl-44 mt-10">
+        <h1 className="text-[40px] font-bold text-black capitalize mb-2 ml-5  ">
+          WAIT System
+        </h1>
+        <section className="bg-[#6A6A6A] w-[1085px] m-auto h-[564px] border ">
+          <video src={waitSysVideo} controls className="z-10" />
+        </section>
+        <p className=" w-[1085px] m-auto mt-16 text-[20px] ">
+          WAIT System stands for Warning Ahead Of Intersections and Turns.
+          <br />
+          Driving on rural roads in India can be risky, especially during
+          winters when fog reduces visibility. Blind intersections and turns in
+          hilly terrain pose a significant danger to drivers who may be slow to
+          respond to honking or ignore their lanes. This can result in
+          accidents, traffic jams, and road rage. However, Linear Amp Tech has
+          developed an innovative solution called the Wait System, which uses
+          radar technology to detect approaching vehicles and alert drivers with
+          dynamic warning signs. The system can be deployed with road
+          infrastructure to automatically manage traffic in remote locations
+          prone to traffic jams, making driving safer and more efficient.
         </p>
         <div className="flex justify-between">
           <div className="w-[50%]">
