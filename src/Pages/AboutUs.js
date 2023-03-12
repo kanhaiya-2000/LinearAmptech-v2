@@ -15,11 +15,13 @@ import { boardMember } from "../data/BoardMemberData";
 const AboutUs = () => {
   return (
     <div className="">
-      <Header />
+      <div className="z-100">
+        <Header />
+      </div>
       {/* firt section */}
 
-      <div className="heroSection z-0  h-[400px] overflow-hidden ">
-        <div className="absolute z-[15] w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
+      <div className="heroSection z-10  h-[400px] overflow-hidden ">
+        <div className="absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
           <h2 className="text-[4rem] font-bold font-Roboto drop-shadow-2xl text-center">
             Get to Know Us
             <br /> Our Passion, Purpose, and People
