@@ -88,7 +88,7 @@ const Home = () => {
       {/* *********************Innovation ****************************** */}
 
       <div className="innovation w-[100%] px-[10%] py-32 lg:flex justify-center gap-20">
-        <div className="w-[650px] flex flex-col gap-5">
+        <div className="w-[650px] lg:flex flex-col gap-5">
           <p className="tag text-[#0346B5] text-[1.1rem] font-semibold">
             INNOVATIONS
           </p>
@@ -105,7 +105,7 @@ const Home = () => {
             Discover more
           </NavLink>
         </div>
-        <Element1 className="lg:h-[450px] h-[250px]" />
+        <Element1 className="lg:h-[450px] h-[320px]" />
       </div>
       <div className="w-[100vw] h-[100px]">
         <div data-aos="fade-up" data-aos-duration="1000">
@@ -122,10 +122,10 @@ const Home = () => {
               <br /> Offering
             </div>
 
-            <div className="lineStyle h-[6px] w-[335px]  bg-primary-color relative top-7"></div>
+            <div className="lineStyle h-[6px] lg:w-[335px] w-[100px]  bg-primary-color relative top-7"></div>
           </div>
 
-          <Element2 />
+          <Element2 className="lg:h-[450px] max-w-[500px]" />
         </div>
         <div className="right lg:w-1/2 lg:flex flex-col gap-7">
           <div className="imgLower h-[400px] w-[100%] flex justify-center items-center  overflow-hidden">
