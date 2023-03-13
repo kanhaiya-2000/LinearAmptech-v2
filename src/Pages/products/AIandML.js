@@ -3,6 +3,7 @@ import { BgElement2, BgElement1, BgElement3 } from "../../assets";
 import { Footer, Header } from "../../Components";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import foucusImg from "../../assets/product-focus-bg.png";
 
 const AIandML = () => {
   useEffect(() => {
@@ -12,9 +13,9 @@ const AIandML = () => {
     <div>
       <Header />
       <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] top-[35%]">
+        <div className="absolute w-[100%] h-[100%] lg:top-[35%] md:top-[20%] top-[18%]">
           <h2
-            className="text-[5rem] font-bold font-Roboto drop-shadow-2xl text-center text-white "
+            className="lg:text-[5rem] md:text-6xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center text-white "
             data-aos="fade"
             data-aos-duration="1000"
           >
@@ -54,14 +55,14 @@ const AIandML = () => {
         <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
       </div>
       <div className="productContainer  w-[100%] text-[1.2rem] leading-relaxed">
-        <div className="flex  justify-center gap-16 my-36 px-[10%]">
+        <div className="lg:flex  justify-center gap-16 my-36 px-[10%]">
           {/* <div className="w-[400px] h-[400px] bg-[#F2F2F2] rounded-2xl shadow-md"> */}
           <img
             src={require("../../assets/AI&ML/1.png")}
             className="w-[500px]"
           ></img>
           {/* </div> */}
-          <div className="w-[800px] flex flex-col justify-between">
+          <div className="lg:w-[800px] max-w-[500px] flex flex-col justify-between">
             <div>
               <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 Analytics
@@ -80,8 +81,8 @@ const AIandML = () => {
           </div>
         </div>
 
-        <div className="flex  justify-center gap-16 py-40 px-[10%] text-white bg-primary-color">
-          <div className="w-[800px] flex flex-col justify-between">
+        <div className="lg:flex  justify-center gap-16 py-40 px-[10%] text-white bg-primary-color">
+          <div className="lg:w-[800px] max-w-[500px] flex flex-col justify-between">
             <div>
               <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 Observability
@@ -112,14 +113,13 @@ const AIandML = () => {
           </div>
         </div>
 
-        <div className="flex  justify-center gap-16 my-40 px-[10%]">
-          {/* <div className="w-[400px] h-[400px] bg-[#F2F2F2] rounded-2xl flex justify-center items-center shadow-md"> */}
+        <div className="lg:flex  justify-center gap-16 my-40 px-[10%]">
           <img
             src={require("../../assets/AI&ML/3.png")}
             className="w-[500px]"
           ></img>
-          {/* </div> */}
-          <div className="w-[800px] flex flex-col justify-between">
+
+          <div className="lg:w-[800px] max-w-[500px] lg:flex flex-col justify-between">
             <div>
               <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 Predictive Maintenance
@@ -143,8 +143,11 @@ const AIandML = () => {
           <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[50%]" />
         </div>
       </div>
-      <div className="text-white text-[1.3rem] leading-relaxed">
-        <div className="absolute py-10 px-[12%] ">
+      <div
+        className="text-white text-[1.3rem] leading-relaxed"
+        style={{ backgroundImage: `url(${foucusImg})` }}
+      >
+        <div className=" py-10 px-[12%] ">
           <h2
             className="text-[3rem] font-bold text-center mb-10"
             data-aos="fade-up"
@@ -182,12 +185,6 @@ const AIandML = () => {
             new technology solutions for the company. We believe in continuous
             innovation for bringing cutting-edge technologies to the market.
           </p>
-        </div>
-        <div className="h-[800px] overflow-hidden ">
-          <img
-            src={require("../../assets/product-focus-bg.png")}
-            className="w-[100%]"
-          ></img>
         </div>
       </div>
       <Footer />
