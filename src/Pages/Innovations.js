@@ -414,7 +414,7 @@ const Innovations = () => {
         </div>
       </div>
       {/* new image box */}
-      <div className="lg:pr-44 lg:pl-44">
+      {/* <div className="lg:pr-44 lg:pl-44">
         <section className="bg-white ">
           <div className="h-[32rem]  ">
             <div className="container  py-32 mx-auto">
@@ -452,16 +452,16 @@ const Innovations = () => {
             </div>
           </div>
         </section>
-      </div>{" "}
-      <div
+      </div> */}
+      {/* <div
         className="absolute w-[100vw] overflow-hidden h-[200px]"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
-      </div>
-      <div className="mx-[12%] my-20">
-        <h2 className="text-[2.5rem] font-bold mt-10">Falcon Cloud</h2>
+      </div> */}
+      <div className="mx-[12%]">
+        <h2 className="text-[2.5rem] font-bold ">Falcon Cloud</h2>
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="w-[100%] lg:w-[50%]">
             <h2 className="text-[1.8rem] font-bold mt-5">How it works ?</h2>
@@ -512,12 +512,15 @@ const Innovations = () => {
             ></img>
           </div>
         </div>
-        <h2 className="text-[1.8rem] font-bold mt-5">Diagram</h2>
-        <img src={require("../assets/falcon1.png")} className="my-[1rem]"></img>
+        {/* <h2 className="text-[1.8rem] font-bold mt-5">Diagram</h2> */}
+        <img
+          src={require("../assets/falcon1.png")}
+          className="my-[1.5rem]"
+        ></img>
       </div>
       {/* new two big images */}
-      <div className="lg:pr-44 lg:pl-44 mt-10 mx-4">
-        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-4   ">
+      <div className="lg:pr-44 lg:pl-44 my-20 mx-4">
+        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-6   ">
           WAIT System
         </h1>
         <section className="bg-[#6A6A6A] max-w-[1085px] m-auto max-h-[564px] border ">
@@ -528,7 +531,7 @@ const Innovations = () => {
             data-autoplay="1"
           />
         </section>
-        <p className=" leading-relaxed max-w-[1085px] m-auto mt-20 text-[1.1rem] ">
+        <p className=" leading-relaxed max-w-[1085px] m-auto mt-20 text-[1.1rem] text-justify">
           WAIT System stands for Warning Ahead Of Intersections and Turns.
           <br />
           Driving on rural roads in India can be risky, especially during
@@ -584,18 +587,18 @@ const Innovations = () => {
         >
           <BgElement3 className="lg:w-[300px] absolute origin-center w-[180px] -right-20 lg:-right-36 -translate-y-[20%]" />
         </div>
-        <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
-        <div className="imgContainer flex flex-col justify-center items-center gap-24">
+        {/* <div className="text-[1.8rem] font-bold mt-5">Diagrams</div> */}
+        <div className="imgContainer flex flex-col lg:flex-row justify-between items-center gap-5 mt-9">
           <img
             src={require("../assets/InnovationE.png")}
-            className="w-[800px]"
+            className="w-[550px]"
           ></img>
           <img
             src={require("../assets/lorawan2.png")}
-            className="w-[800px]"
+            className="w-[550px]"
           ></img>
         </div>
-        <div className="text-[1.8rem] font-bold mt-16 mb-12">
+        {/* <div className="text-[1.8rem] font-bold mt-16 mb-12">
           Frequency Hopping
         </div>
         <div className="imgContainer flex justify-center items-center gap-24">
@@ -603,7 +606,7 @@ const Innovations = () => {
             src={require("../assets/InnovationE2.png")}
             className="w-[900px]"
           ></img>
-        </div>
+        </div> */}
       </div>
       {/* BLUE BOX */}
       <div className="lg:pr-48 lg:pl-48 h-[324px] max-w-[100%] bg-[#0465f8] flex justify-center m-4 lg:m-0 lg:mt-6 justify-items-center mt-20  items-center content-center">

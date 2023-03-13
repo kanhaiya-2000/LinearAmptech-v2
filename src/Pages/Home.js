@@ -28,11 +28,11 @@ const Home = () => {
       <div className="heroSection gap-2  lg:max-h-[88vh] flex flex-col justify-center items-center text-white z-0 overflow-hidden">
         {/* <div className=" bg-slate-600 z-10"></div> */}
         <video autoPlay muted loop src={video1} className="z-10" />
-        <div className="absolute w-[100%] lg:p-20 pb-4  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
+        <div className="absolute w-[100%] lg:p-20 pb-4 gap-3  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
           <h2 className=" lg:text-[5rem] md:text-4xl text-3xl font-bold drop-shadow-2xl bg-transparent">
             Linear AmpTech
           </h2>
-          <p className="lg:text-[2rem] text-xl font-normal mb-6 lg:mt-6 text-center">
+          <p className="lg:text-[2rem] text-xl font-normal lg:mb-5 lg:mt-6 text-center">
             Creating Difference With Technology
           </p>
           <NavLink

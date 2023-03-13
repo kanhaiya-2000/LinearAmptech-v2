@@ -22,44 +22,44 @@ export const homeProduct = [
       "With the advent of Software Defined Radio (SDR) the radio hardware scaled down to software and most of the features is pushed into software. In the scenario of war, the communication significantly depends on flexibility, interoperability, accuracy, and promptness. SDR having digital control and algorithms developed by us to compensate hardware imperfection apart from baseband can effectively increase flexibility, interoperability and promptness. ",
     link: "/products/software-defined-radio",
   },
-  {
-    img: img3,
-    tag: "Power Amplifier",
-    title: "LAMP-PACF1P9-10W",
-    content:
-      "Frequency:0.55-3.25GHz, Drain efficiency: 60-70.1%, Output power: 39.1-41.55dBm, Gain:9.1-11.55 dB, Gain Compression:2-4dB, C/IMD3,< -28 dBc at 3dB back-off of output power",
-    link: "/products/rf-amplifier/lamp-PAMOCBJ",
-  },
-  {
-    img: img3,
-    tag: "Power Amplifier",
-    title: "LAMP-PACF1P9-10W",
-    content:
-      "Frequency:0.55-3.25GHz, Drain efficiency: 60-70.1%, Output power: 39.1-41.55dBm, Gain:9.1-11.55 dB, Gain Compression:2-4dB, C/IMD3,< -28 dBc at 3dB back-off of output power",
-    link: "/products/rf-amplifier/lamp-PAMOCBJ",
-  },
-  {
-    img: img4,
-    tag: "Power Amplifier",
-    title: "LAMP-PACF1P9-10W",
-    content:
-      "Frequency:1.5-2.5GHz, Drain efficiency: 60-73%, Output power: 38.9-40.4dBm, Gain at saturation:9.9-11.2 dB, Gain Compression:3-3.5 dB",
-    link: "/products/rf-amplifier/lamp-PACF1P9",
-  },
-  {
-    img: img5,
-    tag: "Power Amplifier",
-    title: "LAMP-PAMOCCE-10W",
-    content:
-      "Frequency:0.45-2.9GHz, Drain efficiency: 60-72.9%, Output power: 39.6-41.7dBm, Output power flatness:2dB, Gain:8.6-10.7 dB, Gain Compression:2-4dB, C/IMD3, < -26 dBc at 3dB back-off of output power",
-    link: "/products/rf-amplifier/lamp-PAMOCCE",
-  },
-  {
-    img: img6,
-    tag: "Power Amplifier",
-    title: "LAMP-PAMOCCF-10W",
-    content:
-      "Frequency:0.5-2.2GHz, Drain efficiency: 60-71%, Output power: 41.3-42.7dBm, Gain at saturation:8-9.4 dB, Gain Compression:3-4 dB",
-    link: "/products/rf-amplifier/lamp-PAMOCCF",
-  },
+  // {
+  //   img: img3,
+  //   tag: "Power Amplifier",
+  //   title: "LAMP-PACF1P9-10W",
+  //   content:
+  //     "Frequency:0.55-3.25GHz, Drain efficiency: 60-70.1%, Output power: 39.1-41.55dBm, Gain:9.1-11.55 dB, Gain Compression:2-4dB, C/IMD3,< -28 dBc at 3dB back-off of output power",
+  //   link: "/products/rf-amplifier/lamp-PAMOCBJ",
+  // },
+  // {
+  //   img: img3,
+  //   tag: "Power Amplifier",
+  //   title: "LAMP-PACF1P9-10W",
+  //   content:
+  //     "Frequency:0.55-3.25GHz, Drain efficiency: 60-70.1%, Output power: 39.1-41.55dBm, Gain:9.1-11.55 dB, Gain Compression:2-4dB, C/IMD3,< -28 dBc at 3dB back-off of output power",
+  //   link: "/products/rf-amplifier/lamp-PAMOCBJ",
+  // },
+  // {
+  //   img: img4,
+  //   tag: "Power Amplifier",
+  //   title: "LAMP-PACF1P9-10W",
+  //   content:
+  //     "Frequency:1.5-2.5GHz, Drain efficiency: 60-73%, Output power: 38.9-40.4dBm, Gain at saturation:9.9-11.2 dB, Gain Compression:3-3.5 dB",
+  //   link: "/products/rf-amplifier/lamp-PACF1P9",
+  // },
+  // {
+  //   img: img5,
+  //   tag: "Power Amplifier",
+  //   title: "LAMP-PAMOCCE-10W",
+  //   content:
+  //     "Frequency:0.45-2.9GHz, Drain efficiency: 60-72.9%, Output power: 39.6-41.7dBm, Output power flatness:2dB, Gain:8.6-10.7 dB, Gain Compression:2-4dB, C/IMD3, < -26 dBc at 3dB back-off of output power",
+  //   link: "/products/rf-amplifier/lamp-PAMOCCE",
+  // },
+  // {
+  //   img: img6,
+  //   tag: "Power Amplifier",
+  //   title: "LAMP-PAMOCCF-10W",
+  //   content:
+  //     "Frequency:0.5-2.2GHz, Drain efficiency: 60-71%, Output power: 41.3-42.7dBm, Gain at saturation:8-9.4 dB, Gain Compression:3-4 dB",
+  //   link: "/products/rf-amplifier/lamp-PAMOCCF",
+  // },
 ];
