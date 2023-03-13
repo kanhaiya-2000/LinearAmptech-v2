@@ -16,7 +16,6 @@ const Innovations = () => {
   return (
     <div>
       <Header />
-
       <div className="z-10">
         <header>
           <div
@@ -453,6 +452,68 @@ const Innovations = () => {
             </div>
           </div>
         </section>
+      </div>{" "}
+      <div
+        className="absolute w-[100vw] overflow-hidden h-[200px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
+      </div>
+      <div className="mx-[12%] my-20">
+        <h2 className="text-[2.5rem] font-bold mt-10">Falcon Cloud</h2>
+        <div className="flex flex-col lg:flex-row justify-between">
+          <div className="w-[100%] lg:w-[50%]">
+            <h2 className="text-[1.8rem] font-bold mt-5">How it works ?</h2>
+            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+              <li>
+                Linear Amptech's Cloud Analytics solution is designed to monitor
+                sensors and generate valuable insights from them.
+              </li>
+              <li>
+                The process begins with data ingestion, where data from various
+                sensors is collected in real-time and transmitted to our
+                cloud-based platform for analysis.
+              </li>
+              <li>
+                Using advanced algorithms and machine learning techniques, we
+                process the data and identify patterns and anomalies.
+              </li>
+              <li>
+                A comprehensive analysis report is generated and shown in a user
+                friendly dashboard
+              </li>
+              <li>
+                This enables businesses to make informed decisions and take
+                action based on real-time data, improving their operational
+                efficiency and reducing downtime.
+              </li>
+            </ul>
+            <h2 className="text-[1.8rem] font-bold mt-5">Benefits</h2>
+            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+              <li>
+                Reduction of cost for an organisation due to process
+                optimization
+              </li>
+              <li>No code solutions</li>
+              <li>
+                Reduction in time and cost to develop and deploy the IIoT app
+              </li>
+              <li>
+                Access to advanced techniques to detect issues before the actual
+                building
+              </li>
+            </ul>
+          </div>
+          <div className="rightBox w-[100%] lg:w-[50%] flex p-5">
+            <img
+              src={require("../assets/AI&ML/2.png")}
+              className="w-[100%] h-auto"
+            ></img>
+          </div>
+        </div>
+        <h2 className="text-[1.8rem] font-bold mt-5">Diagram</h2>
+        <img src={require("../assets/falcon1.png")} className="my-[1rem]"></img>
       </div>
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 mt-10 mx-4">
@@ -482,7 +543,7 @@ const Innovations = () => {
           prone to traffic jams, making driving safer and more efficient.
         </p>
         <h2 className="lg:text-[2.5rem] text-3xl font-bold mb-5 mt-14">
-          IOT Connection ( LoraWAN )
+          LoraWAN
         </h2>
         <div className="lg:flex justify-between">
           <div className="lg:w-[50%]">
@@ -512,11 +573,8 @@ const Innovations = () => {
               <li>No changes required on network side</li>
             </ul>
           </div>
-          <div className="rightBox lg:w-[50%] flex lg:p-20">
-            <div className="fronBox lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[300px] h-[200px] bg-primary-color"></div>
-            <div className="backBox absolute lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[300px] h-[200px] bg-[#EFF6FF] lg:translate-x-5 translate-x-2 m-auto lg:translate-y-5 translate-y-2 flex justify-center items-center">
-              <img src={require("../assets/lorawan.png")} className=""></img>
-            </div>
+          <div className="rightBox lg:w-[50%] flex">
+            <img src={require("../assets/lorawan1.png")}></img>
           </div>
         </div>
         <div
@@ -527,9 +585,13 @@ const Innovations = () => {
           <BgElement3 className="lg:w-[300px] absolute origin-center w-[180px] -right-20 lg:-right-36 -translate-y-[20%]" />
         </div>
         <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
-        <div className="imgContainer flex justify-center items-center gap-24">
+        <div className="imgContainer flex flex-col justify-center items-center gap-24">
           <img
             src={require("../assets/InnovationE.png")}
+            className="w-[800px]"
+          ></img>
+          <img
+            src={require("../assets/lorawan2.png")}
             className="w-[800px]"
           ></img>
         </div>
@@ -543,7 +605,6 @@ const Innovations = () => {
           ></img>
         </div>
       </div>
-
       {/* BLUE BOX */}
       <div className="lg:pr-48 lg:pl-48 h-[324px] max-w-[100%] bg-[#0465f8] flex justify-center m-4 lg:m-0 lg:mt-6 justify-items-center mt-20  items-center content-center">
         <p className="text-center text-white lg:text-[20px] text-base leading-relaxed px-2 lg:px-0">
