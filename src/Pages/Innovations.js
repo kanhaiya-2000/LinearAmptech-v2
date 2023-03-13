@@ -461,9 +461,9 @@ const Innovations = () => {
         <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
       </div>
       <div className="mx-[12%] my-20">
-        <h2 className="text-[2.5rem] font-bold mt-10">Falcon Cloud Project</h2>
-        <div className="flex justify-between">
-          <div className="w-[50%]">
+        <h2 className="text-[2.5rem] font-bold mt-10">Falcon Cloud</h2>
+        <div className="flex flex-col lg:flex-row justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className="text-[1.8rem] font-bold mt-5">How it works ?</h2>
             <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
               <li>
@@ -505,10 +505,10 @@ const Innovations = () => {
               </li>
             </ul>
           </div>
-          <div className="rightBox w-[50%] flex p-5">
+          <div className="rightBox w-[100%] lg:w-[50%] flex p-5">
             <img
               src={require("../assets/AI&ML/2.png")}
-              className="w-[100%]"
+              className="w-[100%] h-auto"
             ></img>
           </div>
         </div>
@@ -543,7 +543,7 @@ const Innovations = () => {
           prone to traffic jams, making driving safer and more efficient.
         </p>
         <h2 className="lg:text-[2.5rem] text-3xl font-bold mb-5 mt-14">
-          IOT Connection ( LoraWAN )
+          LoraWAN
         </h2>
         <div className="lg:flex justify-between">
           <div className="lg:w-[50%]">
@@ -573,11 +573,8 @@ const Innovations = () => {
               <li>No changes required on network side</li>
             </ul>
           </div>
-          <div className="rightBox lg:w-[50%] flex lg:p-20">
-            <div className="fronBox h-[400px] w-[500px] bg-primary-color"></div>
-            <div className="backBox absolute h-[400px] max-w-[500px] bg-[#EFF6FF] lg:translate-x-5 translate-x-2 m-auto lg:translate-y-5 translate-y-2 flex justify-center items-center">
-              <img src={require("../assets/lorawan.png")}></img>
-            </div>
+          <div className="rightBox lg:w-[50%] flex">
+            <img src={require("../assets/lorawan1.png")}></img>
           </div>
         </div>
         <div
@@ -588,9 +585,13 @@ const Innovations = () => {
           <BgElement3 className="lg:w-[300px] absolute origin-center w-[180px] -right-20 lg:-right-36 -translate-y-[20%]" />
         </div>
         <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
-        <div className="imgContainer flex justify-center items-center gap-24">
+        <div className="imgContainer flex flex-col justify-center items-center gap-24">
           <img
             src={require("../assets/InnovationE.png")}
+            className="w-[800px]"
+          ></img>
+          <img
+            src={require("../assets/lorawan2.png")}
             className="w-[800px]"
           ></img>
         </div>
