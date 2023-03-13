@@ -179,12 +179,12 @@ const AboutUs = () => {
       {/* BOARD of Directors */}
       <div className="lg:mt-64 mb-20">
         <section className="bg-white ">
-          <div className="container px-6 py-10 mx-auto">
-            <h1 className="lg:text-[40px] text-3xl font-semibold text-center text-black capitalize ">
+          <div className="container px-6 py-10 mx-auto mt-12">
+            <h1 className="lg:text-[40px] text-4xl font-semibold text-center text-black capitalize ">
               Board Of Directors
             </h1>
 
-            <p className="max-w-6xl lg:text-[20px] text-base mx-auto my-6 text-center text-black leading-loose ">
+            <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
               Our board of directors comprises seasoned professionals who
               possess a wealth of knowledge and expertise in various fields. We
               are honored to have a world-renowned power amplifier expert Dr.
@@ -195,7 +195,7 @@ const AboutUs = () => {
               outcomes to our stakeholders
             </p>
 
-            <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+            <div className="flex flex-wrap gap-2 justify-center mt-2 xl:mt-12 ">
               {boardMember.map((member) => {
                 return <BoardMember member={member} />;
               })}
