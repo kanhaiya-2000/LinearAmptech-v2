@@ -31,7 +31,7 @@ const Team = () => {
       </div>
       <div>
         <section className="bg-white ">
-          <div className="container px-6 py-10 mx-auto">
+          <div className="container px-6 py-10 mx-auto mt-12">
             <h1 className="lg:text-[40px] text-4xl font-semibold text-center text-black capitalize ">
               Board Of Directors
             </h1>
@@ -47,7 +47,7 @@ const Team = () => {
               outcomes to our stakeholders
             </p>
 
-            <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+            <div className="flex flex-wrap gap-2 justify-center mt-2 xl:mt-12 ">
               {boardMember.map((member) => {
                 return <BoardMember member={member} />;
               })}
@@ -59,11 +59,11 @@ const Team = () => {
       <div className="mt-2">
         <div>
           <section className="bg-white ">
-            <div className="container px-6 py-10 mx-auto">
+            <div className="container px-4 py-10 mx-auto">
               <h1 className="lg:text-[40px] text-4xl font-semibold text-center text-black capitalize ">
                 Core Team
               </h1>
-              <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
+              <p className="max-w-6xl text-[20px] mx-auto my-3 text-center text-black ">
                 Our core team comprises talented individuals with diverse
                 backgrounds and experiences. Our members hail from some of the
                 largest software companies in the world, including JPMC,
@@ -73,7 +73,7 @@ const Team = () => {
                 exceptional outcomes to our clients.
               </p>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4 xl:[&>*:nth-child(5)]:relative xl:[&>*:nth-child(5)]:left-[480px]">
+              <div className="flex flex-wrap gap-2 justify-center mt-2 xl:mt-12">
                 {coreTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
@@ -91,7 +91,7 @@ const Team = () => {
                 Software Team
               </h1>
 
-              <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
+              <div className="flex flex-wrap gap-2 justify-center mt-2 xl:mt-12">
                 {softwareTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
@@ -101,7 +101,7 @@ const Team = () => {
         </div>
       </div>
       {/* hardware team */}
-      <div className="mt-8 mb-8">
+      <div className="mt-12 mb-8">
         <div>
           <section className="bg-white ">
             <div className="container px-6 py-2  mx-auto">
@@ -109,7 +109,7 @@ const Team = () => {
                 Hardware Team
               </h1>
 
-              <div className="grid grid-cols-1 gap-8  xl:mt-4 md:grid-cols-2 xl:grid-cols-4">
+              <div className="flex flex-wrap gap-2 justify-center mt-2 xl:mt-12">
                 {hardwareTeam.map((member) => {
                   return <TeamMember member={member} />;
                 })}
