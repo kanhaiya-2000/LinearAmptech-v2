@@ -184,7 +184,7 @@ const NewsEvents = () => {
                       <div className="lg:flex border mx-2 lg:my-2 my-2  w-[594px]">
                         <div className="flex flex-col justify-between py-6 mx-6">
                           <img src={photo} className="max-h-80 w-[100%]" />
-                          <p className="lg:text-xl lg:font-regular text-md text-black  mt-2   ">
+                          <p className="lg:text-[20px] lg:font-regular text-md text-black  mt-2 leading-relaxed  ">
                             {title ? title : "Title"}
                           </p>
 
