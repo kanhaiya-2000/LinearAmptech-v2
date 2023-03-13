@@ -30,16 +30,18 @@ const Slider = () => {
       {homeProduct.map(({ img, title, tag, content, link }) => {
         return (
           <SwiperSlide>
-            <div className="slide lg:flex gap-16 justify-center w-[100%] h-[100%] py-20">
-              <div className="h-[400px] max-w-[450px] flex justify-center items-center">
-                <img src={img} className=""></img>
+            <div className="slide lg:flex lg:gap-16 lg:justify-center w-[100%] h-[100%] py-20">
+              <div className="lg:h-[400px] h-[100px] max-w-[450px] flex justify-center  items-center ">
+                <img src={img} className="min-w-[400px] "></img>
               </div>
-              <div className="right max-w-[650px] flex flex-col gap-4">
+              <div className="lg:right lg:max-w-[650px] flex flex-col gap-4">
                 <p className="tag text-[#0346B5] text-[1.1rem] font-medium">
                   {tag}
                 </p>
-                <h2 className="lg:text-[2.5rem] text-2xl font-bold">{title}</h2>
-                <p className=" text-[1.1rem] leading-loose h-[200px]">
+                <h2 className="lg:text-[2.5rem] text-2xl lg:leading-normal font-bold">
+                  {title}
+                </h2>
+                <p className=" text-[1.1rem] leading-loose min-h-[200px]">
                   {content}
                 </p>
                 <div>
