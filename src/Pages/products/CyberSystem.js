@@ -72,15 +72,18 @@ const CyberSystem = () => {
       </div>
       <div className="productContainer  w-[100%] text-[1.2rem] leading-relaxed ">
         <div className="lg:flex  justify-center gap-16 my-36 px-[10%]">
-          <div className="w-[400px] h-[400px] bg-[#F2F2F2] rounded-2xl shadow-md">
+          <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md">
             {/* <img
               src={require("../../assets/RFlinear/p1.png")}
               className="w-[100%]"
             ></img> */}
           </div>
-          <div className="lg:w-[800px] max-w-[500px] flex lg:flex-col  justify-between">
+          <div className="lg:w-[800px] max-w-[600px] flex flex-col  justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
+              <h2
+                className="text-[2rem] font-bold mb-5 mt-12 lg:mt-0 "
+                data-aos="fade-up"
+              >
                 WAIT System
               </h2>
               <p data-aos="fade-left" data-aos-duration="1000">
@@ -103,8 +106,8 @@ const CyberSystem = () => {
           </div>
         </div>
 
-        <div className="lg:flex  justify-center gap-16 py-40 px-[10%] text-white bg-primary-color">
-          <div className="lg:w-[800px] max-w-[500px] flex flex-col justify-between">
+        <div className="  lg:flex lg:flex-row flex flex-col-reverse  gap-16 py-40 px-[10%] justify-center text-white bg-primary-color">
+          <div className="lg:w-[800px] max-w-[600px] flex flex-col   justify-between">
             <div>
               <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
                 TRACK System
@@ -123,7 +126,7 @@ const CyberSystem = () => {
             </div>
             <a className="underline cursor-pointer hover:text-blue-800">more</a>
           </div>
-          <div className="w-[400px] h-[400px] bg-white rounded-2xl flex justify-center items-center shadow-2xl">
+          <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md">
             {/* <img
               src={require("../../assets/RFlinear/p2.png")}
               className="w-[90%]"
@@ -138,15 +141,18 @@ const CyberSystem = () => {
         </div>
 
         <div className="lg:flex  justify-center gap-16 my-40 px-[10%]">
-          <div className="w-[400px] h-[400px] bg-[#F2F2F2] rounded-2xl flex justify-center items-center shadow-md">
+          <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md">
             {/* <img
               src={require("../../assets/RFlinear/p3.png")}
               className="w-[90%]"
             ></img> */}
           </div>
-          <div className="lg:w-[800px] max-w-[500px] flex flex-col justify-between">
+          <div className="lg:w-[800px] max-w-[600px] flex flex-col justify-between">
             <div>
-              <h2 className="text-[2rem] font-bold mb-5" data-aos="fade-up">
+              <h2
+                className="text-[2rem] font-bold mb-5 mt-12 lg:mt-0"
+                data-aos="fade-up"
+              >
                 PLAN System
               </h2>
               <p data-aos="fade-left" data-aos-duration="1000">
