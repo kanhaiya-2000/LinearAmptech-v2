@@ -1,9 +1,12 @@
 import React from "react";
-
+import foucusBg from "../assets/product-focus-bg.png";
 const CompanyFocus = () => {
   return (
-    <div className="text-white text-[1.2rem] leading-normal h-[100%]">
-      <div className="absolute py-10 px-[12%] ">
+    <div
+      className="text-white text-[1.2rem] leading-normal h-auto"
+      style={{ backgroundImage: `url(${foucusBg})` }}
+    >
+      <div className=" py-10 lg:px-[12%] px-6 ">
         <h2
           className="text-[3rem] font-bold text-center mb-10"
           data-aos="fade-up"
@@ -41,12 +44,6 @@ const CompanyFocus = () => {
           technology solutions for the company. We believe in continuous
           innovation for bringing cutting-edge technologies to the market.
         </p>
-      </div>
-      <div className="h-[800px] overflow-hidden ">
-        <img
-          src={require("../assets/product-focus-bg.png")}
-          className="w-[100%]"
-        ></img>
       </div>
     </div>
   );

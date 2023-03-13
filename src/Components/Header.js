@@ -98,13 +98,12 @@ const Header = () => {
 
               <div
                 onMouseEnter={() => setIsDropDownOpen(true)}
-                // onMouseLeave={() => setIsDropDownOpen(false)}
                 className="my-2 text-gray-700 transition-colors duration-300 z-10 transform md:mx-4 md:my-0 cursor-pointer hover:text-blue-500"
                 // to="/products"
               >
                 Products
                 {isDropDownOpen && (
-                  <div className="container ease-in duration-1000 border h-auto flex flex-wrap gap-10 text-[#929292] absolute w-[1300px] -translate-x-[72%] translate-y-9 bg-white list-none shadow-xl rounded-xl px-10 py-12">
+                  <div className="container ease-in duration-1000 border h-auto  flex flex-wrap gap-10 text-[#929292] absolute min-w-[1300px] left-28 -translate-x-[72%] translate-y-9 bg-white list-none shadow-xl rounded-xl px-10 py-12">
                     <div className="w-[20%] flex flex-col gap-6">
                       <h2 className="text-[1.2rem] font-bold text-[#0346B5]">
                         Linear Amptech
