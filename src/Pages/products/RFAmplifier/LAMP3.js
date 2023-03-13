@@ -20,7 +20,7 @@ const LAMP3 = () => {
           50 Ω, Wideband, 0.45 to 2.9 GHz, 10W, 28V, SMA.
         </p>
         <div className="lg:flex justify-between">
-          <div className="w-[50%]">
+          <div className="lg:w-[50%]">
             <h2 className="text-[1.8rem] font-bold mt-5">Key Features</h2>
             <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
               <li> Frequency:0.45-2.9GHz</li>
