@@ -25,10 +25,10 @@ const AboutUs = () => {
             backgroundImage: `url("https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")`,
           }}
         >
-          <h2 className="lg:text-[4rem] text-4xl font-bold font-Roboto drop-shadow-2xl text-center">
+          <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center">
             Get to Know Us
           </h2>
-          <h2 className="lg:text-[4rem] text-4xl font-bold font-Roboto drop-shadow-2xl text-center lg:mt-8 p-1">
+          <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center lg:mt-8 p-1">
             Our Passion, Purpose, and People
           </h2>
         </div>
@@ -37,25 +37,23 @@ const AboutUs = () => {
       {/* middle */}
       <div className="mt-10 ">
         <section className="bg-white dark:bg-gray-800 lg:pt-12 pb-0 lg:flex lg:justify-center">
-          <div className="overflow-hidden bg-white  lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
-            <div className="lg:w-1/2">
+          <div className="overflow-hidden bg-white md:mx-4  lg:mx-8 md:flex md:max-w-6xl md:w-full lg:shadow-none ">
+            <div className="md:w-1/2">
               <div
-                className="h-64 bg-cover lg:h-full"
+                className="h-64 bg-cover lg:h-full lg:max-w-[588px] lg:h[480px] md:max-w-[480px] md:h-[500px]"
                 style={{
                   backgroundImage: `url(${aboutbg})`,
-                  width: "588px",
-                  height: "480px",
                 }}
               ></div>
             </div>
 
-            <div className="max-w-xl px-4 lg:pl-12 py-12 lg:max-w-5xl lg:w-1/2">
+            <div className="md:max-w-lg sm:w-full px-4 lg:pl-12 py-12 lg:max-w-5xl lg:w-1/2">
               <div class="lineStyle h-[6px] w-[111px] bg-[#0465f8] relative top-7 left-1/2"></div>
-              <h2 className="lg:text-[40px] text-3xl font-semibold text-black  ">
+              <h2 className="lg:text-[40px] md:text-4xl text-3xl font-semibold text-black  ">
                 About us
               </h2>
 
-              <p className="mt-4 lg:text-[20px] text-base text-black  ">
+              <p className="mt-4 lg:text-[20px] md:text-[18px] text-base text-black leading-loose  ">
                 Linear Amplifier Technology & Services private ltd (Linear
                 Amp-tech) is a company formed and driven by innovative minds of
                 Indian I.I.T Roorkee. The company is Incubated in I.I.T Roorkee
@@ -74,7 +72,7 @@ const AboutUs = () => {
         <section className="bg-white dark:bg-gray-800 lg:pb-12 pt-0 lg:flex lg:justify-center px-4">
           <div className="overflow-hidden bg-white  lg:mx-auto lg:flex lg:max-w-6xl lg:w-full lg:shadow-none ">
             <div className=" px-0 lg:py-12 ">
-              <p className="mt-0 text-black  lg:text-[20px] text-base ">
+              <p className="mt-0 md:mt-8  text-black  lg:text-[20px] md:text-[18px] text-base leading-loose ">
                 The company is geared up to take on new technology development
                 projects in the relevant areas. The company is primarily
                 focusing on various aspects of cyber-physical system design
@@ -86,7 +84,7 @@ const AboutUs = () => {
                 including radio-frequency sensors development and addressing the
                 cyber domain with Artificial intelligence and Machine Learning.
               </p>
-              <p className="mt-4 text-black  lg:text-[20px] text-base">
+              <p className="mt-4 text-black  lg:text-[20px] md:text-[18px] leading-loose text-base">
                 The company also envisages the requirement for the specialized
                 technology areas such as Radio-frequency design and hence is
                 committed to the development of radios and related components to
@@ -107,37 +105,40 @@ const AboutUs = () => {
       {/* we build awesome products */}
       <div className="lg:h-[893px] bg-[#292C33]  flex justify-center flex-col align-end items-center mt-12 ">
         <div className="py-16 lg:mt-32">
-          <h1 className="text-white lg:text-[48px] text-3xl font-semibold text-center">
+          <h1 className="text-white lg:text-[48px] text-3xl  font-semibold text-center">
             We build awesome products
           </h1>
         </div>
-        <div className=" text-[16px] lg:flex  ">
-          <div className="min-h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
-            <h1 className="text-[20px]  font-semibold">RF Power Amplifiers</h1>
-            <p className="mt-4 text-base  ">
+
+        <div className="lg:flex lg:flex-row flex flex-col-reverse  ">
+          <div className="lg:h-[282px] lg:w-[477px] max-w-[477px] min-h-[282px] bg-[#48484A] text-white px-8 lg:pt-8 pt-4 pb-4 lg:pb-0 ">
+            <h1 className="text-[20px] font-semibold">RF Power Amplifiers</h1>
+            <p className="pt-2">
               Linear Amptech provides excellent indigenous power amplifier
               solution for Cellular application and variety of military and
               space applications. We provide vast range of high performance
               power amplifiers with frequency coverage from Dc to 18 GHz.
             </p>
-            <div className="w-[114px] h-[36px]  px-5 pt-1 mt-6 text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
-              <NavLink to={"/products/rf-power-amplifiers"}>Read more</NavLink>
+            <div className="w-[114px] min-h-[36px]  px-5 pt-1 mt-2  text-[14px] border border-white text-white    hover:scale-110 duration-300  ">
+              <NavLink to={"/products/rf-linear-nonlinear-characterization"}>
+                Read more
+              </NavLink>
             </div>
           </div>
-          <div className="h-[282px] max-w-[477px] bg-white">
-            <img src={rf} />
+          <div className="h-[282px] lg:w-[477px] max-w-[477px] sm-max-w-[350px] bg-white ">
+            <img src={rf} className="h-[100%]" />
           </div>
         </div>
 
         <div className="lg:flex  ">
-          <div className="h-[282px] max-w-[477px] bg-white">
+          <div className="h-[282px] lg:w-[477px] max-w-[477px] bg-white">
             <img src={sdr} className="h-[100%] " />
           </div>
-          <div className="min-h-[282px] max-w-[477px] bg-[#0465F8] text-white p-8 ">
+          <div className="lg:h-[282px] lg:w-[477px] max-w-[477px] min-h-[282px] bg-[#0465F8] text-white px-8 lg:pt-8 pt-4 pb-4 lg:pb-0  ">
             <h1 className="text-[20px] font-semibold">
               Software Defined Point to Point Radio Applications
             </h1>
-            <p className="mt-4">
+            <p className="pt-2">
               With the advent of Software Defined Radio (SDR) the radio hardware
               scaled down to software and most of the features is pushed into
               software. In the scenario of war, the communication significantly
@@ -152,12 +153,12 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="lg:flex ">
-          <div className="min-h-[282px] max-w-[477px] bg-[#48484A] text-white p-8 ">
+        <div className="lg:flex lg:flex-row flex flex-col-reverse ">
+          <div className="lg:h-[282px] lg:w-[477px] max-w-[477px] min-h-[282px] bg-[#48484A] text-white px-8 lg:pt-8 pt-4 pb-4 lg:pb-0 ">
             <h1 className="text-[20px] font-semibold">
               RF linear and nonlinear characterization
             </h1>
-            <p className="mt-4">
+            <p className="pt-2">
               Our capabilities lies in the generation of single and multiple
               Tone, modulated signals like QAM, OFDM, LTE, pulse shaping in
               baseband and transmission in analog domain. The testbed designed
@@ -171,19 +172,19 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="h-[282px] max-w-[477px] bg-white border-b border-r border-black">
-            <img src={poweramp} />
+            <img src={poweramp} className="h-[100%]" />
           </div>
         </div>
       </div>
       {/* BOARD of Directors */}
       <div className="lg:mt-64 mb-20">
         <section className="bg-white ">
-          <div className="container px-6 py-10 mx-auto">
-            <h1 className="lg:text-[40px] text-3xl font-semibold text-center text-black capitalize ">
+          <div className="container px-6 py-10 mx-auto mt-12">
+            <h1 className="lg:text-[40px] text-4xl font-semibold text-center text-black capitalize ">
               Board Of Directors
             </h1>
 
-            <p className="max-w-6xl lg:text-[20px] text-base mx-auto my-6 text-center text-black ">
+            <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
               Our board of directors comprises seasoned professionals who
               possess a wealth of knowledge and expertise in various fields. We
               are honored to have a world-renowned power amplifier expert Dr.
@@ -194,7 +195,7 @@ const AboutUs = () => {
               outcomes to our stakeholders
             </p>
 
-            <div className="grid grid-cols-1 gap-8 mt-2 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+            <div className="flex flex-wrap gap-2 justify-center mt-2 xl:mt-12 ">
               {boardMember.map((member) => {
                 return <BoardMember member={member} />;
               })}
@@ -206,7 +207,7 @@ const AboutUs = () => {
       <hr />
       <section className=" bg-[#0465F8]">
         <div className="container px-4 lg:py-16 py-8 mx-auto lg:flex lg:items-center lg:justify-between">
-          <h2 className="lg:text-[48px] text-3xl  font-medium tracking-tight xl:text-3xl text-white">
+          <h2 className="lg:text-4xl text-3xl  font-medium tracking-tight  text-white">
             Get to know today!
           </h2>
 
