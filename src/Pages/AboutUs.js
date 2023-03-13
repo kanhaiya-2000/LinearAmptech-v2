@@ -111,7 +111,7 @@ const AboutUs = () => {
         </div>
 
         <div className="lg:flex lg:flex-row flex flex-col-reverse  ">
-          <div className="lg:h-[282px] lg:w-[477px] max-w-[477px] min-h-[282px] bg-[#0465F8] text-white px-8 lg:pt-8 pt-4 pb-4 lg:pb-0 ">
+          <div className="lg:h-[282px] lg:w-[477px] max-w-[477px] min-h-[282px] bg-[#48484A] text-white px-8 lg:pt-8 pt-4 pb-4 lg:pb-0 ">
             <h1 className="text-[20px] font-semibold">RF Power Amplifiers</h1>
             <p className="pt-2">
               Linear Amptech provides excellent indigenous power amplifier

@@ -4,9 +4,9 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 const BoardMember = (props) => {
   console.log(props);
   return (
-    <div className="flex flex-col items-center justify-around   border">
+    <div className="flex flex-col items-center justify-center w-[300px] lg:w-[300px] border">
       <img
-        className="object-cover w-[100%] h-[auto] "
+        className="object-cover w-[100%]  h-[auto] "
         src={props.member.photo}
         alt=""
       />
