@@ -29,7 +29,7 @@ const Home = () => {
         {/* <div className=" bg-slate-600 z-10"></div> */}
         <video autoPlay muted loop src={video1} className="z-10" />
         <div className="absolute w-[100%] lg:p-20 pb-4  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
-          <h2 className=" lg:text-[5rem] text-3xl font-bold drop-shadow-2xl bg-transparent">
+          <h2 className=" lg:text-[5rem] md:text-4xl sm:text-3xl font-bold drop-shadow-2xl bg-transparent">
             Linear AmpTech
           </h2>
           <p className="lg:text-[2rem] text-xl font-normal mb-6 lg:mt-6 text-center">
