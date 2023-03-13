@@ -72,12 +72,7 @@ const CyberSystem = () => {
       </div>
       <div className="productContainer  w-[100%] text-[1.2rem] leading-relaxed ">
         <div className="lg:flex  justify-center gap-16 my-36 px-[10%]">
-          <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md">
-            {/* <img
-              src={require("../../assets/RFlinear/p1.png")}
-              className="w-[100%]"
-            ></img> */}
-          </div>
+          <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md"></div>
           <div className="lg:w-[800px] max-w-[600px] flex flex-col  justify-between">
             <div>
               <h2
