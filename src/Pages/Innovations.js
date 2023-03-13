@@ -573,11 +573,16 @@ const Innovations = () => {
               <li>No changes required on network side</li>
             </ul>
           </div>
+<<<<<<< HEAD
           <div className="rightBox lg:w-[50%] flex lg:p-20">
             <div className="fronBox lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[300px] h-[200px] bg-primary-color"></div>
             <div className="backBox absolute lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[300px] h-[200px] bg-[#EFF6FF] lg:translate-x-5 translate-x-2 m-auto lg:translate-y-5 translate-y-2 flex justify-center items-center">
               <img src={require("../assets/lorawan.png")} className=""></img>
             </div>
+=======
+          <div className="rightBox lg:w-[50%] flex">
+            <img src={require("../assets/lorawan1.png")}></img>
+>>>>>>> hafeez_dev
           </div>
         </div>
         <div
