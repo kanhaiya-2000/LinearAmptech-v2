@@ -46,7 +46,7 @@ const Innovations = () => {
           </div>
         </header>
         <div>
-          <section className="bg-white  lg:mt-8 ">
+          <section className="bg-white  lg:mt-8 mt-4 xl:mt-12 ">
             <div className="container lg:flex lg:px-[12%] pt-12 mx-auto text-left px-4">
               <div className="lg:w-[50%]">
                 <h2 className="font-bold lg:text-[40px] leading-relaxed text-3xl text-black mb-2 ">
@@ -520,7 +520,7 @@ const Innovations = () => {
         ></img>
       </div>
       {/* new two big images */}
-      <div className="lg:pr-44 lg:pl-44 my-20 mx-4">
+      <div className="lg:pr-44 lg:pl-44 my-20 px-4">
         <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-6   ">
           WAIT System
         </h1>
@@ -606,7 +606,7 @@ const Innovations = () => {
         </div> */}
       </div>
       {/* BLUE BOX */}
-      <div className="lg:pr-48 lg:pl-48 h-[324px] max-w-[100%] bg-[#0465f8] flex justify-center m-4 lg:m-0 lg:mt-6 justify-items-center mt-20  items-center content-center">
+      <div className="lg:pr-48 lg:pl-48 h-[324px] max-w-[100%] bg-[#0465f8] flex justify-center my-4 px-4 lg:m-0 lg:mt-6 justify-items-center mt-20  items-center content-center">
         <p className="text-center text-white lg:text-[20px] text-base leading-relaxed px-2 lg:px-0">
           We are dedicated to exploring new technologies in our core product
           areas and have established a good ecosystem between academics and
