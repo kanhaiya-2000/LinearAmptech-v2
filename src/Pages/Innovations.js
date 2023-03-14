@@ -19,7 +19,7 @@ const Innovations = () => {
       <div className="z-10">
         <header>
           <div
-            className="w-full lg:h-[612px]  z-0 overflow-hidden  bg-cover py-12 lg:py-0 "
+            className="w-full lg:h-[620px]  z-0 overflow-hidden  bg-cover py-12 lg:py-0 "
             style={{
               backgroundImage: `url(${bgImg})`,
             }}
@@ -84,15 +84,15 @@ const Innovations = () => {
         >
           <BgElement1 className="lg:w-[300px] absolute origin-center w-[180px] -right-20 lg:-right-36 -translate-y-[20%]" />
         </div>
-        <div className="lg:pr-48 lg:pl-48">
+        <div className="lg:pr-44 lg:pl-44 mt-16">
           <section className="bg-white ">
-            <div className="container px-4 py-12 mx-auto">
-              <h1 className="lg:text-[40px] text-3xl mb-2 font-bold text-black capitalize   ">
+            <div className="container px-4 py-12  mx-auto">
+              <h1 className="lg:text-[40px] text-3xl mb-8 font-bold text-black capitalize   ">
                 Problems
               </h1>
 
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                <div className="text-left border border-black p-8">
+                <div className="text-left border-2 shadow-md border-slate-200  p-8">
                   <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ const Innovations = () => {
                   </div>
                 </div>
 
-                <div className="text-left p-8 border border-black">
+                <div className="text-left p-8 border-2 shadow-md border-slate-200 ">
                   <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -173,7 +173,7 @@ const Innovations = () => {
                   </div>
                 </div>
 
-                <div className="border border-black p-8 ">
+                <div className="border-2 shadow-md border-slate-200  p-8 ">
                   <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -215,16 +215,16 @@ const Innovations = () => {
           </section>
         </div>
         {/* solutions */}
-        <div className="lg:pr-48 lg:pl-48">
+        <div className="lg:pr-40 lg:pl-40 mt-16">
           <section className="bg-white ">
             <div className="container px-4 py-10 mx-auto">
-              <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize   ">
+              <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-8   ">
                 Solutions
               </h1>
 
               <div className="mt-2 lg:flex lg:items-center">
                 <div className="grid w-full grid-cols-1 gap-4 lg:w-1/2 xl:gap-8 md:grid-cols-2">
-                  <div className="space-y-2 border border-black p-4">
+                  <div className="space-y-2 border-2 shadow-md border-slate-200  p-4">
                     <span className="inline-block p-3 text-[#0465F8] bg-blue-100   dark:bg-blue-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ const Innovations = () => {
                     </p>
                   </div>
 
-                  <div className="space-y-2 border border-black p-4">
+                  <div className="space-y-2 border-2 shadow-md border-slate-200  p-4">
                     <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -286,7 +286,7 @@ const Innovations = () => {
                     </p>
                   </div>
 
-                  <div className="space-y-2  border border-black p-4">
+                  <div className="space-y-2  border-2 shadow-md border-slate-200  p-4">
                     <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -314,7 +314,7 @@ const Innovations = () => {
                     </p>
                   </div>
 
-                  <div className="space-y-2 border border-black p-4">
+                  <div className="space-y-2 border-2 shadow-md border-slate-200  p-4">
                     <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -340,7 +340,7 @@ const Innovations = () => {
                       To predict remaining useful life (RUL) of Machines.
                     </p>
                   </div>
-                  <div className="space-y-2 border border-black p-4">
+                  <div className="space-y-2 border-2 shadow-md border-slate-200  p-4">
                     <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -367,7 +367,7 @@ const Innovations = () => {
                       develop deep learning models and take data driven actions.
                     </p>
                   </div>
-                  <div className="space-y-2 border border-black p-4">
+                  <div className="space-y-2 border-2 shadow-md border-slate-200  p-4">
                     <span className="inline-block p-3  text-[#0465F8] bg-blue-100    dark:bg-blue-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -398,7 +398,7 @@ const Innovations = () => {
 
                 <div className="hidden lg:flex lg:w-1/2 lg:justify-around ml-8">
                   <img
-                    className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[798px] "
+                    className="w-[28rem] h-[28rem] flex-shrink-0 lg:flex-shrink-0 object-cover xl:w-[34rem] xl:h-[760px] "
                     src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                     alt=""
                   />
