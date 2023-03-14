@@ -26,7 +26,9 @@ const AboutUs = () => {
             data-aos-duration="1000"
           >
             Get to Know Us <br />
-            Our Passion, Purpose, and People
+            <span className="lg:text-[3rem] md:text-4xl text-2xl font-bold font-Roboto drop-shadow-2xl text-center text-white">
+              Our Passion, Purpose, and People
+            </span>
           </h2>
         </div>
         <img src={require("../assets/bg.png")} className="w-[100%]"></img>
