@@ -7,25 +7,25 @@ const RFPower = () => {
       <Header />
       {/* *****************************HERO SECTION***************** */}
 
-      <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] lg:top-[32%] md:top-[25%]   sm:top-[25%] top-[13%] ">
-          <h2
-            className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
-            data-aos="fade"
-            data-aos-duration="1000"
-          >
-            Our Products <br />
-            <span className="lg:text-[3rem] md:text-4xl text-2xl font-bold font-Roboto drop-shadow-2xl text-center text-white">
-              Solutions for a smarter, more connected future
-            </span>
+      <div className="heroSection z-0 w-[100%]  h-[400px] overflow-hidden flex  ">
+        <div className=" absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2  text-white">
+          <h2 className="lg:text-[4rem] sm:text-[3rem] text-[2.5rem] font-bold font-Roboto ">
+            Our Products
           </h2>
+          <p className="lg:text-[1.8rem] font-normal mb-4 ">
+            Solutions for a smarter, more connected
+          </p>
         </div>
-        <img src={require("../../assets/bg.png")} className="w-[100%]"></img>
+
+        <img
+          src={require("../../assets/video/bg-product.jpg")}
+          className="w-[100%]  "
+        ></img>
       </div>
 
       {/* *****************************CONTENT SECTION***************** */}
 
-      <div className="content w-[100%] px-[10%] py-20 text-[1.2rem] leading-relaxed">
+      <div className="content w-[100%] px-[10%] lg:py-20 py-12 text-[1.2rem] leading-relaxed">
         <h2 className="text-[3rem] font-bold mb-5">RF Power Amplifiers</h2>
         <p className="mb-7 leading-loose">
           Linear Amptech provides excellent indigenous power amplifier solution
@@ -37,7 +37,7 @@ const RFPower = () => {
           solution with indigenously developed PAs.
         </p>
         <div className="lg:flex justify-between">
-          <div className="w-[50%]">
+          <div className="lg:w-[50%]">
             <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
               <li>Provides Low to High power amplifiers</li>
               <li>Wide bandwidth of operation</li>
@@ -66,9 +66,9 @@ const RFPower = () => {
               <li>Satellite Communication</li>
             </ul>
           </div>
-          <div className="rightBox w-[50%] flex  p-20">
-            <div className="fronBox h-[400px] w-[500px] bg-primary-color"></div>
-            <div className="backBox absolute h-[400px] w-[500px] bg-[#EFF6FF] translate-x-5 translate-y-5 flex justify-center items-center">
+          <div className="rightBox h-[500px] lg:w-[50%] flex lg:p-20">
+            <div className="fronBox lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[340px] h-[240px] bg-primary-color"></div>
+            <div className="backBox absolute lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[340px] h-[240px]    bg-[#EFF6FF] lg:translate-x-5 lg:translate-y-5 md:translate-x-3 translate-x-2 translate-y-2 md:translate-y-3 flex justify-center items-center">
               <img src={require("../../assets/rfpower/0.png")}></img>
             </div>
           </div>
@@ -80,11 +80,11 @@ const RFPower = () => {
           Products Overview
         </h2>
         <div className="container flex flex-col gap-10 pb-16">
-          <div className="productContent px-12 py-8 flex justify-center items-center gap-10 bg-[#EFF6FF] ">
-            <div className="imgContainer h-[250px] w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
+          <div className="productContent lg:px-12 px-7 py-8 lg:flex  justify-center items-center gap-10 bg-[#EFF6FF] ">
+            <div className="imgContainer h-[250px] lg:min-w-[330px] max-w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
               <img src={require("../../assets/rfpower/1.png")}></img>
             </div>
-            <div className="w-[900px] leading-loose text-[1.2rem]">
+            <div className="max-w-[900px] leading-loose text-[1.2rem]">
               <h2 className="text-[1.5rem] font-bold mb-3">
                 High Efficiency Switch Mode Power Amplifiers (for L, S, C bands)
               </h2>
@@ -96,11 +96,11 @@ const RFPower = () => {
               </p>
             </div>
           </div>
-          <div className="productContent px-12 py-8 flex justify-center items-center gap-10 bg-[#EFF6FF] ">
-            <div className="imgContainer h-[250px] w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
+          <div className="productContent lg:px-12 px-7 py-8 lg:flex justify-center items-center gap-10 bg-[#EFF6FF] ">
+            <div className="imgContainer h-[250px] lg:min-w-[330px] max-w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
               <img src={require("../../assets/rfpower/2.png")}></img>
             </div>
-            <div className="w-[900px] leading-loose text-[1.2rem]">
+            <div className="max-w-[900px] leading-loose text-[1.2rem]">
               <h2 className="text-[1.5rem] font-bold mb-3">
                 Power Amplifiers for Wireless Transmitters
               </h2>
@@ -114,11 +114,11 @@ const RFPower = () => {
               </p>
             </div>
           </div>
-          <div className="productContent px-12 py-8 flex justify-center items-center gap-10 bg-[#EFF6FF] ">
-            <div className="imgContainer h-[250px] w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
+          <div className="productContent lg:px-12 px-7 py-8 lg:flex justify-center items-center gap-10 bg-[#EFF6FF] ">
+            <div className="imgContainer h-[250px] lg:min-w-[330px]  max-w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
               <img src={require("../../assets/rfpower/3.png")}></img>
             </div>
-            <div className="w-[900px] leading-loose text-[1.2rem]">
+            <div className="max-w-[900px] leading-loose text-[1.2rem]">
               <h2 className="text-[1.5rem] font-bold mb-3">
                 High Frequency GaN based Power Amplifiers (X and Ku band)
               </h2>
@@ -129,11 +129,11 @@ const RFPower = () => {
               </p>
             </div>
           </div>
-          <div className="productContent px-12 py-8 flex justify-center items-center gap-10 bg-[#EFF6FF] ">
-            <div className="imgContainer h-[250px] w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
+          <div className="productContent lg:px-12 px-7 py-8 lg:flex justify-center items-center gap-10 bg-[#EFF6FF] ">
+            <div className="imgContainer h-[250px] lg:min-w-[330px] max-w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
               <img src={require("../../assets/rfpower/4.png")}></img>
             </div>
-            <div className="w-[900px] leading-loose text-[1.2rem]">
+            <div className="max-w-[900px] leading-loose text-[1.2rem]">
               <h2 className="text-[1.5rem] font-bold mb-3">
                 Waveform Engineering based Broadband Power Amplifiers
               </h2>
@@ -147,11 +147,11 @@ const RFPower = () => {
               </p>
             </div>
           </div>
-          <div className="productContent px-12 py-8 flex justify-center items-center gap-10 bg-[#EFF6FF] ">
-            <div className="imgContainer h-[250px] w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
+          <div className="productContent lg:px-12 px-7 py-8 lg:flex justify-center items-center gap-10 bg-[#EFF6FF] ">
+            <div className="imgContainer h-[250px] lg:min-w-[330px] max-w-[330px] bg-gray-400 border-[1px] border-black overflow-hidden">
               <img src={require("../../assets/rfpower/5.png")}></img>
             </div>
-            <div className="w-[900px] leading-loose text-[1.2rem]">
+            <div className="max-w-[900px] leading-loose text-[1.2rem]">
               <h2 className="text-[1.5rem] font-bold mb-3">
                 Multi-band/Broadband Power Amplifiers for Wireless Base Station
               </h2>
