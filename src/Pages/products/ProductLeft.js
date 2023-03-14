@@ -16,7 +16,6 @@ const ProductLeft = ({ productImg, productName, productDetails }) => {
             {productDetails}
           </p>
         </div>
-        <a className="underline cursor-pointer hover:text-blue-800">more</a>
       </div>
     </div>
   );

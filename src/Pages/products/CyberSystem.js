@@ -97,7 +97,7 @@ const CyberSystem = () => {
                 generate regulatory penalties and tickets.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
         </div>
 
@@ -119,7 +119,7 @@ const CyberSystem = () => {
                 cross junctions.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
           <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md">
             {/* <img
@@ -165,7 +165,7 @@ const CyberSystem = () => {
                 wholestic manner.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
         </div>
       </div>
