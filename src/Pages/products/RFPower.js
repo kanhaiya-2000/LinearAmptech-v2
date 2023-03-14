@@ -7,20 +7,20 @@ const RFPower = () => {
       <Header />
       {/* *****************************HERO SECTION***************** */}
 
-      <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] lg:top-[32%] md:top-[25%]   sm:top-[25%] top-[13%] ">
-          <h2
-            className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
-            data-aos="fade"
-            data-aos-duration="1000"
-          >
-            Our Products <br />
-            <span className="lg:text-[3rem] md:text-4xl text-2xl font-bold font-Roboto drop-shadow-2xl text-center text-white">
-              Solutions for a smarter, more connected future
-            </span>
+      <div className="heroSection z-0 w-[100%]  h-[400px] overflow-hidden flex  ">
+        <div className=" absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2  text-white">
+          <h2 className="lg:text-[4rem] sm:text-[3rem] text-[2.5rem] font-bold font-Roboto ">
+            Our Products
           </h2>
+          <p className="lg:text-[1.8rem] font-normal mb-4 ">
+            Solutions for a smarter, more connected
+          </p>
         </div>
-        <img src={require("../../assets/bg.png")} className="w-[100%]"></img>
+
+        <img
+          src={require("../../assets/video/bg-product.jpg")}
+          className="w-[100%]  "
+        ></img>
       </div>
 
       {/* *****************************CONTENT SECTION***************** */}
