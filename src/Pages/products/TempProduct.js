@@ -98,7 +98,7 @@ const TempProduct = () => {
     <div>
       <Header />
       <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] lg:top-[35%] md:top-[20%] top-[18%]">
+        <div className="absolute w-[100%] h-[100%] lg:top-[35%] md:top-[30%]   sm:top-[25%] top-[15%]">
           <h2
             className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
             data-aos="fade"

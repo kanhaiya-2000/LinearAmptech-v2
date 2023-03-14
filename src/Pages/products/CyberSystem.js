@@ -13,7 +13,7 @@ const CyberSystem = () => {
     <div>
       <Header />
       <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] lg:top-[35%] md:top-[20%] top-[18%]">
+        <div className="absolute w-[100%] h-[100%] lg:top-[35%] md:top-[30%]   sm:top-[25%] top-[15%] ">
           <h2
             className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
             data-aos="fade"
@@ -97,7 +97,7 @@ const CyberSystem = () => {
                 generate regulatory penalties and tickets.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
         </div>
 
@@ -119,7 +119,7 @@ const CyberSystem = () => {
                 cross junctions.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
           <div className="lg:w-[400px] lg:h-[400px] md:w-[600px] md:h-[600px] h-[350px] w-[350px] bg-[#F2F2F2] rounded-2xl shadow-md">
             {/* <img
@@ -165,7 +165,7 @@ const CyberSystem = () => {
                 wholestic manner.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ import {
   MdTrackChanges,
   MdSettingsSystemDaydream,
   MdMicrowave,
+  MdClear,
 } from "react-icons/md";
 import { IoMdAnalytics } from "react-icons/io";
 import { TbDeviceDesktopAnalytics } from "react-icons/tb";
@@ -27,8 +28,11 @@ const Header = () => {
   // }, [window.innerWidth]);
 
   return (
-    <div onMouseLeave={() => setIsDropDownOpen(false)} className="z-100">
-      <nav className="relative bg-white shadow  z-100 ">
+    <div
+      onMouse={() => setIsDropDownOpen(false)}
+      className="z-50 bg-white sticky top-0 "
+    >
+      <nav className="relative shadow  ">
         <div className="container px-6 py-4 mx-auto lg:flex lg:justify-between lg:items-center">
           <div className="flex items-center justify-between">
             <NavLink to="/">
@@ -98,14 +102,21 @@ const Header = () => {
 
               <div
                 onMouseEnter={() => setIsDropDownOpen(true)}
+                onClick={() => setIsDropDownOpen(!isDropDownOpen)}
                 className="my-2 text-gray-700 transition-colors duration-300 z-10 transform md:mx-4 md:my-0 cursor-pointer hover:text-blue-500"
                 // to="/products"
               >
                 Products
                 {isDropDownOpen && (
-                  <div className="container ease-in duration-1000 border h-auto  flex flex-wrap gap-10 text-[#929292] absolute min-w-[1300px] left-28 -translate-x-[72%] translate-y-9 bg-white list-none shadow-xl rounded-xl px-10 py-12">
-                    <div className="w-[20%] flex flex-col gap-6">
-                      <h2 className="text-[1.2rem] font-bold text-[#0346B5]">
+                  <div className="container ease-in duration-1000 border   flex flex-wrap justify-center gap-10 text-[#929292] absolute lg:min-w-[1240px] md:min-w-[768px] overflow-auto max-h-[600px] lg:left-36 md:left-[75%] left-[75%] -translate-x-[72%] translate-y-9 bg-white list-none shadow-xl rounded-xl px-10 py-12 ">
+                    <div className="absolute right-4 top-4">
+                      <MdClear
+                        onClick={() => setIsDropDownOpen(false)}
+                        className="text-[1.5rem]"
+                      />
+                    </div>
+                    <div className="lg:w-[20%] min-w-[250px]  flex flex-col gap-6 ">
+                      <h2 className="text-[1.2rem]  font-bold text-[#0346B5]">
                         Linear Amptech
                       </h2>
                       <p>
@@ -115,7 +126,7 @@ const Header = () => {
                         Learn more
                       </button>
                     </div>
-                    <div className="w-[25%]">
+                    <div className="lg:w-[25%] max-w-[250px]">
                       <NavLink to="/products/rf-design-and-signal-processing">
                         <h2 className="text-[1.1rem] font-bold text-black mb-6 hover:text-[#616161]">
                           Radio Frequency Design <br />
@@ -219,7 +230,7 @@ const Header = () => {
                       </ul>
                     </div>
 
-                    <div className="w-[20%]">
+                    <div className="lg:w-[20%] max-w-[250px]">
                       <NavLink to="/products/cyber-physical-system-and-signal-processing">
                         <h2 className="text-[1.1rem] font-bold text-black mb-6 hover:text-[#616161]">
                           Cyber Physical Systems <br />
@@ -253,7 +264,7 @@ const Header = () => {
                         </NavLink>
                       </ul>
                     </div>
-                    <div className="w-[20%]">
+                    <div className="lg:w-[20%] max-w-[250px]">
                       <NavLink to="/products/ai-and-ml">
                         <h2 className="text-[1.1rem] font-bold text-black mb-6 hover:text-[#616161]">
                           Artificial Intelligence & <br />

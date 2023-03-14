@@ -52,19 +52,19 @@ const LAMP4 = () => {
         <div className="imgContainer flex flex-col  lg:gap-24 gap-12">
           <div className="flex lg:flex-row md:flex-row sm:flex-row lg:gap-20 md:gap-12 sm:gap-10 gap-5 flex-col justify-center">
             <div className="max-w-[550px] flex justify-center items-center">
-              <img src={require("../../../assets/rfpower/PAMCD1.png")}></img>
+              <img src={require("../../../assets/rfpower/PAMOCCF1.png")}></img>
             </div>
             <div className="max-w-[550px] flex justify-center items-center">
-              <img src={require("../../../assets/rfpower/PAMCD4.png")}></img>
+              <img src={require("../../../assets/rfpower/PAMOCCF4.png")}></img>
             </div>
           </div>
 
           <div className="flex lg:flex-row md:flex-row sm:flex-row lg:gap-20 md:gap-12 sm:gap-10 gap-5 flex-col justify-center">
             <div className="max-w-[550px] flex justify-center items-center">
-              <img src={require("../../../assets/rfpower/PAMCD2.png")}></img>
+              <img src={require("../../../assets/rfpower/PAMOCCF2.png")}></img>
             </div>
             <div className="max-w-[550px] flex justify-center items-center">
-              <img src={require("../../../assets/rfpower/PAMCD3.png")}></img>
+              <img src={require("../../../assets/rfpower/PAMOCCF3.png")}></img>
             </div>
           </div>
         </div>
