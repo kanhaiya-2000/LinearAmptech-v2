@@ -137,15 +137,15 @@ const Home = () => {
           <div className="imgLower h-[400px] w-[100%] flex justify-center items-center  overflow-hidden">
             <BgElement4 className="lg:h-[450px] md:max-w-[400px] max-w-[350px]  " />
           </div>
-          <div className="text-[1.1rem] flex flex-col gap-4 ">
+          <div className="text-[1.1rem] flex flex-col gap-4 leading-loose ">
             <p>
-              Vivamus blandit est vitae nisi pellentesque blandit. Donec
-              sagittis tempor sem, eu maximus lacus egestas ut. Vestibulum et
-              magna dictum
-            </p>
-            <p>
-              Morbi porttitor neque lacus, in cursus diam suscipit nec.
-              Phasellus odio nulla, gravida et odio sed, congue.
+              We provide services in various areas of technology, including
+              power amplifier design, radio frequency engineering and signal
+              processing, IoT and cloud analytics, and cyber-physical systems
+              development.We design advanced power amplifiers and sensors which
+              can be deployed in different areas ,say,Traffic monitoring ,
+              equipment analysis etc. we are committed to providing our clients
+              with innovative solutions that meet their unique needs.
             </p>
           </div>
           <NavLink
