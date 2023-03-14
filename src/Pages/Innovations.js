@@ -46,7 +46,7 @@ const Innovations = () => {
           </div>
         </header>
         <div>
-          <section className="bg-white  lg:mt-8 ">
+          <section className="bg-white  lg:mt-8 mt-4 xl:mt-12 ">
             <div className="container lg:flex lg:px-[12%] pt-12 mx-auto text-left px-4">
               <div className="lg:w-[50%]">
                 <h2 className="font-bold lg:text-[40px] leading-relaxed text-3xl text-black mb-2 ">
