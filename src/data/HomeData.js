@@ -1,5 +1,5 @@
 import img1 from "../assets/rfpower/0.png";
-import img2 from "../assets/SDR/1.jpg";
+import img2 from "../assets/RFlinear/p4.png";
 import img3 from "../assets/rfpower/PAMC1.png";
 import img4 from "../assets/rfpower/PAMOCBJ.png";
 import img5 from "../assets/rfpower/PAMOCCE5.png";
@@ -12,7 +12,7 @@ export const homeProduct = [
     title: "RF Power Amplifiers",
     content:
       "Linear Amptech provides excellent indigenous power amplifier solution for Cellular application and variety of military and space applications. We provide vast range of high performance power amplifiers with frequency coverage from Dc to 18 GHz. Linear Amptech PAs includes variety of power levels with high efficiency and high gain performance. Linear Amptech also supports low cost customize solution with indigenously developed PAs.",
-    link: "/products/rf-power-amplifiers",
+    link: "/products/rf-design-and-signal-processing",
   },
   {
     img: img2,
@@ -20,7 +20,7 @@ export const homeProduct = [
     title: "Software Defined Point to Point Radio Applications",
     content:
       "With the advent of Software Defined Radio (SDR) the radio hardware scaled down to software and most of the features is pushed into software. In the scenario of war, the communication significantly depends on flexibility, interoperability, accuracy, and promptness. SDR having digital control and algorithms developed by us to compensate hardware imperfection apart from baseband can effectively increase flexibility, interoperability and promptness. ",
-    link: "/products/software-defined-radio",
+    link: "/products/rf-design-and-signal-processing",
   },
 
   {

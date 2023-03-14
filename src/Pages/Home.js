@@ -25,7 +25,7 @@ const Home = () => {
 
       {/* *********************Hero Section ****************************** */}
 
-      <div className="heroSection gap-2  lg:max-h-[88vh] flex flex-col justify-center items-center text-white z-0 overflow-hidden">
+      <div className="heroSection gap-2  lg:max-h-[88vh] flex flex-col justify-center items-center text-white z-0 overflow-hidden ">
         {/* <div className=" bg-slate-600 z-10"></div> */}
         <video autoPlay muted loop src={video1} className="z-10" />
         <div className="absolute w-[100%] lg:p-20 pb-4 gap-3  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* *********************Intro Section****************************** */}
 
-      <div className="introSection gap-16  lg:flex justify-center items-end px-[10%] lg:h-[100vh] lg:pb-16 pb-4 pt-16">
+      <div className="introSection gap-16   lg:flex justify-center items-end px-[10%] lg:h-[100vh] lg:pb-16 pt-20">
         <div className="flex justify-center items-center">
           <div className="lg:flex flex-col gap-10">
             <h2 className="lg:text-[2.5rem] md:text-[2.10rem] text-[1.6rem] font-bold text-center lg:text-left leading-relaxed">
