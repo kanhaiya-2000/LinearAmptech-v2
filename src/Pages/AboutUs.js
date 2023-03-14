@@ -18,20 +18,18 @@ const AboutUs = () => {
       <Header />
       {/* firt section */}
 
-      <div className="heroSection   ">
-        <div
-          className="  w-[100%] lg:min-h-[755px] md:min-h-[600px] min-h-[440px] flex flex-col justify-center items-center gap-2 text-white"
-          style={{
-            backgroundImage: `url("https://images.unsplash.com/photo-1499540633125-484965b60031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80")`,
-          }}
-        >
-          <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center">
-            Get to Know Us
-          </h2>
-          <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center lg:mt-8 p-1">
+      <div className="w-[100%] h-[100%]">
+        <div className="absolute w-[100%] h-[100%] lg:top-[32%] md:top-[25%]   sm:top-[25%] top-[13%] ">
+          <h2
+            className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
+            data-aos="fade"
+            data-aos-duration="1000"
+          >
+            Get to Know Us <br />
             Our Passion, Purpose, and People
           </h2>
         </div>
+        <img src={require("../assets/bg.png")} className="w-[100%]"></img>
       </div>
 
       {/* middle */}
