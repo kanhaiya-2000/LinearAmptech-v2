@@ -164,7 +164,9 @@ const NewsEvents = () => {
       <div>
         <div
           className="h-[429px]  w-[100%] flex justify-center items-center"
-          style={{ backgroundImage: `url(${newsbg})` }}
+          style={{
+            backgroundImage: `url(${"https://images.unsplash.com/photo-1676802640339-da0d4ac755e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"})`,
+          }}
         >
           <div className=" ">
             <p className="font-bold lg:text-[64px] text-4xl lg:mb-4 text-white text-center">

@@ -22,7 +22,7 @@ const AboutUs = () => {
         <div
           className="  w-[100%] min-h-[400px] flex flex-col justify-center items-center gap-2 text-white"
           style={{
-            backgroundImage: `url("https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")`,
+            backgroundImage: `url("https://images.unsplash.com/photo-1676676701269-65de47175adf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80")`,
           }}
         >
           <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center">
