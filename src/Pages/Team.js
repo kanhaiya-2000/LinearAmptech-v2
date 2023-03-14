@@ -14,21 +14,24 @@ const Team = () => {
     <div>
       <Header />
 
-      <div
-        className="h-[429px] w-[100%] flex justify-center items-center"
-        style={{
-          backgroundImage: `url(${teambg})`,
-        }}
-      >
-        <div className=" ">
-          <p className="font-bold lg:text-[64px] text-4xl text-white text-center">
+      <div className="w-[100%] h-[100%]">
+        <div className="absolute w-[100%] h-[100%] lg:top-[32%] md:top-[25%]   sm:top-[25%] top-[13%] ">
+          <h2
+            className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
+            data-aos="fade"
+            data-aos-duration="1000"
+          >
             Meet Our Team
-          </p>
-          <p className="text-[24px] lg:mt-6 text-white font-medium text-center">
-            Solutions for a smarter, more connected future
-          </p>
+            <br />
+            <span className="lg:text-[3rem] md:text-4xl text-2xl font-bold font-Roboto drop-shadow-2xl text-center text-white">
+              {" "}
+              Solutions for a smarter, more connected future
+            </span>
+          </h2>
         </div>
+        <img src={require("../assets/bg.png")} className="w-[100%]"></img>
       </div>
+
       <div>
         <section className="bg-white ">
           <div className="container px-6 py-10 mx-auto mt-12">

@@ -28,11 +28,11 @@ const Home = () => {
       <div className="heroSection gap-2  lg:max-h-[88vh] flex flex-col justify-center items-center text-white z-0 overflow-hidden">
         {/* <div className=" bg-slate-600 z-10"></div> */}
         <video autoPlay muted loop src={video1} className="z-10" />
-        <div className="absolute w-[100%] lg:p-20 pb-4  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
+        <div className="absolute w-[100%] lg:p-20 pb-4 gap-3  overflow-hidden z-10 flex flex-col justify-center items-center leading-relaxed">
           <h2 className=" lg:text-[5rem] md:text-4xl text-3xl font-bold drop-shadow-2xl bg-transparent">
             Linear AmpTech
           </h2>
-          <p className="lg:text-[2rem] text-xl font-normal mb-6 lg:mt-6 text-center">
+          <p className="lg:text-[2rem] text-xl font-normal lg:mb-5 lg:mt-6 text-center">
             Creating Difference With Technology
           </p>
           <NavLink
@@ -137,15 +137,16 @@ const Home = () => {
           <div className="imgLower h-[400px] w-[100%] flex justify-center items-center  overflow-hidden">
             <BgElement4 className="lg:h-[450px] md:max-w-[400px] max-w-[350px]  " />
           </div>
-          <div className="text-[1.1rem] flex flex-col gap-4 ">
+          <div className="text-[1.1rem] flex flex-col gap-4 leading-loose ">
             <p>
-              Vivamus blandit est vitae nisi pellentesque blandit. Donec
-              sagittis tempor sem, eu maximus lacus egestas ut. Vestibulum et
-              magna dictum
-            </p>
-            <p>
-              Morbi porttitor neque lacus, in cursus diam suscipit nec.
-              Phasellus odio nulla, gravida et odio sed, congue.
+              We provide services in various areas of technology, including
+              power amplifier design, radio frequency engineering and signal
+              processing, IoT and cloud analytics, and cyber-physical systems
+              development.We design advanced power amplifiers and sensors which
+              can be deployed in different areas ,say,Traffic monitoring ,
+              equipment analysis etc.
+              <br /> we are committed to providing our clients with innovative
+              solutions that meet their unique needs.
             </p>
           </div>
           <NavLink
