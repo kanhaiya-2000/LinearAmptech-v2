@@ -162,20 +162,18 @@ const NewsEvents = () => {
       <Header />
 
       <div>
-        <div className="w-[100%] h-[100%]">
-          <div className="absolute w-[100%] h-[100%] lg:top-[32%] md:top-[25%]   sm:top-[25%] top-[13%] ">
-            <h2
-              className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
-              data-aos="fade"
-              data-aos-duration="1000"
-            >
-              News and Events <br />
-              <span className="lg:text-[3rem] md:text-4xl text-2xl font-bold font-Roboto drop-shadow-2xl text-center text-white">
-                Solutions for a smarter, more connected future
-              </span>
-            </h2>
+        <div
+          className="h-[429px]  w-[100%] flex justify-center items-center"
+          style={{ backgroundImage: `url(${newsbg})` }}
+        >
+          <div className=" ">
+            <p className="font-bold lg:text-[64px] text-4xl lg:mb-4 text-white text-center">
+              News and Events
+            </p>
+            <p className="text-[24px] text-white font-medium text-center">
+              Solutions for a smarter, more connected future
+            </p>
           </div>
-          <img src={require("../assets/bg.png")} className="w-[100%]"></img>
         </div>
         <section className="bg-white dark:bg-gray-900 mt-16">
           <div className="container lg:flex flex-wrap  mx-auto justify-center gap-2">

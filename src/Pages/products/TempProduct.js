@@ -4,6 +4,7 @@ import { CompanyFocus, Footer, Header } from "../../Components";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProductLeft from "./ProductLeft";
+import productBg from "../../assets/video/bg-product.jpg";
 import p1 from "../../assets/RFlinear/p1.png";
 import p2 from "../../assets/RFlinear/p2.png";
 import p3 from "../../assets/RFlinear/p3.png";
@@ -100,19 +101,19 @@ const TempProduct = () => {
   return (
     <div>
       <Header />
-      <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] lg:top-[35%] md:top-[30%]   sm:top-[25%] top-[15%]">
-          <h2
-            className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
-            data-aos="fade"
-            data-aos-duration="1000"
-          >
-            Elevate Your Life with <br />
-            Our Products
-          </h2>
+      <div className="heroSection z-0  h-[400px] overflow-hidden ">
+        <div className="absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
+          <h2 className="text-[4rem] font-bold font-Roboto">Our Products</h2>
+          <p className="text-[1.8rem] font-mnormal mb-4">
+            Solutions for a smarter, more connected
+          </p>
         </div>
-        <img src={require("../../assets/bg.png")} className="w-[100%]"></img>
+        <img
+          src={require("../../assets/video/bg-product.jpg")}
+          className="w-[100%] -translate-y-64"
+        ></img>
       </div>
+
       <div className="text-[1.3rem] leading-relaxed lg:px-[15%] px-6 text-center font-medium">
         <h2
           className="text-[2.5rem] text-center font-bold mt-5 mb-10"
