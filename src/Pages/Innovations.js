@@ -585,14 +585,14 @@ const Innovations = () => {
           <BgElement3 className="lg:w-[300px] w-[200px] absolute origin-center -right-[340px] -translate-y-[50%]" />
         </div>
         {/* <div className="text-[1.8rem] font-bold mt-5">Diagrams</div> */}
-        <div className="imgContainer flex flex-col lg:flex-row justify-between items-center gap-5 mt-9">
+        <div className="imgContainer flex flex-col lg:flex-row md:flex-col justify-between items-center gap-5 mt-9">
           <img
             src={require("../assets/InnovationE.png")}
             className="w-[550px]"
           ></img>
           <img
             src={require("../assets/lorawan2.png")}
-            className="w-[550px]"
+            className="w-[550px] lg:h-[376px]"
           ></img>
         </div>
         {/* <div className="text-[1.8rem] font-bold mt-16 mb-12">
