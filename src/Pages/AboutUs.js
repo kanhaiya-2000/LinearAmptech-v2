@@ -18,20 +18,20 @@ const AboutUs = () => {
       <Header />
       {/* firt section */}
 
-      <div className="w-[100%] h-[100%]">
-        <div className="absolute w-[100%] h-[100%] lg:top-[32%] md:top-[25%]   sm:top-[25%] top-[13%] ">
-          <h2
-            className="lg:text-[5rem] md:text-6xl text-3xl font-bold font-Roboto drop-shadow-2xl text-center text-white  "
-            data-aos="fade"
-            data-aos-duration="1000"
-          >
-            Get to Know Us <br />
-            <span className="lg:text-[3rem] md:text-4xl text-2xl font-bold font-Roboto drop-shadow-2xl text-center text-white">
-              Our Passion, Purpose, and People
-            </span>
+      <div className="heroSection   ">
+        <div
+          className="  w-[100%] min-h-[400px] flex flex-col justify-center items-center gap-2 text-white"
+          style={{
+            backgroundImage: `url("https://images.unsplash.com/photo-1676676701269-65de47175adf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80")`,
+          }}
+        >
+          <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center">
+            Get to Know Us
+          </h2>
+          <h2 className="lg:text-[4rem] md:text-5xl text-4xl font-bold font-Roboto drop-shadow-2xl text-center lg:mt-8 p-1">
+            Our Passion, Purpose, and People
           </h2>
         </div>
-        <img src={require("../assets/bg.png")} className="w-[100%]"></img>
       </div>
 
       {/* middle */}

@@ -521,7 +521,7 @@ const Innovations = () => {
       </div>
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 my-20 px-4">
-        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-6   ">
+        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-10 lg:pl-8   ">
           WAIT System
         </h1>
         <section className="bg-[#6A6A6A] max-w-[1085px] m-auto max-h-[564px] border ">
@@ -585,14 +585,14 @@ const Innovations = () => {
           <BgElement3 className="lg:w-[300px] w-[200px] absolute origin-center -right-[340px] -translate-y-[50%]" />
         </div>
         {/* <div className="text-[1.8rem] font-bold mt-5">Diagrams</div> */}
-        <div className="imgContainer flex flex-col lg:flex-row justify-between items-center gap-5 mt-9">
+        <div className="imgContainer flex flex-col lg:flex-row md:flex-col justify-between items-center gap-5 mt-9">
           <img
             src={require("../assets/InnovationE.png")}
             className="w-[550px]"
           ></img>
           <img
             src={require("../assets/lorawan2.png")}
-            className="w-[550px]"
+            className="w-[550px] lg:h-[376px]"
           ></img>
         </div>
         {/* <div className="text-[1.8rem] font-bold mt-16 mb-12">
