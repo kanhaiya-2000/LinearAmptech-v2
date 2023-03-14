@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { BgElement1, BgElement2, BgElement3 } from "../assets";
 import bgImg from "../assets/video/img1.jpg";
+import solutionBg from "../assets/solutionBg.jpg";
 
 const Innovations = () => {
   useEffect(() => {
@@ -399,7 +400,7 @@ const Innovations = () => {
                 <div className="hidden lg:flex lg:w-1/2 lg:justify-around ml-8">
                   <img
                     className="w-[28rem] h-[28rem] flex-shrink-0 lg:flex-shrink-0 object-cover xl:w-[34rem] xl:h-[760px] "
-                    src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    src={solutionBg}
                     alt=""
                   />
                 </div>
