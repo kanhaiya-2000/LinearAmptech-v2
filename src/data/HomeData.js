@@ -41,7 +41,7 @@ export const homeProduct = [
   {
     img: img4,
     tag: "Power Amplifier",
-    title: "LAMP-PACF1P9-10W",
+    title: "LAMP-PAMOCBJ-10W",
     content:
       "Frequency:1.5-2.5GHz, Drain efficiency: 60-73%, Output power: 38.9-40.4dBm, Gain at saturation:9.9-11.2 dB, Gain Compression:3-3.5 dB",
     link: "/products/rf-amplifier/lamp-PACF1P9",
