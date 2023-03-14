@@ -101,16 +101,19 @@ const TempProduct = () => {
   return (
     <div>
       <Header />
-      <div className="heroSection z-0  h-[400px] overflow-hidden ">
-        <div className="absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2 text-white">
-          <h2 className="text-[4rem] font-bold font-Roboto">Our Products</h2>
-          <p className="text-[1.8rem] font-mnormal mb-4">
+      <div className="heroSection z-0 w-[100%]  h-[400px] overflow-hidden flex  ">
+        <div className=" absolute z-10 w-[100%] h-[400px] flex flex-col justify-center items-center gap-2  text-white">
+          <h2 className="lg:text-[4rem] sm:text-[3rem] text-[2.5rem] font-bold font-Roboto ">
+            Our Products
+          </h2>
+          <p className="lg:text-[1.8rem] font-normal mb-4 ">
             Solutions for a smarter, more connected
           </p>
         </div>
+
         <img
           src={require("../../assets/video/bg-product.jpg")}
-          className="w-[100%] -translate-y-64"
+          className="w-[100%]  "
         ></img>
       </div>
 
