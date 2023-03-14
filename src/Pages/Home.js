@@ -144,8 +144,9 @@ const Home = () => {
               processing, IoT and cloud analytics, and cyber-physical systems
               development.We design advanced power amplifiers and sensors which
               can be deployed in different areas ,say,Traffic monitoring ,
-              equipment analysis etc. we are committed to providing our clients
-              with innovative solutions that meet their unique needs.
+              equipment analysis etc.
+              <br /> we are committed to providing our clients with innovative
+              solutions that meet their unique needs.
             </p>
           </div>
           <NavLink
