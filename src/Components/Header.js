@@ -102,6 +102,7 @@ const Header = () => {
 
               <div
                 onMouseEnter={() => setIsDropDownOpen(true)}
+                onClick={() => setIsDropDownOpen(!isDropDownOpen)}
                 className="my-2 text-gray-700 transition-colors duration-300 z-10 transform md:mx-4 md:my-0 cursor-pointer hover:text-blue-500"
                 // to="/products"
               >
