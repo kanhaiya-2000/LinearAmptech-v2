@@ -95,6 +95,12 @@ const Header = () => {
             <div className="flex flex-col lg:flex-row lg:mx-6 font-semibold gap-4">
               <NavLink
                 className="my-2 text-gray-700  transition-colors duration-300 transform  hover:text-blue-500  md:mx-4 md:my-0"
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                className="my-2 text-gray-700  transition-colors duration-300 transform  hover:text-blue-500  md:mx-4 md:my-0"
                 to="/innovations"
               >
                 Innovations
