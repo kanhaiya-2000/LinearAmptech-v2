@@ -77,7 +77,7 @@ const AIandML = () => {
                 business performance.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
         </div>
 
@@ -97,7 +97,7 @@ const AIandML = () => {
                 provide actionable insights.
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
           {/* <div className="w-[400px] h-[400px] bg-white rounded-2xl flex justify-center items-center shadow-2xl"> */}
           <img
@@ -134,7 +134,7 @@ const AIandML = () => {
                 reliability, and increase productivity
               </p>
             </div>
-            <a className="underline cursor-pointer hover:text-blue-800">more</a>
+            {/* <a className="underline cursor-pointer hover:text-blue-800">more</a> */}
           </div>
         </div>
       </div>

@@ -49,16 +49,19 @@ const productDetails = {
   p4: {
     img: p4,
     name: " SDR Test-Beds",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum consectetur, est id consequat ultricies, nibh lacus
-                vehicula nisl, eu auctor turpis ante eu ante. Fusce cursus eu
-                sapien et luctus. Donec eu diam quis nunc interdum luctus. Ut
-                velit metus, laoreet ut justo vitae, venenatis euismod mauris.
-                Quisque semper nulla ut augue lobortis, nec rhoncus orci
-                iaculis. In hac habitasse platea dictumst. Aliquam fermentum
-                magna neque. Ut vulputate sed dolor ut ullamcorper. Curabitur
-                lobortis quam vestibulum lectus dictum, a egestas nunc
-                sollicitudin. Nulla facilisi.`,
+    description: `With the advent of Software Defined Radio (SDR) the radio hardware
+            scaled down to software and most of the features is pushed into
+            software. In the scenario of war, the communication significantly
+            depends on flexibility, interoperability, accuracy, and promptness.
+            SDR having digital control and algorithms developed by us to
+            compensate hardware imperfection apart from baseband can effectively
+            increase flexibility, interoperability, accuracy, and promptness.
+            Therefore in the scenario of conflict it can use as communication
+            repeater. Moreover the conventional equipment supports defense
+            personnel the ability to adjust only one frequency and single
+            protocol. With the help of the SDR, defense personnel are able to
+            monitor and communicate over an enormous percentage of the spectrum
+            and support multiple protocols.`,
   },
   p5: {
     img: p3,
