@@ -515,7 +515,7 @@ const Innovations = () => {
         {/* <h2 className="text-[1.8rem] font-bold mt-5">Diagram</h2> */}
         <img
           src={require("../assets/falcon1.png")}
-          className="my-[1.5rem]"
+          className="my-[1.5rem] "
         ></img>
       </div>
       {/* new two big images */}
@@ -580,12 +580,8 @@ const Innovations = () => {
             <img src={require("../assets/lorawan1.png")}></img>
           </div>
         </div>
-        <div
-          className="absolute w-[100vw] overflow-hidden h-[200px]"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <BgElement3 className="lg:w-[300px] absolute origin-center w-[180px] -right-20 lg:-right-36 -translate-y-[20%]" />
+        <div data-aos="fade-up" data-aos-duration="1500">
+          <BgElement3 className="lg:w-[300px] w-[200px] absolute origin-center -right-[340px] -translate-y-[50%]" />
         </div>
         {/* <div className="text-[1.8rem] font-bold mt-5">Diagrams</div> */}
         <div className="imgContainer flex flex-col lg:flex-row justify-between items-center gap-5 mt-9">
