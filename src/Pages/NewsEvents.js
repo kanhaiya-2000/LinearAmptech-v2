@@ -175,7 +175,7 @@ const NewsEvents = () => {
             </p>
           </div>
         </div>
-        <section className="bg-white dark:bg-gray-900 mt-6">
+        <section className="bg-white dark:bg-gray-900 mt-16">
           <div className="container lg:flex flex-wrap  mx-auto justify-center gap-2">
             {data
               ? data.map(({ title, date, photo }) => {
