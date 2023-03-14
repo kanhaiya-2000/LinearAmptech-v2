@@ -27,8 +27,11 @@ const Header = () => {
   // }, [window.innerWidth]);
 
   return (
-    <div onMouseLeave={() => setIsDropDownOpen(false)} className="z-100">
-      <nav className="relative bg-white shadow  z-100 ">
+    <div
+      onMouse={() => setIsDropDownOpen(false)}
+      className="z-50 bg-white sticky top-0"
+    >
+      <nav className="relative bg-transparent shadow bg-white z-100 ">
         <div className="container px-6 py-4 mx-auto lg:flex lg:justify-between lg:items-center">
           <div className="flex items-center justify-between">
             <NavLink to="/">
