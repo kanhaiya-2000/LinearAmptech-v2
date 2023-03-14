@@ -521,7 +521,7 @@ const Innovations = () => {
       </div>
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 my-20 px-4">
-        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-10 pl-8   ">
+        <h1 className="lg:text-[40px] text-3xl font-bold text-black capitalize mb-10 lg:pl-8   ">
           WAIT System
         </h1>
         <section className="bg-[#6A6A6A] max-w-[1085px] m-auto max-h-[564px] border ">
