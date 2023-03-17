@@ -506,10 +506,10 @@ const Innovations = () => {
               </li>
             </ul>
           </div>
-          <div className="rightBox w-[50%] flex p-5">
+          <div className="rightBox w-[100%] lg:w-[50%] flex p-5">
             <img
               src={require("../assets/AI&ML/2.png")}
-              className="w-[100%]"
+              className="w-[100%] h-auto"
             ></img>
           </div>
         </div>
@@ -547,7 +547,7 @@ const Innovations = () => {
           prone to traffic jams, making driving safer and more efficient.
         </p>
         <h2 className="lg:text-[2.5rem] text-3xl font-bold mb-5 mt-14">
-          IOT Connection ( LoraWAN )
+          LoraWAN
         </h2>
         <div className="lg:flex justify-between">
           <div className="lg:w-[50%]">
@@ -577,39 +577,22 @@ const Innovations = () => {
               <li>No changes required on network side</li>
             </ul>
           </div>
-<<<<<<< HEAD
-          <div className="rightBox lg:w-[50%] flex lg:p-20">
-            <div className="fronBox lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[300px] h-[200px] bg-primary-color"></div>
-            <div className="backBox absolute lg:h-[400px] lg:w-[500px] md:h-[300px] md:w-[400px] w-[300px] h-[200px] bg-[#EFF6FF] lg:translate-x-5 translate-x-2 m-auto lg:translate-y-5 translate-y-2 flex justify-center items-center">
-              <img src={require("../assets/lorawan.png")} className=""></img>
-            </div>
-=======
           <div className="rightBox lg:w-[50%] flex">
             <img src={require("../assets/lorawan1.png")}></img>
->>>>>>> hafeez_dev
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1500">
           <BgElement3 className="lg:w-[300px] w-[200px] absolute origin-center -right-[340px] -translate-y-[50%]" />
         </div>
-<<<<<<< HEAD
-        <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
-        <div className="imgContainer flex flex-col justify-center items-center gap-24">
-=======
         {/* <div className="text-[1.8rem] font-bold mt-5">Diagrams</div> */}
         <div className="imgContainer flex flex-col lg:flex-row md:flex-col justify-between items-center gap-5 mt-9">
->>>>>>> hafeez_dev
           <img
             src={require("../assets/InnovationE.png")}
             className="w-[550px]"
           ></img>
           <img
             src={require("../assets/lorawan2.png")}
-<<<<<<< HEAD
-            className="w-[800px]"
-=======
             className="w-[550px] lg:h-[376px]"
->>>>>>> hafeez_dev
           ></img>
         </div>
         {/* <div className="text-[1.8rem] font-bold mt-16 mb-12">

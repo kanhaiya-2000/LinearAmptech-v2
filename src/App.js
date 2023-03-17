@@ -5,13 +5,11 @@ import AIandML from "./Pages/products/AIandML";
 import CyberSystem from "./Pages/products/CyberSystem";
 import { LAMP1, LAMP2, LAMP3, LAMP4 } from "./Pages/products/RFAmplifier";
 import TempProduct from "./Pages/products/TempProduct";
-import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/innovations" exact element={<Innovations />} />
