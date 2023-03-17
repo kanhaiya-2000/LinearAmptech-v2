@@ -529,7 +529,8 @@ const Innovations = () => {
             src={waitSysVideo}
             controls
             className="z-10"
-            data-autoplay="1"
+            preload
+            poster={require("../assets/banner.png")}
           />
         </section>
         <p className=" leading-relaxed max-w-[1085px] m-auto mt-20 text-[1.1rem] text-justify">
