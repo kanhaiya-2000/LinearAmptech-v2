@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./Components/ScrollToTop";
 import { AboutUs, Home, Team, Innovations, NewsEvents } from "./Pages";
 import { SDR, RFPower, PowerAmp, RFlinear } from "./Pages/products";
 import AIandML from "./Pages/products/AIandML";
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/innovations" exact element={<Innovations />} />
