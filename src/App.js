@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop />
+        
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/innovations" exact element={<Innovations />} />
@@ -76,6 +76,7 @@ function App() {
           />
           <Route path="/team" exact element={<Team />} />
         </Routes>
+         <ScrollToTop />
       </Router>
     </div>
   );
